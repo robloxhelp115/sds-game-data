@@ -1,0 +1,2 @@
+ship_id,ship_name,health,shield,speed
+test_cruiser,Test Cruiser,10000,5000,40
