@@ -3,7 +3,10 @@ name: Sync Game Data to Sheets & Fandom
 on:
   repository_dispatch:
     types: [roblox_data_sync]
-  workflow_dispatch: # Allows manual runs via the GitHub UI for testing
+  workflow_dispatch: # Allows manual runs via the GitHub UI
+
+permissions:
+  contents: write # Grants the workflow permission to commit and push changes
 
 jobs:
   process-and-sync:
@@ -28,8 +31,8 @@ jobs:
 
       - name: Commit and Push Updated CSVs
         run: |
-          git config --global user.name "SDS-Sync-Bot"
-          git config --global user.email "bot@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add csv/ version.txt data/
           git commit -m "Automated sync: Updated game data and CSVs" || echo "No changes to commit"
           git push
