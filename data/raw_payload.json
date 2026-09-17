@@ -1,0 +1,9 @@
+{
+  "placeVersion": 1,
+  "ships": [
+    {"ship_id": "test_cruiser", "ship_name": "Test Cruiser", "health": 10000, "shield": 5000, "speed": 40}
+  ],
+  "fighters": [
+    {"fighter_id": "test_fighter", "fighter_name": "Test Fighter", "health": 200, "speed": 100}
+  ]
+}
