@@ -1,9 +1,14 @@
 name: Sync Game Data to Sheets & Fandom
 
 on:
-  repository_dispatch:
-    types: [roblox_data_sync]
+  push:
+    paths:
+      - 'data/raw_payload.json'
   workflow_dispatch: # Allows manual runs via the GitHub UI
+
+concurrency:
+  group: sync-pipeline
+  cancel-in-progress: false
 
 permissions:
   contents: write # Grants the workflow permission to commit and push changes
@@ -14,6 +19,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,6 +40,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add csv/ version.txt data/
-          git commit -m "Automated sync: Updated game data and CSVs" || echo "No changes to commit"
+          git add csv/ version.txt
+          git commit -m "Automated sync: Updated game data, CSVs, and version [skip ci]" || echo "No changes to commit"
+          git pull --rebase origin main
           git push
