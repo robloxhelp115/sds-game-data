@@ -1,2 +1,3 @@
-ship_id,ship_name,health,shield,speed
-test_cruiser,Test Cruiser,10000,5000,40
+id,name,speed,class,health,cost,shields
+SHP-001,Vanguard Battleship,32,Dreadnought,85000,1500000,40000
+SHP-002,Aegis Light Cruiser,58,Cruiser,32000,620000,25000

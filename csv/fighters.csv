@@ -1,2 +1,3 @@
-fighter_id,fighter_name,health,speed
-test_fighter,Test Fighter,200,100
+id,name,hangar_capacity_cost,health,role,speed
+FTR-001,Interceptor Ghost,1,1200,Air Superiority,185
+FTR-002,Havoc Torpedo Bomber,2,2400,Anti-Capital,120

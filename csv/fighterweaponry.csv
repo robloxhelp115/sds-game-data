@@ -1,1 +1,3 @@
-
+damage,tracking_speed,cooldown,name,id
+75,95,0.1,Twin Autocannon,FWP-001
+3800,30,8.5,Proton Torpedo,FWP-002

@@ -1,1 +1,3 @@
-
+id,name,damage,type,fire_rate,range
+WPN-001,Heavy Railgun Mk IV,4200,Kinetic,1.2,8500
+WPN-002,Point Defense Flak,180,Anti-Air,14.5,1800
