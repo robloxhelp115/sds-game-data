@@ -1,9 +1,75 @@
 {
-  "placeVersion": 1,
   "ships": [
-    {"ship_id": "test_cruiser", "ship_name": "Test Cruiser", "health": 10000, "shield": 5000, "speed": 40}
+    {
+      "id": "SHP-001",
+      "name": "Vanguard Battleship",
+      "speed": 32,
+      "class": "Dreadnought",
+      "health": 85000,
+      "cost": 1500000,
+      "shields": 40000
+    },
+    {
+      "id": "SHP-002",
+      "name": "Aegis Light Cruiser",
+      "speed": 58,
+      "class": "Cruiser",
+      "health": 32000,
+      "cost": 620000,
+      "shields": 25000
+    }
   ],
+  "place_version": 101,
   "fighters": [
-    {"fighter_id": "test_fighter", "fighter_name": "Test Fighter", "health": 200, "speed": 100}
+    {
+      "id": "FTR-001",
+      "name": "Interceptor Ghost",
+      "hangar_capacity_cost": 1,
+      "health": 1200,
+      "role": "Air Superiority",
+      "speed": 185
+    },
+    {
+      "id": "FTR-002",
+      "name": "Havoc Torpedo Bomber",
+      "hangar_capacity_cost": 2,
+      "health": 2400,
+      "role": "Anti-Capital",
+      "speed": 120
+    }
+  ],
+  "weaponry": [
+    {
+      "id": "WPN-001",
+      "name": "Heavy Railgun Mk IV",
+      "damage": 4200,
+      "type": "Kinetic",
+      "fire_rate": 1.2,
+      "range": 8500
+    },
+    {
+      "id": "WPN-002",
+      "name": "Point Defense Flak",
+      "damage": 180,
+      "type": "Anti-Air",
+      "fire_rate": 14.5,
+      "range": 1800
+    }
+  ],
+  "fighterweaponry": [
+    {
+      "damage": 75,
+      "tracking_speed": 95,
+      "cooldown": 0.1,
+      "name": "Twin Autocannon",
+      "id": "FWP-001"
+    },
+    {
+      "damage": 3800,
+      "tracking_speed": 30,
+      "cooldown": 8.5,
+      "name": "Proton Torpedo",
+      "id": "FWP-002"
+    }
   ]
 }
