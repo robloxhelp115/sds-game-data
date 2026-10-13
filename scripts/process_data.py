@@ -25,7 +25,6 @@ def main():
     # 2. Extract DataFrames & Export Flat CSVs
     os.makedirs("csv", exist_ok=True)
     
-    # Recognised data categories (covers both schema variations)
     categories = [
         "ships", "weaponry", "fighters", "fighterweaponry",
         "shipWeapons", "shipLoadouts", "shipAirwings",
@@ -36,9 +35,25 @@ def main():
 
     for cat in categories:
         if cat in payload and payload[cat]:
-            df = pd.json_normalize(payload[cat])
-            # Replace NaN/None values with empty strings for clean presentation
+            raw_data = payload[cat]
+
+            # Handle both Lua dictionaries { ["Name"] = {...} } and arrays [ {...}, {...} ]
+            if isinstance(raw_data, dict):
+                records = []
+                for key, val in raw_data.items():
+                    if isinstance(val, dict):
+                        row = {"id": key, **val} if "id" not in val else val
+                    else:
+                        row = {"id": key, "value": val}
+                    records.append(row)
+                df = pd.json_normalize(records)
+            else:
+                df = pd.json_normalize(raw_data)
+
+            # Clean NaNs and serialise nested objects to avoid Sheets API 400 errors
             df = df.fillna("")
+            df = df.map(lambda x: json.dumps(x) if isinstance(x, (dict, list)) else x)
+
             df.to_csv(f"csv/{cat}.csv", index=False)
             dataframes[cat] = df
             print(f"[Process] Generated csv/{cat}.csv ({len(df)} rows)")
@@ -66,19 +81,31 @@ def sync_to_google_sheets(dataframes):
         for cat, df in dataframes.items():
             sheet_title = f"raw_{cat}"
 
+            # Prepare values list (headers + rows)
+            values = [df.columns.values.tolist()] + df.values.tolist()
+            total_rows = max(len(values), 1)
+            total_cols = max(len(values[0]) if values else 1, 1)
+
             # Retrieve existing worksheet or create it if missing
             try:
                 worksheet = spreadsheet.worksheet(sheet_title)
+                # Expand sheet grid if data exceeds existing bounds
+                if total_rows > worksheet.row_count or total_cols > worksheet.col_count:
+                    worksheet.resize(
+                        rows=max(worksheet.row_count, total_rows + 10),
+                        cols=max(worksheet.col_count, total_cols + 5)
+                    )
             except gspread.WorksheetNotFound:
-                worksheet = spreadsheet.add_worksheet(title=sheet_title, rows=max(100, len(df) + 10), cols=max(20, len(df.columns) + 5))
+                worksheet = spreadsheet.add_worksheet(
+                    title=sheet_title,
+                    rows=total_rows + 20,
+                    cols=total_cols + 5
+                )
                 print(f"[Sheets] Created new worksheet '{sheet_title}'")
 
-            # Wipe stale cells
+            # Wipe stale cells and update starting at A1 using explicit keyword arguments
             worksheet.clear()
-
-            # Format data into a 2D list: headers row followed by values
-            values = [df.columns.values.tolist()] + df.values.tolist()
-            worksheet.update(values)
+            worksheet.update(range_name="A1", values=values)
             print(f"[Sheets] Successfully pushed {len(df)} rows to '{sheet_title}'")
 
     except Exception as e:
@@ -97,15 +124,19 @@ def sync_to_fandom(payload):
         site = mwclient.Site(f"{WIKI_SUBDOMAIN}.fandom.com", path="/")
         site.login(bot_user, bot_pass)
 
-        if "ships" in payload and payload["ships"]:
-            page = site.pages["Module:ShipData"]
-            page.save(f"return {format_lua(payload['ships'])}", summary="Automated sync from Roblox")
-            print("[Fandom] Successfully updated Module:ShipData")
+        # Fandom Module sync targets
+        module_targets = {
+            "ships": "Module:ShipData",
+            "fighters": "Module:FighterData",
+            "weaponry": "Module:WeaponData",
+            "fighterweaponry": "Module:FighterWeaponData"
+        }
 
-        if "fighters" in payload and payload["fighters"]:
-            page = site.pages["Module:FighterData"]
-            page.save(f"return {format_lua(payload['fighters'])}", summary="Automated sync from Roblox")
-            print("[Fandom] Successfully updated Module:FighterData")
+        for cat, page_title in module_targets.items():
+            if cat in payload and payload[cat]:
+                page = site.pages[page_title]
+                page.save(f"return {format_lua(payload[cat])}", summary="Automated sync from Roblox")
+                print(f"[Fandom] Successfully updated {page_title}")
 
     except Exception as e:
         print(f"[Fandom] Failed to update Fandom: {e}")
