@@ -1,3 +1,55 @@
-damage,tracking_speed,cooldown,name,id
-75,95,0.1,Twin Autocannon,FWP-001
-3800,30,8.5,Proton Torpedo,FWP-002
+id,Type,Accuracy,FireRate,ShieldDmg,Range,HullDmg
+Era 1 Light Missile,normal,1000,6.2,4.0,16,9.0
+Medium Dual,normal,200,2.35,1.8,10,4.6
+Era 2 Light Missile,normal,1000,6.1,10.0,16,24.0
+Era 1 Gunship Laser,normal,100,2.2,0.7,11,1.8
+Era 2 Heavy Laser,normal,100,2.3,1.05,11,2.7
+Proton Missile,normal,1000,7.0,30.0,17,22.0
+Era 4 Cataclysm Bomb,bomb,1000,5.2,1350.0,14,950.0
+Era 3 Strike Missile,normal,1000,6.1,16.0,17,34.0
+Era 4 Fortress Laser,normal,100,2.4,1.8,13,4.5
+Era 4 Bomber Bomb,bomb,1000,4.9,700.0,14,480.0
+Era 3 Heavy Missile,normal,1000,6.7,22.0,17,50.0
+Era 3 Gunship Laser,normal,200,2.35,1.25,12,3.1
+Era 1 Swarm Laser,normal,200,2.05,0.25,8,0.8
+Concussion Missile,normal,1000,6.5,16.0,17,40.0
+Heavy Dual,normal,100,2.7,4.8,15,10.8
+Era 4 Siege Bomb,bomb,1000,5.0,1000.0,14,700.0
+Era 4 Gunship Laser,normal,200,2.45,1.6,13,3.8
+Era 3 Heavy Laser,normal,100,2.45,1.5,12,3.6
+Medium,normal,200,2.35,0.95,10,2.4
+Era 1 Light Bomb,bomb,1000,5.2,60.0,14,40.0
+Era 1 Bomber Gun,normal,200,2.0,0.2,8,0.5
+Era 1 Superiority Laser,normal,300,2.15,0.6,10,1.6
+Era 2 Superiority Laser,normal,300,2.2,0.75,10,1.9
+Small Proton Bomb,bomb,1000,5.0,240.0,14,160.0
+Light,normal,300,2.1,0.3,8,0.9
+Era 2 Interceptor Laser,normal,300,2.15,0.45,9,1.35
+Era 2 Swarm Laser,normal,200,2.1,0.3,8,0.95
+Era 1 Strike Missile,normal,1000,6.6,10.0,16,26.0
+Era 2 Gunship Laser,normal,200,2.25,0.9,11,2.2
+Era 4 Heavy Missile,normal,1000,6.6,26.0,18,62.0
+Era 2 Light Bomb,bomb,1000,5.1,100.0,14,80.0
+Heavy,normal,100,2.6,2.5,15,5.6
+Era 3 Shuttle Laser,normal,200,2.2,0.9,11,2.2
+Era 2 Bomber Gun,normal,200,2.05,0.25,8,0.7
+Era 2 Strike Bomb,bomb,1000,5.2,250.0,14,150.0
+Heavy Proton Bomb,bomb,1000,5.5,620.0,14,420.0
+Heavy Concussion Missile,normal,1000,7.5,24.0,17,65.0
+Era 4 Strike Missile,normal,1000,6.0,18.0,17,42.0
+Light Dual,normal,300,2.1,0.6,8,1.7
+Proton Bomb,bomb,1000,5.0,380.0,14,250.0
+Era 3 Swarm Laser,normal,200,2.15,0.4,8,1.2
+Era 3 Line Laser,normal,200,2.25,0.7,10,1.8
+Era 3 Bomber Bomb,bomb,1000,5.0,300.0,14,200.0
+Era 1 Scrap Laser,normal,200,2.0,0.2,8,0.65
+Era 1 Interceptor Laser,normal,300,2.1,0.35,9,1.1
+Era 3 Siege Bomb,bomb,1000,5.1,760.0,14,520.0
+Era 3 Elite Laser,normal,300,2.35,1.1,11,2.5
+Era 4 Line Laser,normal,200,2.3,0.9,10,2.2
+Light Concussion Missile,normal,1000,6.0,10.0,17,24.0
+Era 4 Elite Laser,normal,300,2.45,1.4,12,3.1
+Era 2 Assault Missile,normal,1000,6.4,14.0,17,36.0
+Era 1 Strike Bomb,bomb,1000,5.3,100.0,14,80.0
+Era 4 Assault Laser,normal,200,2.55,1.9,13,4.1
+Era 4 Drone Laser,normal,300,2.2,0.5,9,1.5
