@@ -236,16 +236,27 @@ def sync_to_fandom(payload):
         print(f"[Fandom] Failed to update Fandom: {e}")
 
 
-def format_lua(obj):
+def format_lua(obj, indent=0):
+    spacing = "  " * indent
+    inner_spacing = "  " * (indent + 1)
+
     if isinstance(obj, list):
-        items = ",\n  ".join(format_lua(x) for x in obj)
-        return f"{{\n  {items}\n}}"
+        if not obj:
+            return "{}"
+        items = [f"{inner_spacing}{format_lua(x, indent + 1)}" for x in obj]
+        return "{\n" + ",\n".join(items) + f"\n{spacing}}}"
+
     elif isinstance(obj, dict):
+        if not obj:
+            return "{}"
         entries = []
         for k, v in obj.items():
-            key_str = k if str(k).isidentifier() else f'["{k}"]'
-            entries.append(f"{key_str} = {format_lua(v)}")
-        return "{ " + ", ".join(entries) + " }"
+            # json.dumps safely escapes internal quotes, preventing Lua syntax errors
+            key_repr = f"[{json.dumps(str(k))}]"
+            val_repr = format_lua(v, indent + 1)
+            entries.append(f"{inner_spacing}{key_repr} = {val_repr}")
+        return "{\n" + ",\n".join(entries) + f"\n{spacing}}}"
+
     elif isinstance(obj, str):
         return json.dumps(obj)
     elif isinstance(obj, bool):
