@@ -1,69 +1,69 @@
-id,Type,Weaponry,Shield,Hull,Speed,Icon,Agility
-TIE/av Avenger,Superiority,"[""Era 4 Assault Laser"", ""Era 4 Assault Laser"", ""Era 4 Heavy Missile""]",7.0,16.0,9.0,rbxassetid://88390460151043,760
-TIE/ph Phantom,Interceptor,"[""Era 3 Elite Laser"", ""Era 3 Line Laser""]",2.5,8.0,9.2,rbxassetid://137767890849921,940
-TIE/sa Bomber,Bomber,"[""Era 3 Bomber Bomb"", ""Era 3 Bomber Bomb"", ""Era 2 Light Bomb""]",1.0,12.0,4.0,rbxassetid://85153384058529,180
-TIE/dg Dagger,Superiority,"[""Era 4 Line Laser"", ""Era 4 Line Laser"", ""Era 4 Strike Missile""]",4.5,13.0,7.6,rbxassetid://77763669324130,640
-Lambda,Gunship,"[""Era 3 Shuttle Laser"", ""Era 3 Shuttle Laser"", ""Era 3 Shuttle Laser""]",5.0,20.0,4.0,rbxassetid://75137004168332,180
-Plo Koon,Interceptor,"[""Era 3 Elite Laser"", ""Era 3 Elite Laser""]",60.0,300.0,10.0,rbxassetid://18752343427,7000
-TIE/ag Aggressor,Superiority,"[""Era 4 Elite Laser"", ""Era 4 Elite Laser"", ""Era 4 Strike Missile""]",5.5,14.0,7.8,rbxassetid://100290223491747,620
-Vulture Prototype,Interceptor,"[""Era 1 Swarm Laser""]",0.0,3.0,9.0,rbxassetid://16537380819,960
-Phoenix A-Wing,Interceptor,"[""Era 3 Line Laser"", ""Era 3 Line Laser""]",2.5,8.0,9.2,rbxassetid://131747081272469,920
-Coyote,Bomber,"[""Era 2 Strike Bomb"", ""Era 2 Light Bomb""]",1.5,9.0,4.2,rbxassetid://125114756106934,190
-Tri-Fighter,Interceptor,"[""Era 2 Interceptor Laser"", ""Era 2 Interceptor Laser"", ""Era 2 Swarm Laser""]",0.0,4.5,10.0,rbxassetid://88439235270757,1000
-Corran Horn,Superiority,"[""Era 4 Assault Laser"", ""Era 4 Elite Laser"", ""Era 4 Strike Missile""]",30.0,300.0,8.7,rbxassetid://15433490778,1200
-BTL-B Y-Wing,Bomber,"[""Era 2 Bomber Gun"", ""Era 2 Strike Bomb""]",3.5,13.0,3.8,rbxassetid://112652106482247,200
-Z-95,Superiority,"[""Era 1 Superiority Laser"", ""Era 1 Superiority Laser"", ""Era 1 Light Missile""]",2.0,7.5,6.2,rbxassetid://101897787436650,560
-Hyena,Bomber,"[""Era 2 Light Bomb""]",1.0,8.0,4.6,rbxassetid://85556816638953,200
-T-65 X-Wing,Superiority,"[""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Strike Missile""]",5.0,12.0,7.5,rbxassetid://117878200062654,620
-Y-Wing,Bomber,"[""Era 2 Bomber Gun"", ""Era 3 Bomber Bomb"", ""Era 3 Siege Bomb""]",4.0,15.0,3.6,rbxassetid://81133291973748,180
-TIE/in Interceptor,Interceptor,"[""Era 3 Swarm Laser"", ""Era 3 Swarm Laser"", ""Era 3 Swarm Laser""]",0.0,6.5,9.8,rbxassetid://112984641550072,980
-V-Wing,Interceptor,"[""Era 2 Interceptor Laser"", ""Era 2 Interceptor Laser""]",1.0,5.0,9.2,rbxassetid://89878445842329,900
-U-Wing,Gunship,"[""Era 2 Gunship Laser"", ""Era 2 Gunship Laser""]",6.5,22.0,4.2,rbxassetid://73465878859433,200
-TIE/x1 Advanced,Interceptor,"[""Era 3 Elite Laser"", ""Era 3 Line Laser""]",3.0,9.0,8.6,rbxassetid://137143089570913,740
-Darth Vader,Interceptor,"[""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Strike Missile"", ""Era 3 Strike Missile""]",60.0,300.0,10.0,rbxassetid://12085334395,8000
-N-1,Superiority,"[""Era 1 Superiority Laser"", ""Era 1 Superiority Laser"", ""Era 1 Light Missile""]",3.0,8.5,6.8,rbxassetid://16903098415,640
-XG-1 Starwing,Gunship,"[""Era 3 Gunship Laser"", ""Era 3 Gunship Laser"", ""Era 3 Heavy Missile""]",6.0,19.0,6.0,rbxassetid://106910294037053,380
-Fang,Interceptor,"[""Era 1 Interceptor Laser"", ""Era 1 Superiority Laser""]",1.5,5.0,9.0,rbxassetid://101246861939933,920
-K-Wing,Bomber,"[""Era 4 Fortress Laser"", ""Era 4 Strike Missile"", ""Era 4 Cataclysm Bomb"", ""Era 4 Cataclysm Bomb""]",8.0,26.0,2.7,rbxassetid://120597640052638,90
-Scurg H-6,Bomber,"[""Era 1 Strike Bomb"", ""Era 1 Light Bomb""]",4.5,15.0,2.8,rbxassetid://107878082095657,150
-E-Wing,Superiority,"[""Era 4 Assault Laser"", ""Era 4 Elite Laser"", ""Era 4 Strike Missile""]",6.8,16.0,8.7,rbxassetid://88122174329211,800
-HeldasJJJj,Interceptor,"[""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Elite Laser""]",60.0,300.0,10.0,rbxassetid://98666953765088,6500
-B-Wing,Bomber,"[""Era 3 Siege Bomb"", ""Era 3 Siege Bomb""]",5.5,19.0,3.1,rbxassetid://91407060282538,140
-A-Wing,Interceptor,"[""Era 3 Line Laser"", ""Era 3 Line Laser""]",2.5,8.0,9.2,rbxassetid://131747081272469,920
-Nantex,Interceptor,"[""Era 2 Interceptor Laser"", ""Era 2 Superiority Laser""]",0.8,5.5,8.0,rbxassetid://135136476181278,850
-Imperial V-Wing,Interceptor,"[""Era 3 Line Laser"", ""Era 3 Line Laser""]",1.5,7.0,8.8,rbxassetid://82755452293209,820
-MrDom,Interceptor,"[""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Elite Laser""]",60.0,300.0,10.0,rbxassetid://138317033164341,10000
-VT-49 Decimator,Gunship,"[""Era 4 Fortress Laser"", ""Era 4 Fortress Laser"", ""Era 4 Strike Missile"", ""Era 4 Heavy Missile""]",10.0,28.0,4.0,rbxassetid://99253865026372,160
-LAAT,Gunship,"[""Era 2 Gunship Laser"", ""Era 2 Gunship Laser"", ""Era 2 Superiority Laser"", ""Era 2 Bomber Gun""]",4.5,17.0,4.2,rbxassetid://131585057046566,240
-Miy'til Bomber,Bomber,"[""Era 4 Drone Laser"", ""Era 4 Strike Missile"", ""Era 4 Siege Bomb""]",3.0,20.0,5.0,rbxassetid://114460550795069,300
-Anakin Skywalker,Interceptor,"[""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Elite Laser""]",60.0,300.0,10.0,rbxassetid://16827802569,10000
-Obi-Wan Kenobi,Interceptor,"[""Era 3 Elite Laser"", ""Era 3 Elite Laser""]",180.0,900.0,10.0,rbxassetid://16827850890,5000
-Smol Dorito,Interceptor,"[""Era 1 Scrap Laser""]",60.0,300.0,10.0,rbxassetid://138317033164341,10000
-TIE/ca Punisher,Bomber,"[""Era 4 Siege Bomb"", ""Era 4 Siege Bomb"", ""Era 4 Bomber Bomb""]",4.0,24.0,3.2,rbxassetid://112023957587837,100
-TIE/ad Automated Drone,Interceptor,"[""Era 4 Drone Laser"", ""Era 4 Drone Laser""]",0.0,7.5,10.0,rbxassetid://100393946667847,990
-Miy'til Fighter,Superiority,"[""Era 4 Drone Laser"", ""Era 4 Drone Laser"", ""Era 4 Drone Laser""]",3.0,10.0,10.0,rbxassetid://109897948222099,710
-Cumulus,Interceptor,"[""Era 1 Scrap Laser""]",0.0,1.5,5.0,rbxassetid://91954643815472,380
-General Grievous,Superiority,"[""Era 2 Superiority Laser"", ""Era 2 Superiority Laser"", ""Era 2 Light Missile"", ""Era 2 Superiority Laser"", ""Era 2 Light Missile""]",200.0,700.0,6.8,rbxassetid://16829615264,2000
-Ginivex,Interceptor,"[""Era 1 Interceptor Laser"", ""Era 1 Interceptor Laser""]",1.0,5.0,8.8,rbxassetid://107878082095657,880
-Delta-7,Interceptor,"[""Era 1 Interceptor Laser"", ""Era 1 Interceptor Laser""]",0.5,4.0,9.4,rbxassetid://134053744116199,1000
-Gauntlet,Gunship,"[""Era 1 Gunship Laser"", ""Era 1 Gunship Laser"", ""Era 1 Strike Missile""]",5.0,18.0,4.2,rbxassetid://102286998245106,260
-Vulture,Interceptor,"[""Era 2 Swarm Laser"", ""Era 2 Swarm Laser""]",0.0,3.0,9.3,rbxassetid://99172428210406,970
-TIE/fo Fighter,Interceptor,"[""Era 4 Line Laser"", ""Era 4 Line Laser""]",2.5,9.0,9.0,rbxassetid://109870293817927,850
-HMP,Gunship,"[""Era 2 Gunship Laser"", ""Era 2 Gunship Laser"", ""Era 2 Assault Missile""]",4.0,16.0,4.4,rbxassetid://81751964905693,260
-TIE/d Defender,Superiority,"[""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Heavy Missile""]",6.0,14.0,8.9,rbxassetid://138594913516360,700
-Grand Inquisitor,Interceptor,"[""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Strike Missile"", ""Era 3 Strike Missile""]",60.0,300.0,10.0,rbxassetid://75824470719143,8000
-T-85 X-Wing,Superiority,"[""Era 4 Elite Laser"", ""Era 4 Elite Laser"", ""Era 4 Strike Missile""]",6.0,14.0,8.0,rbxassetid://112271511589067,680
-Z-95 Headhunter,Interceptor,"[""Era 2 Superiority Laser"", ""Era 2 Superiority Laser"", ""Era 2 Interceptor Laser""]",1.5,6.5,7.0,rbxassetid://116318992414688,700
-Belbullab-22,Superiority,"[""Era 2 Superiority Laser"", ""Era 2 Superiority Laser"", ""Era 2 Light Missile""]",2.0,8.0,6.8,rbxassetid://107797643338371,620
-TIE/sf Special Forces,Superiority,"[""Era 4 Elite Laser"", ""Era 4 Elite Laser"", ""Era 4 Strike Missile""]",5.5,15.0,7.0,rbxassetid://130459848652207,580
-Warthog,Interceptor,"[""Era 2 Superiority Laser"", ""Era 2 Superiority Laser"", ""Era 2 Interceptor Laser""]",30.0,100.0,7.0,rbxassetid://18752333053,1200
-NTB-630,Bomber,"[""Era 2 Strike Bomb"", ""Era 2 Strike Bomb"", ""Era 2 Strike Bomb""]",2.8,11.0,4.2,rbxassetid://98438068895470,260
-Void One,Superiority,"[""Era 2 Superiority Laser"", ""Era 2 Superiority Laser"", ""Era 2 Light Missile""]",12.0,40.0,6.8,rbxassetid://107797643338371,700
-kikta,Interceptor,"[""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Elite Laser""]",60.0,300.0,10.0,rbxassetid://129715546699223,6500
-Luke Skywalker,Superiority,"[""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Strike Missile"", ""Era 3 Strike Missile""]",100.0,500.0,7.5,rbxassetid://70956194803852,5000
-Kimogila,Bomber,"[""Era 1 Bomber Gun"", ""Era 1 Strike Bomb""]",2.5,12.0,3.6,rbxassetid://103591751306507,200
-ARC-170,Superiority,"[""Era 2 Heavy Laser"", ""Era 2 Heavy Laser""]",4.5,13.0,5.2,rbxassetid://120541068839837,420
-V-19 Torrent,Superiority,"[""Era 1 Superiority Laser"", ""Era 1 Superiority Laser"", ""Era 1 Light Missile""]",2.5,8.0,6.5,rbxassetid://16537255865,620
-Plo's Bros LAAT,Gunship,"[""Era 2 Gunship Laser"", ""Era 2 Gunship Laser"", ""Era 2 Superiority Laser"", ""Era 2 Bomber Gun""]",4.5,17.0,4.2,rbxassetid://131585057046566,240
-Ahsoka Tano,Interceptor,"[""Era 3 Elite Laser"", ""Era 3 Elite Laser"", ""Era 3 Elite Laser""]",60.0,300.0,10.0,rbxassetid://16827720038,6500
-TIE/fn Fighter,Interceptor,"[""Era 3 Line Laser"", ""Era 3 Line Laser""]",0.0,8.5,8.0,rbxassetid://114711584348292,760
+Name,Type,Weaponry,Shield,Hull,Speed,Icon,Agility
+TIE/av Avenger,Superiority,"2x Era 4 Assault Laser, Era 4 Heavy Missile",7.0,16.0,9.0,rbxassetid://88390460151043,760
+TIE/ph Phantom,Interceptor,"Era 3 Elite Laser, Era 3 Line Laser",2.5,8.0,9.2,rbxassetid://137767890849921,940
+TIE/sa Bomber,Bomber,"2x Era 3 Bomber Bomb, Era 2 Light Bomb",1.0,12.0,4.0,rbxassetid://85153384058529,180
+TIE/dg Dagger,Superiority,"2x Era 4 Line Laser, Era 4 Strike Missile",4.5,13.0,7.6,rbxassetid://77763669324130,640
+Lambda,Gunship,3x Era 3 Shuttle Laser,5.0,20.0,4.0,rbxassetid://75137004168332,180
+Plo Koon,Interceptor,2x Era 3 Elite Laser,60.0,300.0,10.0,rbxassetid://18752343427,7000
+TIE/ag Aggressor,Superiority,"2x Era 4 Elite Laser, Era 4 Strike Missile",5.5,14.0,7.8,rbxassetid://100290223491747,620
+Vulture Prototype,Interceptor,Era 1 Swarm Laser,0.0,3.0,9.0,rbxassetid://16537380819,960
+Phoenix A-Wing,Interceptor,2x Era 3 Line Laser,2.5,8.0,9.2,rbxassetid://131747081272469,920
+Coyote,Bomber,"Era 2 Strike Bomb, Era 2 Light Bomb",1.5,9.0,4.2,rbxassetid://125114756106934,190
+Tri-Fighter,Interceptor,"2x Era 2 Interceptor Laser, Era 2 Swarm Laser",0.0,4.5,10.0,rbxassetid://88439235270757,1000
+Corran Horn,Superiority,"Era 4 Assault Laser, Era 4 Elite Laser, Era 4 Strike Missile",30.0,300.0,8.7,rbxassetid://15433490778,1200
+BTL-B Y-Wing,Bomber,"Era 2 Bomber Gun, Era 2 Strike Bomb",3.5,13.0,3.8,rbxassetid://112652106482247,200
+Z-95,Superiority,"2x Era 1 Superiority Laser, Era 1 Light Missile",2.0,7.5,6.2,rbxassetid://101897787436650,560
+Hyena,Bomber,Era 2 Light Bomb,1.0,8.0,4.6,rbxassetid://85556816638953,200
+T-65 X-Wing,Superiority,"2x Era 3 Elite Laser, Era 3 Strike Missile",5.0,12.0,7.5,rbxassetid://117878200062654,620
+Y-Wing,Bomber,"Era 2 Bomber Gun, Era 3 Bomber Bomb, Era 3 Siege Bomb",4.0,15.0,3.6,rbxassetid://81133291973748,180
+TIE/in Interceptor,Interceptor,3x Era 3 Swarm Laser,0.0,6.5,9.8,rbxassetid://112984641550072,980
+V-Wing,Interceptor,2x Era 2 Interceptor Laser,1.0,5.0,9.2,rbxassetid://89878445842329,900
+U-Wing,Gunship,2x Era 2 Gunship Laser,6.5,22.0,4.2,rbxassetid://73465878859433,200
+TIE/x1 Advanced,Interceptor,"Era 3 Elite Laser, Era 3 Line Laser",3.0,9.0,8.6,rbxassetid://137143089570913,740
+Darth Vader,Interceptor,"4x Era 3 Elite Laser, 2x Era 3 Strike Missile",60.0,300.0,10.0,rbxassetid://12085334395,8000
+N-1,Superiority,"2x Era 1 Superiority Laser, Era 1 Light Missile",3.0,8.5,6.8,rbxassetid://16903098415,640
+XG-1 Starwing,Gunship,"2x Era 3 Gunship Laser, Era 3 Heavy Missile",6.0,19.0,6.0,rbxassetid://106910294037053,380
+Fang,Interceptor,"Era 1 Interceptor Laser, Era 1 Superiority Laser",1.5,5.0,9.0,rbxassetid://101246861939933,920
+K-Wing,Bomber,"Era 4 Fortress Laser, Era 4 Strike Missile, 2x Era 4 Cataclysm Bomb",8.0,26.0,2.7,rbxassetid://120597640052638,90
+Scurg H-6,Bomber,"Era 1 Strike Bomb, Era 1 Light Bomb",4.5,15.0,2.8,rbxassetid://107878082095657,150
+E-Wing,Superiority,"Era 4 Assault Laser, Era 4 Elite Laser, Era 4 Strike Missile",6.8,16.0,8.7,rbxassetid://88122174329211,800
+HeldasJJJj,Interceptor,3x Era 3 Elite Laser,60.0,300.0,10.0,rbxassetid://98666953765088,6500
+B-Wing,Bomber,2x Era 3 Siege Bomb,5.5,19.0,3.1,rbxassetid://91407060282538,140
+A-Wing,Interceptor,2x Era 3 Line Laser,2.5,8.0,9.2,rbxassetid://131747081272469,920
+Nantex,Interceptor,"Era 2 Interceptor Laser, Era 2 Superiority Laser",0.8,5.5,8.0,rbxassetid://135136476181278,850
+Imperial V-Wing,Interceptor,2x Era 3 Line Laser,1.5,7.0,8.8,rbxassetid://82755452293209,820
+MrDom,Interceptor,4x Era 3 Elite Laser,60.0,300.0,10.0,rbxassetid://138317033164341,10000
+VT-49 Decimator,Gunship,"2x Era 4 Fortress Laser, Era 4 Strike Missile, Era 4 Heavy Missile",10.0,28.0,4.0,rbxassetid://99253865026372,160
+LAAT,Gunship,"2x Era 2 Gunship Laser, Era 2 Superiority Laser, Era 2 Bomber Gun",4.5,17.0,4.2,rbxassetid://131585057046566,240
+Miy'til Bomber,Bomber,"Era 4 Drone Laser, Era 4 Strike Missile, Era 4 Siege Bomb",3.0,20.0,5.0,rbxassetid://114460550795069,300
+Anakin Skywalker,Interceptor,4x Era 3 Elite Laser,60.0,300.0,10.0,rbxassetid://16827802569,10000
+Obi-Wan Kenobi,Interceptor,2x Era 3 Elite Laser,180.0,900.0,10.0,rbxassetid://16827850890,5000
+Smol Dorito,Interceptor,Era 1 Scrap Laser,60.0,300.0,10.0,rbxassetid://138317033164341,10000
+TIE/ca Punisher,Bomber,"2x Era 4 Siege Bomb, Era 4 Bomber Bomb",4.0,24.0,3.2,rbxassetid://112023957587837,100
+TIE/ad Automated Drone,Interceptor,2x Era 4 Drone Laser,0.0,7.5,10.0,rbxassetid://100393946667847,990
+Miy'til Fighter,Superiority,3x Era 4 Drone Laser,3.0,10.0,10.0,rbxassetid://109897948222099,710
+Cumulus,Interceptor,Era 1 Scrap Laser,0.0,1.5,5.0,rbxassetid://91954643815472,380
+General Grievous,Superiority,"3x Era 2 Superiority Laser, 2x Era 2 Light Missile",200.0,700.0,6.8,rbxassetid://16829615264,2000
+Ginivex,Interceptor,2x Era 1 Interceptor Laser,1.0,5.0,8.8,rbxassetid://107878082095657,880
+Delta-7,Interceptor,2x Era 1 Interceptor Laser,0.5,4.0,9.4,rbxassetid://134053744116199,1000
+Gauntlet,Gunship,"2x Era 1 Gunship Laser, Era 1 Strike Missile",5.0,18.0,4.2,rbxassetid://102286998245106,260
+Vulture,Interceptor,2x Era 2 Swarm Laser,0.0,3.0,9.3,rbxassetid://99172428210406,970
+TIE/fo Fighter,Interceptor,2x Era 4 Line Laser,2.5,9.0,9.0,rbxassetid://109870293817927,850
+HMP,Gunship,"2x Era 2 Gunship Laser, Era 2 Assault Missile",4.0,16.0,4.4,rbxassetid://81751964905693,260
+TIE/d Defender,Superiority,"2x Era 3 Elite Laser, Era 3 Heavy Missile",6.0,14.0,8.9,rbxassetid://138594913516360,700
+Grand Inquisitor,Interceptor,"4x Era 3 Elite Laser, 2x Era 3 Strike Missile",60.0,300.0,10.0,rbxassetid://75824470719143,8000
+T-85 X-Wing,Superiority,"2x Era 4 Elite Laser, Era 4 Strike Missile",6.0,14.0,8.0,rbxassetid://112271511589067,680
+Z-95 Headhunter,Interceptor,"2x Era 2 Superiority Laser, Era 2 Interceptor Laser",1.5,6.5,7.0,rbxassetid://116318992414688,700
+Belbullab-22,Superiority,"2x Era 2 Superiority Laser, Era 2 Light Missile",2.0,8.0,6.8,rbxassetid://107797643338371,620
+TIE/sf Special Forces,Superiority,"2x Era 4 Elite Laser, Era 4 Strike Missile",5.5,15.0,7.0,rbxassetid://130459848652207,580
+Warthog,Interceptor,"2x Era 2 Superiority Laser, Era 2 Interceptor Laser",30.0,100.0,7.0,rbxassetid://18752333053,1200
+NTB-630,Bomber,3x Era 2 Strike Bomb,2.8,11.0,4.2,rbxassetid://98438068895470,260
+Void One,Superiority,"2x Era 2 Superiority Laser, Era 2 Light Missile",12.0,40.0,6.8,rbxassetid://107797643338371,700
+kikta,Interceptor,3x Era 3 Elite Laser,60.0,300.0,10.0,rbxassetid://129715546699223,6500
+Luke Skywalker,Superiority,"3x Era 3 Elite Laser, 2x Era 3 Strike Missile",100.0,500.0,7.5,rbxassetid://70956194803852,5000
+Kimogila,Bomber,"Era 1 Bomber Gun, Era 1 Strike Bomb",2.5,12.0,3.6,rbxassetid://103591751306507,200
+ARC-170,Superiority,2x Era 2 Heavy Laser,4.5,13.0,5.2,rbxassetid://120541068839837,420
+V-19 Torrent,Superiority,"2x Era 1 Superiority Laser, Era 1 Light Missile",2.5,8.0,6.5,rbxassetid://16537255865,620
+Plo's Bros LAAT,Gunship,"2x Era 2 Gunship Laser, Era 2 Superiority Laser, Era 2 Bomber Gun",4.5,17.0,4.2,rbxassetid://131585057046566,240
+Ahsoka Tano,Interceptor,3x Era 3 Elite Laser,60.0,300.0,10.0,rbxassetid://16827720038,6500
+TIE/fn Fighter,Interceptor,2x Era 3 Line Laser,0.0,8.5,8.0,rbxassetid://114711584348292,760
