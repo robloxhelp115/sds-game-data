@@ -434,7 +434,7 @@
     }
   },
   "place_id": 15268714239,
-  "source": "studio",
+  "source": "live",
   "fighters": {
     "TIE/av Avenger": {
       "Type": "Superiority",
@@ -3191,13 +3191,13 @@
             "AMOUNT": 3,
             "DEFAULT_MODE": "Attack"
           },
-          "TIE/ag Aggressor": {
-            "AMOUNT": 6,
-            "DEFAULT_MODE": "Intercept"
-          },
           "TIE/sa Bomber": {
             "AMOUNT": 21,
             "DEFAULT_MODE": "Attack"
+          },
+          "TIE/ag Aggressor": {
+            "AMOUNT": 6,
+            "DEFAULT_MODE": "Intercept"
           },
           "VT-49 Decimator": {
             "AMOUNT": 1,
@@ -3244,17 +3244,17 @@
             "AMOUNT": 16,
             "DEFAULT_MODE": "Attack"
           },
-          "Belbullab-22": {
-            "AMOUNT": 8,
-            "DEFAULT_MODE": "Intercept"
+          "Coyote": {
+            "AMOUNT": 3,
+            "DEFAULT_MODE": "Attack"
           },
           "Vulture": {
             "AMOUNT": 32,
             "DEFAULT_MODE": "Intercept"
           },
-          "Coyote": {
-            "AMOUNT": 3,
-            "DEFAULT_MODE": "Attack"
+          "Belbullab-22": {
+            "AMOUNT": 8,
+            "DEFAULT_MODE": "Intercept"
           },
           "Void One": {
             "AMOUNT": 1,
@@ -3827,13 +3827,13 @@
         "AA_DPS": 14,
         "STARFIGHTER_SPAWN_COOLDOWN": 40,
         "COMPLIMENT": {
-          "BTL-B Y-Wing": {
-            "AMOUNT": 4,
-            "DEFAULT_MODE": "Attack"
-          },
           "V-Wing": {
             "AMOUNT": 9,
             "DEFAULT_MODE": "Intercept"
+          },
+          "BTL-B Y-Wing": {
+            "AMOUNT": 4,
+            "DEFAULT_MODE": "Attack"
           }
         }
       },
@@ -3868,12 +3868,12 @@
         "AA_DPS": 63,
         "STARFIGHTER_SPAWN_COOLDOWN": 30,
         "COMPLIMENT": {
-          "TIE/Avenger": {
-            "AMOUNT": 3,
-            "DEFAULT_MODE": "Intercept"
-          },
           "TIE/ad Automated Drone": {
             "AMOUNT": 14,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/Avenger": {
+            "AMOUNT": 3,
             "DEFAULT_MODE": "Intercept"
           }
         }
@@ -4019,31 +4019,32 @@
         "Unique"
       ]
     },
-    "Kapec Fleet": {
+    "GR-75": {
       "Lobby_Stats": {
-        "RARITY": "Dev",
-        "FACTION": "Empire",
-        "PREVIOUS": "N/A",
-        "ERA": 1
+        "RARITY": "Rare",
+        "FACTION": "Rebel",
+        "PREVIOUS": "Gozanti",
+        "ERA": 2
       },
       "Game_Stats": {
-        "HULL_DPS": 0,
-        "HULL": 100000,
-        "PRICE": 10000,
-        "SPAWN_COOLDOWN": 10,
-        "MAX_HULL": 100000,
-        "SHIELD_DPS": 0,
-        "EVASIVENESS": 0,
-        "SHIELD_REGEN": 0,
+        "CREW": 50000,
+        "HULL_DPS": 58,
+        "ABILITY": "Support",
+        "PRICE": 5000,
+        "SHIELD_DPS": 31,
+        "MAX_HULL": 20000,
+        "EVASIVENESS": 70,
+        "SPAWN_COOLDOWN": 5,
+        "SHIELD_REGEN": 128,
         "PIERCE_DPS": 0,
         "ARMOR": 0,
-        "MAX_SHIELDS": 70000,
-        "SHIELDS": 70000,
-        "AA_DPS": 0,
-        "CREW": 500000,
-        "SPEED": 0
+        "MAX_SHIELDS": 11000,
+        "SHIELDS": 11000,
+        "AA_DPS": 58,
+        "SPEED": 100,
+        "HULL": 20000
       },
-      "Name": "Kapec Fleet",
+      "Name": "GR-75",
       "Modifiers": []
     },
     "Light Shipyard": {
@@ -4074,53 +4075,47 @@
       "Name": "Light Shipyard",
       "Modifiers": []
     },
-    "Imperial Venator": {
+    "World Devastator Battlecruiser": {
       "Lobby_Stats": {
         "RARITY": "Legendary",
         "FACTION": "Empire",
-        "PREVIOUS": "MC-75",
-        "ERA": 2
+        "PREVIOUS": "",
+        "ERA": 3
       },
       "Game_Stats": {
-        "SPEED": 35,
-        "HULL": 86000,
-        "MAX_HULL": 86000,
-        "MAX_SHIELDS": 28000,
-        "HULL_DPS": 6083,
-        "EVASIVENESS": 35,
-        "CREW": 90000,
-        "PRICE": 10000,
-        "SPAWN_COOLDOWN": 3,
-        "SHIELD_REGEN": 328,
-        "PIERCE_DPS": 45,
-        "ARMOR": 258,
-        "SHIELD_DPS": 3530,
-        "SHIELDS": 28000,
-        "AA_DPS": 0,
-        "STARFIGHTER_SPAWN_COOLDOWN": 12,
+        "SPEED": 10,
+        "HULL": 550000,
+        "MAX_HULL": 550000,
+        "MAX_SHIELDS": 300000,
+        "HULL_DPS": 21743,
+        "EVASIVENESS": 5,
+        "CREW": 300000,
+        "PRICE": 70000,
+        "SPAWN_COOLDOWN": 9,
+        "SHIELD_REGEN": 2000,
+        "PIERCE_DPS": 221,
+        "ARMOR": 4000,
+        "SHIELD_DPS": 12476,
+        "SHIELDS": 300000,
+        "AA_DPS": 76,
+        "STARFIGHTER_SPAWN_COOLDOWN": 30,
         "COMPLIMENT": {
-          "TIE/sa Bomber": {
+          "TIE/av Avenger": {
+            "AMOUNT": 6,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/ad Automated Drone": {
             "AMOUNT": 12,
-            "DEFAULT_MODE": "Attack"
-          },
-          "XG-1 Starwing": {
-            "AMOUNT": 1,
             "DEFAULT_MODE": "Intercept"
           },
-          "Imperial V-Wing": {
-            "AMOUNT": 35,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/x1 Advanced": {
+          "TIE/ca Punisher": {
             "AMOUNT": 4,
-            "DEFAULT_MODE": "Intercept"
+            "DEFAULT_MODE": "Attack"
           }
         }
       },
-      "Name": "Imperial Venator",
-      "Modifiers": [
-        "Star Destroyer"
-      ]
+      "Name": "World Devastator Battlecruiser",
+      "Modifiers": []
     },
     "Easter Basket": {
       "Lobby_Stats": {
@@ -4366,12 +4361,12 @@
             "AMOUNT": 5,
             "DEFAULT_MODE": "Attack"
           },
-          "V-19 Torrent": {
-            "AMOUNT": 48,
-            "DEFAULT_MODE": "Intercept"
-          },
           "ARC-170": {
             "AMOUNT": 3,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "V-19 Torrent": {
+            "AMOUNT": 48,
             "DEFAULT_MODE": "Intercept"
           }
         }
@@ -4382,31 +4377,42 @@
         "Unique"
       ]
     },
-    "Arquitens": {
+    "Golan I": {
       "Lobby_Stats": {
-        "RARITY": "Common",
-        "FACTION": "Empire",
-        "PREVIOUS": "",
-        "ERA": 2
+        "RARITY": "Legendary",
+        "FACTION": "Republic",
+        "PREVIOUS": "Pelta",
+        "ERA": 1
       },
       "Game_Stats": {
-        "HULL_DPS": 767,
-        "HULL": 12500,
-        "PRICE": 900,
-        "SPAWN_COOLDOWN": 0.7,
-        "MAX_HULL": 12500,
-        "SHIELD_DPS": 217,
-        "EVASIVENESS": 45,
-        "SHIELD_REGEN": 100,
-        "PIERCE_DPS": 2,
-        "ARMOR": 20,
-        "MAX_SHIELDS": 6500,
-        "SHIELDS": 6500,
-        "AA_DPS": 7,
-        "CREW": 20000,
-        "SPEED": 50
+        "SPEED": 0,
+        "HULL": 100000,
+        "MAX_HULL": 100000,
+        "MAX_SHIELDS": 33750,
+        "HULL_DPS": 3186,
+        "EVASIVENESS": 0,
+        "CREW": 150000,
+        "PRICE": 10000,
+        "SPAWN_COOLDOWN": 7,
+        "SHIELD_REGEN": 675,
+        "PIERCE_DPS": 58,
+        "ARMOR": 0,
+        "SHIELD_DPS": 928,
+        "SHIELDS": 33750,
+        "AA_DPS": 43,
+        "STARFIGHTER_SPAWN_COOLDOWN": 40,
+        "COMPLIMENT": {
+          "Delta-7": {
+            "AMOUNT": 12,
+            "DEFAULT_MODE": "Attack"
+          },
+          "ARC-170": {
+            "AMOUNT": 8,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
       },
-      "Name": "Arquitens",
+      "Name": "Golan I",
       "Modifiers": []
     },
     "Tyrant": {
@@ -4544,17 +4550,17 @@
             "AMOUNT": 8,
             "DEFAULT_MODE": "Intercept"
           },
-          "Belbullab-22": {
-            "AMOUNT": 8,
-            "DEFAULT_MODE": "Intercept"
+          "Coyote": {
+            "AMOUNT": 3,
+            "DEFAULT_MODE": "Attack"
           },
           "Vulture": {
             "AMOUNT": 42,
             "DEFAULT_MODE": "Intercept"
           },
-          "Coyote": {
-            "AMOUNT": 3,
-            "DEFAULT_MODE": "Attack"
+          "Belbullab-22": {
+            "AMOUNT": 8,
+            "DEFAULT_MODE": "Intercept"
           },
           "Hyena": {
             "AMOUNT": 20,
@@ -4629,48 +4635,48 @@
       "Name": "Ardus Kaine",
       "Modifiers": []
     },
-    "Easter ISD II": {
+    "\"Guardian\"": {
       "Lobby_Stats": {
-        "RARITY": "Limited",
+        "RARITY": "Dev",
         "FACTION": "Empire",
-        "PREVIOUS": "N/A",
-        "ERA": 2
+        "PREVIOUS": "",
+        "ERA": 3
       },
       "Game_Stats": {
-        "SPEED": 35,
-        "HULL": 180000,
-        "MAX_HULL": 180000,
-        "MAX_SHIELDS": 103700,
-        "HULL_DPS": 12615,
-        "EVASIVENESS": 25,
-        "CREW": 100000,
-        "PRICE": 18500,
-        "SPAWN_COOLDOWN": 3,
-        "SHIELD_REGEN": 1440,
-        "PIERCE_DPS": 120,
-        "ARMOR": 778,
-        "SHIELD_DPS": 6585,
-        "SHIELDS": 103700,
-        "AA_DPS": 0,
+        "SPEED": 6,
+        "HULL": 3000000,
+        "MAX_HULL": 3000000,
+        "MAX_SHIELDS": 1500000,
+        "HULL_DPS": 110655,
+        "EVASIVENESS": 10,
+        "CREW": 500000,
+        "PRICE": 120000,
+        "SPAWN_COOLDOWN": 25,
+        "SHIELD_REGEN": 22500,
+        "PIERCE_DPS": 1326,
+        "ARMOR": 30000,
+        "SHIELD_DPS": 53977,
+        "SHIELDS": 1500000,
+        "AA_DPS": 612,
         "STARFIGHTER_SPAWN_COOLDOWN": 20,
         "COMPLIMENT": {
-          "TIE/sa Bomber": {
-            "AMOUNT": 5,
+          "TIE/av Avenger": {
+            "AMOUNT": 28,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/d Defender": {
+            "AMOUNT": 32,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/ca Punisher": {
+            "AMOUNT": 14,
             "DEFAULT_MODE": "Attack"
-          },
-          "TIE/in Interceptor": {
-            "AMOUNT": 5,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/fn Fighter": {
-            "AMOUNT": 12,
-            "DEFAULT_MODE": "Intercept"
           }
         }
       },
-      "Name": "Easter ISD II",
+      "Name": "\"Guardian\"",
       "Modifiers": [
-        "Star Destroyer"
+        "SSD"
       ]
     },
     "Tagge": {
@@ -4698,13 +4704,13 @@
         "AA_DPS": 31,
         "STARFIGHTER_SPAWN_COOLDOWN": 50,
         "COMPLIMENT": {
-          "Delta-7": {
-            "AMOUNT": 12,
-            "DEFAULT_MODE": "Attack"
-          },
           "V-19 Torrent": {
             "AMOUNT": 5,
             "DEFAULT_MODE": "Intercept"
+          },
+          "Delta-7": {
+            "AMOUNT": 12,
+            "DEFAULT_MODE": "Attack"
           }
         }
       },
@@ -4812,13 +4818,13 @@
         "AA_DPS": 110,
         "STARFIGHTER_SPAWN_COOLDOWN": 20,
         "COMPLIMENT": {
-          "Delta-7": {
-            "AMOUNT": 18,
-            "DEFAULT_MODE": "Attack"
-          },
           "N-1": {
             "AMOUNT": 12,
             "DEFAULT_MODE": "Intercept"
+          },
+          "Delta-7": {
+            "AMOUNT": 18,
+            "DEFAULT_MODE": "Attack"
           },
           "V-19 Torrent": {
             "AMOUNT": 10,
@@ -4915,17 +4921,17 @@
         "AA_DPS": 29,
         "STARFIGHTER_SPAWN_COOLDOWN": 80,
         "COMPLIMENT": {
-          "V-Wing": {
-            "AMOUNT": 12,
-            "DEFAULT_MODE": "Intercept"
+          "BTL-B Y-Wing": {
+            "AMOUNT": 9,
+            "DEFAULT_MODE": "Attack"
           },
           "Z-95 Headhunter": {
             "AMOUNT": 16,
             "DEFAULT_MODE": "Intercept"
           },
-          "BTL-B Y-Wing": {
-            "AMOUNT": 9,
-            "DEFAULT_MODE": "Attack"
+          "V-Wing": {
+            "AMOUNT": 12,
+            "DEFAULT_MODE": "Intercept"
           }
         }
       },
@@ -5081,31 +5087,38 @@
         "Mon Cala"
       ]
     },
-    "Jack o' doom": {
+    "Candy Cane Nebulon B": {
       "Lobby_Stats": {
         "RARITY": "Limited",
-        "FACTION": "Empire",
-        "PREVIOUS": "",
-        "ERA": 3
+        "FACTION": "Rebel",
+        "PREVIOUS": "N/A",
+        "ERA": 2
       },
       "Game_Stats": {
-        "HULL_DPS": 30979,
-        "HULL": 240000,
-        "PRICE": 50000,
-        "SPAWN_COOLDOWN": 8,
-        "MAX_HULL": 240000,
-        "SHIELD_DPS": 22361,
-        "EVASIVENESS": 25,
-        "SHIELD_REGEN": 830,
-        "PIERCE_DPS": 89,
-        "ARMOR": 576,
-        "MAX_SHIELDS": 76500,
-        "SHIELDS": 76500,
-        "AA_DPS": 122,
-        "CREW": 180000,
-        "SPEED": 14
+        "SPEED": 55,
+        "HULL": 11500,
+        "MAX_HULL": 11500,
+        "MAX_SHIELDS": 6500,
+        "HULL_DPS": 989,
+        "EVASIVENESS": 45,
+        "CREW": 30000,
+        "PRICE": 850,
+        "SPAWN_COOLDOWN": 1,
+        "SHIELD_REGEN": 100,
+        "PIERCE_DPS": 3,
+        "ARMOR": 39,
+        "SHIELD_DPS": 331,
+        "SHIELDS": 6500,
+        "AA_DPS": 15,
+        "STARFIGHTER_SPAWN_COOLDOWN": 20,
+        "COMPLIMENT": {
+          "ARC-170": {
+            "AMOUNT": 4,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
       },
-      "Name": "Jack o' doom",
+      "Name": "Candy Cane Nebulon B",
       "Modifiers": []
     },
     "Golan II": {
@@ -5133,16 +5146,16 @@
         "AA_DPS": 15,
         "STARFIGHTER_SPAWN_COOLDOWN": 20,
         "COMPLIMENT": {
-          "TIE/x1 Advanced": {
-            "AMOUNT": 3,
+          "Lambda": {
+            "AMOUNT": 1,
             "DEFAULT_MODE": "Intercept"
           },
           "TIE/sa Bomber": {
             "AMOUNT": 6,
             "DEFAULT_MODE": "Attack"
           },
-          "Lambda": {
-            "AMOUNT": 1,
+          "TIE/x1 Advanced": {
+            "AMOUNT": 3,
             "DEFAULT_MODE": "Intercept"
           },
           "TIE/in Interceptor": {
@@ -5319,12 +5332,12 @@
         "AA_DPS": 14,
         "STARFIGHTER_SPAWN_COOLDOWN": 40,
         "COMPLIMENT": {
-          "Gauntlet": {
-            "AMOUNT": 3,
-            "DEFAULT_MODE": "Intercept"
-          },
           "Fang": {
             "AMOUNT": 6,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "Gauntlet": {
+            "AMOUNT": 3,
             "DEFAULT_MODE": "Intercept"
           }
         }
@@ -5393,12 +5406,12 @@
         "AA_DPS": 54,
         "STARFIGHTER_SPAWN_COOLDOWN": 25,
         "COMPLIMENT": {
-          "E-Wing": {
-            "AMOUNT": 14,
-            "DEFAULT_MODE": "Intercept"
-          },
           "T-85 X-Wing": {
             "AMOUNT": 32,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "E-Wing": {
+            "AMOUNT": 14,
             "DEFAULT_MODE": "Intercept"
           },
           "K-Wing": {
@@ -5512,32 +5525,46 @@
       "Name": "Medium Shipyard",
       "Modifiers": []
     },
-    "Heavy Shipyard": {
+    "Recusant Dreadnought": {
       "Lobby_Stats": {
-        "RARITY": "Dev",
-        "FACTION": "Empire",
-        "PREVIOUS": "N/A",
+        "RARITY": "Mythic",
+        "FACTION": "Separatist",
+        "PREVIOUS": "Recusant",
         "ERA": 1
       },
       "Game_Stats": {
-        "SPEED": 0,
-        "HULL_DPS": 0,
-        "HULL": 300000,
-        "PRICE": 10000,
-        "SPAWN_COOLDOWN": 3,
-        "MAX_HULL": 300000,
-        "SHIELD_DPS": 0,
-        "EVASIVENESS": 0,
-        "SHIELD_REGEN": 70,
-        "PIERCE_DPS": 0,
-        "ARMOR": 0,
-        "MAX_SHIELDS": 100000,
-        "SHIELDS": 100000,
-        "AA_DPS": 0,
-        "CREW": 500000,
-        "COMPLIMENT": []
+        "SPEED": 20,
+        "HULL": 123760,
+        "MAX_HULL": 123760,
+        "MAX_SHIELDS": 41990,
+        "HULL_DPS": 6484,
+        "EVASIVENESS": 19,
+        "CREW": 90000,
+        "PRICE": 13000,
+        "SPAWN_COOLDOWN": 4,
+        "SHIELD_REGEN": 645,
+        "PIERCE_DPS": 28,
+        "ARMOR": 306,
+        "SHIELD_DPS": 2703,
+        "SHIELDS": 41990,
+        "AA_DPS": 18,
+        "STARFIGHTER_SPAWN_COOLDOWN": 30,
+        "COMPLIMENT": {
+          "Tri-Fighter": {
+            "AMOUNT": 10,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "Vulture": {
+            "AMOUNT": 28,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "Hyena": {
+            "AMOUNT": 12,
+            "DEFAULT_MODE": "Attack"
+          }
+        }
       },
-      "Name": "Heavy Shipyard",
+      "Name": "Recusant Dreadnought",
       "Modifiers": []
     },
     "Imperator": {
@@ -5565,13 +5592,13 @@
         "AA_DPS": 14,
         "STARFIGHTER_SPAWN_COOLDOWN": 40,
         "COMPLIMENT": {
-          "V-Wing": {
-            "AMOUNT": 9,
-            "DEFAULT_MODE": "Intercept"
-          },
           "BTL-B Y-Wing": {
             "AMOUNT": 4,
             "DEFAULT_MODE": "Attack"
+          },
+          "V-Wing": {
+            "AMOUNT": 9,
+            "DEFAULT_MODE": "Intercept"
           }
         }
       },
@@ -5580,32 +5607,46 @@
         "Star Destroyer"
       ]
     },
-    "Modular (destroyer)": {
+    "Quasar": {
       "Lobby_Stats": {
-        "RARITY": "Dev",
+        "RARITY": "Rare",
         "FACTION": "Empire",
-        "PREVIOUS": "N/A",
-        "ERA": 3
+        "PREVIOUS": "Ton Falk",
+        "ERA": 2
       },
       "Game_Stats": {
-        "CREW": 80000,
-        "HULL_DPS": 7080,
-        "HULL": 110000,
-        "PRICE": 5750,
+        "SPEED": 40,
+        "HULL": 36000,
+        "MAX_HULL": 36000,
+        "MAX_SHIELDS": 16800,
+        "HULL_DPS": 571,
+        "EVASIVENESS": 50,
+        "CREW": 40000,
+        "PRICE": 2000,
         "SPAWN_COOLDOWN": 1.5,
-        "MAX_HULL": 110000,
-        "SHIELD_DPS": 3812,
-        "EVASIVENESS": 42,
-        "SHIELD_REGEN": 800,
-        "PIERCE_DPS": 67,
-        "ARMOR": 459,
-        "MAX_SHIELDS": 50000,
-        "SHIELDS": 50000,
-        "AA_DPS": 23,
-        "STARFIGHTER_SPAWN_COOLDOWN": 20,
-        "SPEED": 35
+        "SHIELD_REGEN": 152,
+        "PIERCE_DPS": 4,
+        "ARMOR": 43,
+        "SHIELD_DPS": 227,
+        "SHIELDS": 16800,
+        "AA_DPS": 31,
+        "STARFIGHTER_SPAWN_COOLDOWN": 30,
+        "COMPLIMENT": {
+          "TIE/sa Bomber": {
+            "AMOUNT": 7,
+            "DEFAULT_MODE": "Attack"
+          },
+          "TIE/in Interceptor": {
+            "AMOUNT": 7,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/fn Fighter": {
+            "AMOUNT": 24,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
       },
-      "Name": "Modular (destroyer)",
+      "Name": "Quasar",
       "Modifiers": []
     },
     "ISD I": {
@@ -5691,32 +5732,49 @@
       "Name": "Bulwark MKII",
       "Modifiers": []
     },
-    "CR-90": {
+    "ISD II": {
       "Lobby_Stats": {
-        "RARITY": "Common",
-        "FACTION": "Rebel",
-        "PREVIOUS": "Hammerhead",
+        "RARITY": "Legendary",
+        "FACTION": "Empire",
+        "PREVIOUS": "ISD I",
         "ERA": 2
       },
       "Game_Stats": {
-        "HULL_DPS": 334,
-        "HULL": 6000,
-        "PRICE": 2000,
-        "SPAWN_COOLDOWN": 0.7,
-        "MAX_HULL": 6000,
-        "SHIELD_DPS": 143,
-        "EVASIVENESS": 120,
-        "SHIELD_REGEN": 60,
-        "PIERCE_DPS": 0,
-        "ARMOR": 13,
-        "MAX_SHIELDS": 3000,
-        "SHIELDS": 3000,
-        "AA_DPS": 178,
-        "CREW": 10000,
-        "SPEED": 100
+        "SPEED": 35,
+        "HULL": 180000,
+        "MAX_HULL": 180000,
+        "MAX_SHIELDS": 103700,
+        "HULL_DPS": 12615,
+        "EVASIVENESS": 25,
+        "CREW": 100000,
+        "PRICE": 18500,
+        "SPAWN_COOLDOWN": 3,
+        "SHIELD_REGEN": 1440,
+        "PIERCE_DPS": 120,
+        "ARMOR": 778,
+        "SHIELD_DPS": 6585,
+        "SHIELDS": 103700,
+        "AA_DPS": 0,
+        "STARFIGHTER_SPAWN_COOLDOWN": 20,
+        "COMPLIMENT": {
+          "TIE/sa Bomber": {
+            "AMOUNT": 5,
+            "DEFAULT_MODE": "Attack"
+          },
+          "TIE/in Interceptor": {
+            "AMOUNT": 5,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/fn Fighter": {
+            "AMOUNT": 12,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
       },
-      "Name": "CR-90",
-      "Modifiers": []
+      "Name": "ISD II",
+      "Modifiers": [
+        "Star Destroyer"
+      ]
     },
     "Assault Frigate MK I": {
       "Lobby_Stats": {
@@ -5777,24 +5835,24 @@
         "AA_DPS": 22,
         "STARFIGHTER_SPAWN_COOLDOWN": 25,
         "COMPLIMENT": {
-          "Warthog": {
-            "AMOUNT": 1,
+          "Z-95 Headhunter": {
+            "AMOUNT": 12,
             "DEFAULT_MODE": "Intercept"
           },
-          "Plo Koon": {
-            "AMOUNT": 1,
+          "V-19 Torrent": {
+            "AMOUNT": 16,
             "DEFAULT_MODE": "Intercept"
           },
           "Plo's Bros LAAT": {
             "AMOUNT": 7,
             "DEFAULT_MODE": "Attack"
           },
-          "V-19 Torrent": {
-            "AMOUNT": 16,
+          "Warthog": {
+            "AMOUNT": 1,
             "DEFAULT_MODE": "Intercept"
           },
-          "Z-95 Headhunter": {
-            "AMOUNT": 12,
+          "Plo Koon": {
+            "AMOUNT": 1,
             "DEFAULT_MODE": "Intercept"
           }
         }
@@ -5839,51 +5897,57 @@
       "Name": "Assault Frigate MK II",
       "Modifiers": []
     },
-    "Modular (carrier)": {
+    "Venator": {
       "Lobby_Stats": {
-        "RARITY": "Dev",
-        "FACTION": "Empire",
-        "PREVIOUS": "N/A",
-        "ERA": 3
+        "RARITY": "Legendary",
+        "FACTION": "Republic",
+        "PREVIOUS": "Providence",
+        "ERA": 1
       },
       "Game_Stats": {
-        "SPEED": 25,
-        "HULL": 90000,
-        "MAX_HULL": 90000,
-        "MAX_SHIELDS": 48500,
-        "HULL_DPS": 3099,
-        "EVASIVENESS": 42,
-        "CREW": 80000,
-        "PRICE": 5750,
-        "SPAWN_COOLDOWN": 1.5,
-        "SHIELD_REGEN": 800,
-        "PIERCE_DPS": 22,
-        "ARMOR": 390,
-        "SHIELD_DPS": 1736,
-        "SHIELDS": 48500,
-        "AA_DPS": 112,
-        "STARFIGHTER_SPAWN_COOLDOWN": 17,
+        "SPEED": 35,
+        "HULL": 77350,
+        "MAX_HULL": 77350,
+        "MAX_SHIELDS": 22100,
+        "HULL_DPS": 4226,
+        "EVASIVENESS": 35,
+        "CREW": 100000,
+        "PRICE": 8500,
+        "SPAWN_COOLDOWN": 3,
+        "SHIELD_REGEN": 338,
+        "PIERCE_DPS": 36,
+        "ARMOR": 221,
+        "SHIELD_DPS": 1924,
+        "SHIELDS": 22100,
+        "AA_DPS": 22,
+        "STARFIGHTER_SPAWN_COOLDOWN": 25,
         "COMPLIMENT": {
-          "TIE/sa Bomber": {
-            "AMOUNT": 8,
+          "V-Wing": {
+            "AMOUNT": 7,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "V-19 Torrent": {
+            "AMOUNT": 16,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "BTL-B Y-Wing": {
+            "AMOUNT": 5,
             "DEFAULT_MODE": "Attack"
           },
-          "TIE/ca Punisher": {
+          "ARC-170": {
+            "AMOUNT": 4,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "NTB-630": {
             "AMOUNT": 1,
             "DEFAULT_MODE": "Attack"
-          },
-          "TIE/ag Aggressor": {
-            "AMOUNT": 3,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/fn Fighter": {
-            "AMOUNT": 25,
-            "DEFAULT_MODE": "Intercept"
           }
         }
       },
-      "Name": "Modular (carrier)",
-      "Modifiers": []
+      "Name": "Venator",
+      "Modifiers": [
+        "Star Destroyer"
+      ]
     },
     "Xyston": {
       "Lobby_Stats": {
@@ -6118,13 +6182,13 @@
         "AA_DPS": 54,
         "STARFIGHTER_SPAWN_COOLDOWN": 30,
         "COMPLIMENT": {
-          "E-Wing": {
-            "AMOUNT": 9,
-            "DEFAULT_MODE": "Intercept"
-          },
           "K-Wing": {
             "AMOUNT": 2,
             "DEFAULT_MODE": "Attack"
+          },
+          "E-Wing": {
+            "AMOUNT": 9,
+            "DEFAULT_MODE": "Intercept"
           }
         }
       },
@@ -6188,13 +6252,13 @@
             "AMOUNT": 5,
             "DEFAULT_MODE": "Intercept"
           },
-          "Phoenix A-Wing": {
-            "AMOUNT": 12,
-            "DEFAULT_MODE": "Intercept"
-          },
           "X-Wing": {
             "AMOUNT": 7,
             "DEFAULT_MODE": "Attack"
+          },
+          "Phoenix A-Wing": {
+            "AMOUNT": 12,
+            "DEFAULT_MODE": "Intercept"
           }
         }
       },
@@ -6378,13 +6442,13 @@
             "AMOUNT": 5,
             "DEFAULT_MODE": "Attack"
           },
-          "A-Wing": {
-            "AMOUNT": 12,
-            "DEFAULT_MODE": "Intercept"
-          },
           "Y-Wing": {
             "AMOUNT": 9,
             "DEFAULT_MODE": "Attack"
+          },
+          "A-Wing": {
+            "AMOUNT": 12,
+            "DEFAULT_MODE": "Intercept"
           },
           "T-65 X-Wing": {
             "AMOUNT": 22,
@@ -6422,12 +6486,12 @@
         "AA_DPS": 14,
         "STARFIGHTER_SPAWN_COOLDOWN": 40,
         "COMPLIMENT": {
-          "NTB-630": {
-            "AMOUNT": 6,
-            "DEFAULT_MODE": "Intercept"
-          },
           "V-Wing": {
             "AMOUNT": 32,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "NTB-630": {
+            "AMOUNT": 6,
             "DEFAULT_MODE": "Intercept"
           },
           "Z-95 Headhunter": {
@@ -6568,13 +6632,13 @@
         "AA_DPS": 0,
         "STARFIGHTER_SPAWN_COOLDOWN": 35,
         "COMPLIMENT": {
-          "Miy'til Fighter": {
-            "AMOUNT": 14,
-            "DEFAULT_MODE": "Intercept"
-          },
           "Miy'til Bomber": {
             "AMOUNT": 5,
             "DEFAULT_MODE": "Attack"
+          },
+          "Miy'til Fighter": {
+            "AMOUNT": 14,
+            "DEFAULT_MODE": "Intercept"
           }
         }
       },
@@ -6672,17 +6736,17 @@
         "AA_DPS": 10,
         "STARFIGHTER_SPAWN_COOLDOWN": 20,
         "COMPLIMENT": {
-          "Kimogila": {
-            "AMOUNT": 8,
-            "DEFAULT_MODE": "Attack"
+          "Scurg H-6": {
+            "AMOUNT": 2,
+            "DEFAULT_MODE": "Intercept"
           },
           "Z-95": {
             "AMOUNT": 22,
             "DEFAULT_MODE": "Intercept"
           },
-          "Scurg H-6": {
-            "AMOUNT": 2,
-            "DEFAULT_MODE": "Intercept"
+          "Kimogila": {
+            "AMOUNT": 8,
+            "DEFAULT_MODE": "Attack"
           }
         }
       },
@@ -6720,13 +6784,13 @@
             "AMOUNT": 28,
             "DEFAULT_MODE": "Intercept"
           },
-          "TIE/d Defender": {
-            "AMOUNT": 32,
-            "DEFAULT_MODE": "Intercept"
-          },
           "TIE/ca Punisher": {
             "AMOUNT": 14,
             "DEFAULT_MODE": "Attack"
+          },
+          "TIE/d Defender": {
+            "AMOUNT": 32,
+            "DEFAULT_MODE": "Intercept"
           }
         }
       },
@@ -7142,12 +7206,12 @@
             "AMOUNT": 5,
             "DEFAULT_MODE": "Attack"
           },
-          "V-19 Torrent": {
-            "AMOUNT": 16,
-            "DEFAULT_MODE": "Intercept"
-          },
           "V-Wing": {
             "AMOUNT": 7,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "V-19 Torrent": {
+            "AMOUNT": 16,
             "DEFAULT_MODE": "Intercept"
           }
         }
@@ -7225,13 +7289,13 @@
         "AA_DPS": 11,
         "STARFIGHTER_SPAWN_COOLDOWN": 50,
         "COMPLIMENT": {
-          "Delta-7": {
-            "AMOUNT": 12,
-            "DEFAULT_MODE": "Attack"
-          },
           "V-19 Torrent": {
             "AMOUNT": 5,
             "DEFAULT_MODE": "Intercept"
+          },
+          "Delta-7": {
+            "AMOUNT": 12,
+            "DEFAULT_MODE": "Attack"
           }
         }
       },
@@ -7337,12 +7401,12 @@
         "AA_DPS": 27,
         "STARFIGHTER_SPAWN_COOLDOWN": 15,
         "COMPLIMENT": {
-          "Y-Wing": {
-            "AMOUNT": 1,
-            "DEFAULT_MODE": "Intercept"
-          },
           "E-Wing": {
             "AMOUNT": 7,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "Y-Wing": {
+            "AMOUNT": 1,
             "DEFAULT_MODE": "Intercept"
           }
         }
@@ -7517,9 +7581,9 @@
         "AA_DPS": 14,
         "STARFIGHTER_SPAWN_COOLDOWN": 35,
         "COMPLIMENT": {
-          "BTL-B Y-Wing": {
-            "AMOUNT": 5,
-            "DEFAULT_MODE": "Attack"
+          "NTB-630": {
+            "AMOUNT": 1,
+            "DEFAULT_MODE": "Intercept"
           },
           "V-Wing": {
             "AMOUNT": 3,
@@ -7529,9 +7593,9 @@
             "AMOUNT": 9,
             "DEFAULT_MODE": "Intercept"
           },
-          "NTB-630": {
-            "AMOUNT": 1,
-            "DEFAULT_MODE": "Intercept"
+          "BTL-B Y-Wing": {
+            "AMOUNT": 5,
+            "DEFAULT_MODE": "Attack"
           }
         }
       },
@@ -7697,38 +7761,42 @@
       "Name": "Prison Barge",
       "Modifiers": []
     },
-    "Bothan": {
+    "Recusant": {
       "Lobby_Stats": {
         "RARITY": "Epic",
-        "FACTION": "New Republic",
-        "PREVIOUS": "Mon Mothma",
-        "ERA": 3
+        "FACTION": "Separatist",
+        "PREVIOUS": "Republic Dreadnought",
+        "ERA": 1
       },
       "Game_Stats": {
-        "SPEED": 35,
-        "HULL": 120000,
-        "MAX_HULL": 120000,
-        "MAX_SHIELDS": 60000,
-        "HULL_DPS": 8276,
+        "SPEED": 50,
+        "HULL": 29900,
+        "MAX_HULL": 29900,
+        "MAX_SHIELDS": 15600,
+        "HULL_DPS": 1959,
         "EVASIVENESS": 35,
         "CREW": 70000,
-        "PRICE": 7000,
-        "SPAWN_COOLDOWN": 2,
-        "SHIELD_REGEN": 900,
-        "PIERCE_DPS": 36,
-        "ARMOR": 504,
-        "SHIELD_DPS": 5221,
-        "SHIELDS": 60000,
-        "AA_DPS": 54,
-        "STARFIGHTER_SPAWN_COOLDOWN": 25,
+        "PRICE": 3500,
+        "SPAWN_COOLDOWN": 1.5,
+        "SHIELD_REGEN": 278,
+        "PIERCE_DPS": 18,
+        "ARMOR": 85,
+        "SHIELD_DPS": 946,
+        "SHIELDS": 15600,
+        "AA_DPS": 9,
+        "STARFIGHTER_SPAWN_COOLDOWN": 30,
         "COMPLIMENT": {
-          "E-Wing": {
-            "AMOUNT": 3,
+          "Tri-Fighter": {
+            "AMOUNT": 2,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "Vulture": {
+            "AMOUNT": 8,
             "DEFAULT_MODE": "Intercept"
           }
         }
       },
-      "Name": "Bothan",
+      "Name": "Recusant",
       "Modifiers": []
     },
     "Realistic ISD": {
@@ -8331,76 +8399,75 @@
         "Mon Cala"
       ]
     },
-    "Crusader": {
+    "Republic Victory II": {
       "Lobby_Stats": {
         "RARITY": "Epic",
-        "FACTION": "Mando",
-        "PREVIOUS": "Raider",
-        "ERA": 2
+        "FACTION": "Republic",
+        "PREVIOUS": "Munificent",
+        "ERA": 1
       },
       "Game_Stats": {
-        "HULL_DPS": 783,
-        "HULL": 12000,
-        "PRICE": 2000,
-        "SPAWN_COOLDOWN": 0.5,
-        "MAX_HULL": 12000,
-        "SHIELD_DPS": 290,
-        "EVASIVENESS": 50,
-        "SHIELD_REGEN": 45,
-        "PIERCE_DPS": 10,
-        "ARMOR": 20,
-        "MAX_SHIELDS": 5000,
-        "SHIELDS": 5000,
-        "AA_DPS": 63,
-        "CREW": 35000,
-        "SPEED": 35
-      },
-      "Name": "Crusader",
-      "Modifiers": []
-    },
-    "MC-90": {
-      "Lobby_Stats": {
-        "RARITY": "Legendary",
-        "FACTION": "New Republic",
-        "PREVIOUS": "MC-140 Scythe",
-        "ERA": 3
-      },
-      "Game_Stats": {
-        "SPEED": 35,
-        "HULL": 180000,
-        "MAX_HULL": 180000,
-        "MAX_SHIELDS": 297000,
-        "HULL_DPS": 15465,
-        "EVASIVENESS": 22,
-        "CREW": 150000,
-        "PRICE": 15000,
-        "SPAWN_COOLDOWN": 10,
-        "SHIELD_REGEN": 10800,
-        "PIERCE_DPS": 137,
-        "ARMOR": 756,
-        "SHIELD_DPS": 8183,
-        "SHIELDS": 297000,
-        "AA_DPS": 54,
-        "STARFIGHTER_SPAWN_COOLDOWN": 30,
+        "SPEED": 50,
+        "HULL": 70720,
+        "MAX_HULL": 70720,
+        "MAX_SHIELDS": 25415,
+        "HULL_DPS": 5359,
+        "EVASIVENESS": 42,
+        "CREW": 75000,
+        "PRICE": 5500,
+        "SPAWN_COOLDOWN": 1.5,
+        "SHIELD_REGEN": 389,
+        "PIERCE_DPS": 48,
+        "ARMOR": 247,
+        "SHIELD_DPS": 2296,
+        "SHIELDS": 25415,
+        "AA_DPS": 7,
+        "STARFIGHTER_SPAWN_COOLDOWN": 50,
         "COMPLIMENT": {
-          "E-Wing": {
-            "AMOUNT": 9,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "Y-Wing": {
-            "AMOUNT": 12,
-            "DEFAULT_MODE": "Attack"
-          },
-          "T-85 X-Wing": {
-            "AMOUNT": 12,
+          "Z-95 Headhunter": {
+            "AMOUNT": 3,
             "DEFAULT_MODE": "Intercept"
           }
         }
       },
-      "Name": "MC-90",
+      "Name": "Republic Victory II",
       "Modifiers": [
-        "Mon Cala"
+        "Star Destroyer"
       ]
+    },
+    "Spector": {
+      "Lobby_Stats": {
+        "RARITY": "Common",
+        "FACTION": "Empire",
+        "PREVIOUS": "",
+        "ERA": 3
+      },
+      "Game_Stats": {
+        "SPEED": 60,
+        "HULL": 10000,
+        "MAX_HULL": 10000,
+        "MAX_SHIELDS": 4000,
+        "HULL_DPS": 380,
+        "EVASIVENESS": 45,
+        "CREW": 15000,
+        "PRICE": 1000,
+        "SPAWN_COOLDOWN": 1,
+        "SHIELD_REGEN": 50,
+        "PIERCE_DPS": 1,
+        "ARMOR": 60,
+        "SHIELD_DPS": 116,
+        "SHIELDS": 4000,
+        "AA_DPS": 65,
+        "STARFIGHTER_SPAWN_COOLDOWN": 2,
+        "COMPLIMENT": {
+          "TIE/av Avenger": {
+            "AMOUNT": 8,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Spector",
+      "Modifiers": []
     },
     "Eclipse": {
       "Lobby_Stats": {
@@ -8552,12 +8619,12 @@
             "AMOUNT": 6,
             "DEFAULT_MODE": "Attack"
           },
-          "ARC-170": {
-            "AMOUNT": 8,
-            "DEFAULT_MODE": "Intercept"
-          },
           "V-19 Torrent": {
             "AMOUNT": 14,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "ARC-170": {
+            "AMOUNT": 8,
             "DEFAULT_MODE": "Intercept"
           }
         }
@@ -8784,12 +8851,12 @@
         "AA_DPS": 3,
         "STARFIGHTER_SPAWN_COOLDOWN": 15,
         "COMPLIMENT": {
-          "Nantex": {
-            "AMOUNT": 3,
-            "DEFAULT_MODE": "Intercept"
-          },
           "Vulture": {
             "AMOUNT": 10,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "Nantex": {
+            "AMOUNT": 3,
             "DEFAULT_MODE": "Intercept"
           },
           "Hyena": {
@@ -8891,41 +8958,50 @@
         "Unique"
       ]
     },
-    "\"Nina's Justice\"": {
+    "Silver Coronet": {
       "Lobby_Stats": {
         "RARITY": "Special",
-        "FACTION": "Rebel",
+        "FACTION": "New Republic",
         "PREVIOUS": "",
         "ERA": 1
       },
       "Game_Stats": {
-        "SPEED": 55,
-        "HULL": 8500,
-        "MAX_HULL": 8500,
-        "MAX_SHIELDS": 5000,
-        "HULL_DPS": 799,
-        "ABILITY": "Support",
+        "SPEED": 40,
+        "HULL": 80000,
+        "MAX_HULL": 80000,
+        "MAX_SHIELDS": 86400,
+        "HULL_DPS": 6307,
         "SPAWN_COOLDOWN": 0,
-        "EVASIVENESS": 50,
-        "CREW": 40000,
-        "PRICE": 1500,
-        "SHIELD_REGEN": 100,
-        "PIERCE_DPS": 11,
-        "ARMOR": 0,
-        "SHIELD_DPS": 442,
-        "SHIELDS": 5000,
-        "AA_DPS": 16,
-        "STARFIGHTER_SPAWN_COOLDOWN": 20,
+        "EVASIVENESS": 32,
+        "CREW": 80000,
+        "PRICE": 8500,
+        "SHIELD_DPS": 3610,
+        "SHIELD_REGEN": 500,
+        "PIERCE_DPS": 34,
+        "ARMOR": 233,
+        "PASSIVE_BUFF": "Vanguard Command",
+        "SHIELDS": 86400,
+        "AA_DPS": 29,
+        "STARFIGHTER_SPAWN_COOLDOWN": 15,
         "COMPLIMENT": {
-          "Scurg H-6": {
-            "AMOUNT": 2,
+          "Y-Wing": {
+            "AMOUNT": 22,
             "DEFAULT_MODE": "Attack"
+          },
+          "X-Wing": {
+            "AMOUNT": 3,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "A-Wing": {
+            "AMOUNT": 9,
+            "DEFAULT_MODE": "Intercept"
           }
         }
       },
-      "Name": "\"Nina's Justice\"",
+      "Name": "Silver Coronet",
       "Modifiers": [
         "Hero",
+        "Mon Cala",
         "Unique"
       ]
     },
@@ -8983,38 +9059,38 @@
       "Name": "CIS Beacon",
       "Modifiers": []
     },
-    "Crimson Command Victory": {
+    "Procursator": {
       "Lobby_Stats": {
-        "RARITY": "Uncommon",
+        "RARITY": "Epic",
         "FACTION": "Empire",
-        "PREVIOUS": "546 Cruiser",
-        "ERA": 3
+        "PREVIOUS": "Victory II",
+        "ERA": 2
       },
       "Game_Stats": {
-        "SPEED": 55,
-        "HULL": 76000,
-        "MAX_HULL": 76000,
-        "MAX_SHIELDS": 30000,
-        "HULL_DPS": 6750,
-        "EVASIVENESS": 50,
-        "CREW": 70000,
-        "PRICE": 6500,
-        "SPAWN_COOLDOWN": 1.5,
-        "SHIELD_REGEN": 460,
-        "PIERCE_DPS": 40,
-        "ARMOR": 228,
-        "SHIELD_DPS": 4341,
-        "SHIELDS": 30000,
-        "AA_DPS": 31,
-        "STARFIGHTER_SPAWN_COOLDOWN": 20,
+        "SPEED": 40,
+        "HULL": 84000,
+        "MAX_HULL": 84000,
+        "MAX_SHIELDS": 39800,
+        "HULL_DPS": 7607,
+        "EVASIVENESS": 30,
+        "CREW": 90000,
+        "PRICE": 9000,
+        "SPAWN_COOLDOWN": 3,
+        "SHIELD_REGEN": 455,
+        "PIERCE_DPS": 78,
+        "ARMOR": 277,
+        "SHIELD_DPS": 2353,
+        "SHIELDS": 39800,
+        "AA_DPS": 15,
+        "STARFIGHTER_SPAWN_COOLDOWN": 30,
         "COMPLIMENT": {
-          "TIE/d Defender": {
-            "AMOUNT": 3,
+          "TIE/fn Fighter": {
+            "AMOUNT": 10,
             "DEFAULT_MODE": "Intercept"
           }
         }
       },
-      "Name": "Crimson Command Victory",
+      "Name": "Procursator",
       "Modifiers": [
         "Star Destroyer"
       ]
@@ -9044,12 +9120,12 @@
         "AA_DPS": 15,
         "STARFIGHTER_SPAWN_COOLDOWN": 35,
         "COMPLIMENT": {
-          "Lambda": {
-            "AMOUNT": 2,
-            "DEFAULT_MODE": "Intercept"
-          },
           "TIE/in Interceptor": {
             "AMOUNT": 5,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "Lambda": {
+            "AMOUNT": 2,
             "DEFAULT_MODE": "Intercept"
           },
           "XG-1 Starwing": {
@@ -9088,13 +9164,13 @@
         "AA_DPS": 109,
         "STARFIGHTER_SPAWN_COOLDOWN": 20,
         "COMPLIMENT": {
-          "E-Wing": {
-            "AMOUNT": 16,
-            "DEFAULT_MODE": "Intercept"
-          },
           "T-85 X-Wing": {
             "AMOUNT": 18,
             "DEFAULT_MODE": "Escort"
+          },
+          "E-Wing": {
+            "AMOUNT": 16,
+            "DEFAULT_MODE": "Intercept"
           },
           "K-Wing": {
             "AMOUNT": 6,
@@ -9237,43 +9313,73 @@
       "Name": "Excubitor",
       "Modifiers": []
     },
-    "Modular (support)": {
+    "DP-20": {
       "Lobby_Stats": {
-        "RARITY": "Dev",
-        "FACTION": "Empire",
-        "PREVIOUS": "N/A",
+        "RARITY": "Rare",
+        "FACTION": "Rebel",
+        "PREVIOUS": "Gladiator",
+        "ERA": 2
+      },
+      "Game_Stats": {
+        "HULL_DPS": 603,
+        "HULL": 5000,
+        "PRICE": 1000,
+        "SPAWN_COOLDOWN": 2,
+        "MAX_HULL": 5000,
+        "SHIELD_DPS": 15,
+        "EVASIVENESS": 60,
+        "SHIELD_REGEN": 122,
+        "PIERCE_DPS": 0,
+        "ARMOR": 10,
+        "MAX_SHIELDS": 2000,
+        "SHIELDS": 2000,
+        "AA_DPS": 15,
+        "CREW": 10000,
+        "SPEED": 90
+      },
+      "Name": "DP-20",
+      "Modifiers": []
+    },
+    "\"Jupiter's Odyssey\"": {
+      "Lobby_Stats": {
+        "RARITY": "Special",
+        "FACTION": "New Republic",
+        "PREVIOUS": "",
         "ERA": 3
       },
       "Game_Stats": {
-        "SPEED": 25,
-        "HULL": 85000,
-        "MAX_HULL": 85000,
-        "MAX_SHIELDS": 48500,
-        "HULL_DPS": 6228,
-        "EVASIVENESS": 42,
-        "CREW": 80000,
-        "PRICE": 5750,
-        "SPAWN_COOLDOWN": 1.5,
-        "SHIELD_REGEN": 800,
-        "PIERCE_DPS": 37,
-        "ARMOR": 280,
-        "SHIELD_DPS": 2913,
-        "SHIELDS": 48500,
+        "SPEED": 40,
+        "HULL": 180000,
+        "MAX_HULL": 180000,
+        "MAX_SHIELDS": 111400,
+        "HULL_DPS": 16350,
+        "EVASIVENESS": 30,
+        "CREW": 100000,
+        "PRICE": 17000,
+        "SPAWN_COOLDOWN": 3,
+        "SHIELD_REGEN": 2025,
+        "PIERCE_DPS": 146,
+        "ARMOR": 540,
+        "SHIELD_DPS": 8651,
+        "SHIELDS": 111400,
         "AA_DPS": 54,
         "STARFIGHTER_SPAWN_COOLDOWN": 20,
         "COMPLIMENT": {
-          "TIE/sa Bomber": {
-            "AMOUNT": 5,
-            "DEFAULT_MODE": "Attack"
+          "E-Wing": {
+            "AMOUNT": 8,
+            "DEFAULT_MODE": "Intercept"
           },
-          "TIE/fn Fighter": {
-            "AMOUNT": 14,
+          "T-85 X-Wing": {
+            "AMOUNT": 9,
             "DEFAULT_MODE": "Intercept"
           }
         }
       },
-      "Name": "Modular (support)",
-      "Modifiers": []
+      "Name": "\"Jupiter's Odyssey\"",
+      "Modifiers": [
+        "Hero",
+        "Unique"
+      ]
     },
     "Huppla": {
       "Lobby_Stats": {
@@ -9334,17 +9440,17 @@
         "AA_DPS": 24,
         "STARFIGHTER_SPAWN_COOLDOWN": 12,
         "COMPLIMENT": {
-          "Belbullab-22": {
+          "Coyote": {
             "AMOUNT": 4,
-            "DEFAULT_MODE": "Intercept"
+            "DEFAULT_MODE": "Attack"
           },
           "Vulture": {
             "AMOUNT": 32,
             "DEFAULT_MODE": "Intercept"
           },
-          "Coyote": {
+          "Belbullab-22": {
             "AMOUNT": 4,
-            "DEFAULT_MODE": "Attack"
+            "DEFAULT_MODE": "Intercept"
           },
           "Hyena": {
             "AMOUNT": 24,
@@ -9358,46 +9464,32 @@
         "Unique"
       ]
     },
-    "\"Jupiter's Odyssey\"": {
+    "CR-90": {
       "Lobby_Stats": {
-        "RARITY": "Special",
-        "FACTION": "New Republic",
-        "PREVIOUS": "",
-        "ERA": 3
+        "RARITY": "Common",
+        "FACTION": "Rebel",
+        "PREVIOUS": "Hammerhead",
+        "ERA": 2
       },
       "Game_Stats": {
-        "SPEED": 40,
-        "HULL": 180000,
-        "MAX_HULL": 180000,
-        "MAX_SHIELDS": 111400,
-        "HULL_DPS": 16350,
-        "EVASIVENESS": 30,
-        "CREW": 100000,
-        "PRICE": 17000,
-        "SPAWN_COOLDOWN": 3,
-        "SHIELD_REGEN": 2025,
-        "PIERCE_DPS": 146,
-        "ARMOR": 540,
-        "SHIELD_DPS": 8651,
-        "SHIELDS": 111400,
-        "AA_DPS": 54,
-        "STARFIGHTER_SPAWN_COOLDOWN": 20,
-        "COMPLIMENT": {
-          "E-Wing": {
-            "AMOUNT": 8,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "T-85 X-Wing": {
-            "AMOUNT": 9,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
+        "HULL_DPS": 334,
+        "HULL": 6000,
+        "PRICE": 2000,
+        "SPAWN_COOLDOWN": 0.7,
+        "MAX_HULL": 6000,
+        "SHIELD_DPS": 143,
+        "EVASIVENESS": 120,
+        "SHIELD_REGEN": 60,
+        "PIERCE_DPS": 0,
+        "ARMOR": 13,
+        "MAX_SHIELDS": 3000,
+        "SHIELDS": 3000,
+        "AA_DPS": 178,
+        "CREW": 10000,
+        "SPEED": 100
       },
-      "Name": "\"Jupiter's Odyssey\"",
-      "Modifiers": [
-        "Hero",
-        "Unique"
-      ]
+      "Name": "CR-90",
+      "Modifiers": []
     },
     "Hammerhead": {
       "Lobby_Stats": {
@@ -9426,153 +9518,95 @@
       "Name": "Hammerhead",
       "Modifiers": []
     },
-    "Venator": {
-      "Lobby_Stats": {
-        "RARITY": "Legendary",
-        "FACTION": "Republic",
-        "PREVIOUS": "Providence",
-        "ERA": 1
-      },
-      "Game_Stats": {
-        "SPEED": 35,
-        "HULL": 77350,
-        "MAX_HULL": 77350,
-        "MAX_SHIELDS": 22100,
-        "HULL_DPS": 4226,
-        "EVASIVENESS": 35,
-        "CREW": 100000,
-        "PRICE": 8500,
-        "SPAWN_COOLDOWN": 3,
-        "SHIELD_REGEN": 338,
-        "PIERCE_DPS": 36,
-        "ARMOR": 221,
-        "SHIELD_DPS": 1924,
-        "SHIELDS": 22100,
-        "AA_DPS": 22,
-        "STARFIGHTER_SPAWN_COOLDOWN": 25,
-        "COMPLIMENT": {
-          "NTB-630": {
-            "AMOUNT": 1,
-            "DEFAULT_MODE": "Attack"
-          },
-          "ARC-170": {
-            "AMOUNT": 4,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "BTL-B Y-Wing": {
-            "AMOUNT": 5,
-            "DEFAULT_MODE": "Attack"
-          },
-          "V-19 Torrent": {
-            "AMOUNT": 16,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "V-Wing": {
-            "AMOUNT": 7,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
-      },
-      "Name": "Venator",
-      "Modifiers": [
-        "Star Destroyer"
-      ]
-    },
-    "41st Venator": {
+    "Eggus Gobbus": {
       "Lobby_Stats": {
         "RARITY": "Dev",
-        "FACTION": "Republic",
+        "FACTION": "Empire",
         "PREVIOUS": "N/A",
         "ERA": 1
       },
       "Game_Stats": {
-        "CREW": 100000,
-        "HULL_DPS": 3640,
-        "HULL": 120000,
-        "PRICE": 10000,
-        "SPAWN_COOLDOWN": 0.1,
-        "MAX_HULL": 120000,
-        "SHIELD_DPS": 1213,
+        "HULL_DPS": 0,
+        "HULL": 300000,
+        "PRICE": 1,
+        "SPAWN_COOLDOWN": 3,
+        "MAX_HULL": 300000,
+        "SHIELD_DPS": 0,
         "EVASIVENESS": 0,
-        "SHIELD_REGEN": 150,
-        "PIERCE_DPS": 31,
-        "ARMOR": 0,
-        "MAX_SHIELDS": 20000,
-        "SHIELDS": 20000,
-        "AA_DPS": 0,
-        "STARFIGHTER_SPAWN_COOLDOWN": 30,
-        "SPEED": 35
-      },
-      "Name": "41st Venator",
-      "Modifiers": []
-    },
-    "DP-20": {
-      "Lobby_Stats": {
-        "RARITY": "Rare",
-        "FACTION": "Rebel",
-        "PREVIOUS": "Gladiator",
-        "ERA": 2
-      },
-      "Game_Stats": {
-        "HULL_DPS": 603,
-        "HULL": 5000,
-        "PRICE": 1000,
-        "SPAWN_COOLDOWN": 2,
-        "MAX_HULL": 5000,
-        "SHIELD_DPS": 15,
-        "EVASIVENESS": 60,
-        "SHIELD_REGEN": 122,
+        "SHIELD_REGEN": 20,
         "PIERCE_DPS": 0,
-        "ARMOR": 10,
-        "MAX_SHIELDS": 2000,
-        "SHIELDS": 2000,
-        "AA_DPS": 15,
-        "CREW": 10000,
-        "SPEED": 90
+        "ARMOR": 0,
+        "MAX_SHIELDS": 70000,
+        "SHIELDS": 70000,
+        "AA_DPS": 0,
+        "CREW": 100000,
+        "SPEED": 70
       },
-      "Name": "DP-20",
+      "Name": "Eggus Gobbus",
       "Modifiers": []
     },
-    "Quasar": {
+    "Golan M3185": {
       "Lobby_Stats": {
-        "RARITY": "Rare",
+        "RARITY": "Mythic",
         "FACTION": "Empire",
-        "PREVIOUS": "Ton Falk",
+        "PREVIOUS": "Golan II",
         "ERA": 2
       },
       "Game_Stats": {
-        "SPEED": 40,
-        "HULL": 36000,
-        "MAX_HULL": 36000,
-        "MAX_SHIELDS": 16800,
-        "HULL_DPS": 571,
-        "EVASIVENESS": 50,
-        "CREW": 40000,
-        "PRICE": 2000,
-        "SPAWN_COOLDOWN": 1.5,
-        "SHIELD_REGEN": 152,
-        "PIERCE_DPS": 4,
-        "ARMOR": 43,
-        "SHIELD_DPS": 227,
-        "SHIELDS": 16800,
-        "AA_DPS": 31,
-        "STARFIGHTER_SPAWN_COOLDOWN": 30,
+        "SPEED": 0,
+        "HULL": 40800,
+        "MAX_HULL": 40800,
+        "MAX_SHIELDS": 17000,
+        "HULL_DPS": 2882,
+        "ABILITY": "Planetary Shield",
+        "SPAWN_COOLDOWN": 2,
+        "EVASIVENESS": 0,
+        "CREW": 100000,
+        "PRICE": 8000,
+        "SHIELD_REGEN": 425,
+        "PIERCE_DPS": 18,
+        "ARMOR": 185,
+        "SHIELD_DPS": 1156,
+        "SHIELDS": 17000,
+        "AA_DPS": 22,
+        "STARFIGHTER_SPAWN_COOLDOWN": 40,
         "COMPLIMENT": {
-          "TIE/sa Bomber": {
-            "AMOUNT": 7,
-            "DEFAULT_MODE": "Attack"
-          },
-          "TIE/in Interceptor": {
-            "AMOUNT": 7,
-            "DEFAULT_MODE": "Intercept"
-          },
           "TIE/fn Fighter": {
-            "AMOUNT": 24,
+            "AMOUNT": 20,
             "DEFAULT_MODE": "Intercept"
           }
         }
       },
-      "Name": "Quasar",
+      "Name": "Golan M3185",
+      "Modifiers": []
+    },
+    "SC Prototype": {
+      "Lobby_Stats": {
+        "RARITY": "Dev",
+        "FACTION": "Empire",
+        "PREVIOUS": "N/A",
+        "ERA": 1
+      },
+      "Game_Stats": {
+        "SPEED": 50,
+        "HULL": 550000,
+        "MAX_HULL": 550000,
+        "MAX_SHIELDS": 350000,
+        "HULL_DPS": 0,
+        "ABILITY": "Cloak",
+        "EVASIVENESS": 0,
+        "CREW": 450000,
+        "PRICE": 125000,
+        "SHIELD_REGEN": 1000,
+        "PIERCE_DPS": 0,
+        "ARMOR": 0,
+        "SHIELD_DPS": 0,
+        "SHIELDS": 350000,
+        "AA_DPS": 0,
+        "STARFIGHTER_SPAWN_COOLDOWN": 60,
+        "SPAWN_COOLDOWN": 5
+      },
+      "Name": "SC Prototype",
       "Modifiers": []
     },
     "Mandator II": {
@@ -9619,46 +9653,82 @@
         "SSD"
       ]
     },
-    "Recusant Dreadnought": {
+    "Bulwark MKI": {
       "Lobby_Stats": {
-        "RARITY": "Mythic",
+        "RARITY": "Rare",
         "FACTION": "Separatist",
-        "PREVIOUS": "Recusant",
+        "PREVIOUS": "Core Ship",
         "ERA": 1
       },
       "Game_Stats": {
-        "SPEED": 20,
-        "HULL": 123760,
-        "MAX_HULL": 123760,
-        "MAX_SHIELDS": 41990,
-        "HULL_DPS": 6484,
-        "EVASIVENESS": 19,
-        "CREW": 90000,
-        "PRICE": 13000,
-        "SPAWN_COOLDOWN": 4,
-        "SHIELD_REGEN": 645,
-        "PIERCE_DPS": 28,
-        "ARMOR": 306,
-        "SHIELD_DPS": 2703,
-        "SHIELDS": 41990,
-        "AA_DPS": 18,
+        "SPEED": 35,
+        "HULL": 93600,
+        "MAX_HULL": 93600,
+        "MAX_SHIELDS": 26000,
+        "HULL_DPS": 3160,
+        "ABILITY": "Hardened Armor",
+        "SPAWN_COOLDOWN": 3.5,
+        "EVASIVENESS": "20",
+        "CREW": 70000,
+        "PRICE": 5000,
+        "SHIELD_REGEN": 306,
+        "PIERCE_DPS": 32,
+        "ARMOR": 384,
+        "SHIELD_DPS": 1152,
+        "SHIELDS": 26000,
+        "AA_DPS": 12,
         "STARFIGHTER_SPAWN_COOLDOWN": 30,
         "COMPLIMENT": {
-          "Tri-Fighter": {
-            "AMOUNT": 10,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "Vulture": {
-            "AMOUNT": 28,
+          "Belbullab-22": {
+            "AMOUNT": 2,
             "DEFAULT_MODE": "Intercept"
           },
           "Hyena": {
-            "AMOUNT": 12,
+            "AMOUNT": 6,
             "DEFAULT_MODE": "Attack"
           }
         }
       },
-      "Name": "Recusant Dreadnought",
+      "Name": "Bulwark MKI",
+      "Modifiers": []
+    },
+    "Mandator IV": {
+      "Lobby_Stats": {
+        "RARITY": "Special",
+        "FACTION": "First Order",
+        "PREVIOUS": "",
+        "ERA": 3
+      },
+      "Game_Stats": {
+        "SPEED": 10,
+        "HULL": 880000,
+        "MAX_HULL": 880000,
+        "MAX_SHIELDS": 400000,
+        "HULL_DPS": 21326,
+        "ABILITY": "Orbital Bombardment Particle Cannon",
+        "SPAWN_COOLDOWN": 15,
+        "EVASIVENESS": 10,
+        "CREW": 350000,
+        "PRICE": 60000,
+        "SHIELD_REGEN": 7200,
+        "PIERCE_DPS": 126,
+        "ARMOR": 2376,
+        "SHIELD_DPS": 7977,
+        "SHIELDS": 400000,
+        "AA_DPS": 326,
+        "STARFIGHTER_SPAWN_COOLDOWN": 30,
+        "COMPLIMENT": {
+          "TIE/fo First Order Fighter": {
+            "AMOUNT": 20,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/sf Special Forces": {
+            "AMOUNT": 14,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Mandator IV",
       "Modifiers": []
     },
     "OCF Venator": {
@@ -9691,12 +9761,12 @@
             "AMOUNT": 5,
             "DEFAULT_MODE": "Attack"
           },
-          "ARC-170": {
-            "AMOUNT": 3,
-            "DEFAULT_MODE": "Intercept"
-          },
           "V-19 Torrent": {
             "AMOUNT": 12,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "ARC-170": {
+            "AMOUNT": 3,
             "DEFAULT_MODE": "Intercept"
           }
         }
@@ -9737,6 +9807,80 @@
         }
       },
       "Name": "Flare",
+      "Modifiers": []
+    },
+    "Crimson Command Victory": {
+      "Lobby_Stats": {
+        "RARITY": "Uncommon",
+        "FACTION": "Empire",
+        "PREVIOUS": "546 Cruiser",
+        "ERA": 3
+      },
+      "Game_Stats": {
+        "SPEED": 55,
+        "HULL": 76000,
+        "MAX_HULL": 76000,
+        "MAX_SHIELDS": 30000,
+        "HULL_DPS": 6750,
+        "EVASIVENESS": 50,
+        "CREW": 70000,
+        "PRICE": 6500,
+        "SPAWN_COOLDOWN": 1.5,
+        "SHIELD_REGEN": 460,
+        "PIERCE_DPS": 40,
+        "ARMOR": 228,
+        "SHIELD_DPS": 4341,
+        "SHIELDS": 30000,
+        "AA_DPS": 31,
+        "STARFIGHTER_SPAWN_COOLDOWN": 20,
+        "COMPLIMENT": {
+          "TIE/d Defender": {
+            "AMOUNT": 3,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Crimson Command Victory",
+      "Modifiers": [
+        "Star Destroyer"
+      ]
+    },
+    "\"Independence\"": {
+      "Lobby_Stats": {
+        "RARITY": "Limited",
+        "FACTION": "Empire",
+        "PREVIOUS": "N/A",
+        "ERA": 2
+      },
+      "Game_Stats": {
+        "SPEED": 7,
+        "HULL": 2016000,
+        "MAX_HULL": 2016000,
+        "MAX_SHIELDS": 720000,
+        "HULL_DPS": 36886,
+        "EVASIVENESS": 0,
+        "CREW": 350000,
+        "PRICE": 90000,
+        "SPAWN_COOLDOWN": 12,
+        "SHIELD_REGEN": 1000,
+        "PIERCE_DPS": 502,
+        "ARMOR": 20160,
+        "SHIELD_DPS": 14205,
+        "SHIELDS": 720000,
+        "AA_DPS": 156,
+        "STARFIGHTER_SPAWN_COOLDOWN": 20,
+        "COMPLIMENT": {
+          "TIE/sa Bomber": {
+            "AMOUNT": 5,
+            "DEFAULT_MODE": "Attack"
+          },
+          "TIE/fn Fighter": {
+            "AMOUNT": 14,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "\"Independence\"",
       "Modifiers": []
     },
     "\"Pride of the Core\"": {
@@ -9783,71 +9927,6 @@
         "SSD"
       ]
     },
-    "\"Independence\"": {
-      "Lobby_Stats": {
-        "RARITY": "Limited",
-        "FACTION": "Empire",
-        "PREVIOUS": "N/A",
-        "ERA": 2
-      },
-      "Game_Stats": {
-        "SPEED": 7,
-        "HULL": 2016000,
-        "MAX_HULL": 2016000,
-        "MAX_SHIELDS": 720000,
-        "HULL_DPS": 36886,
-        "EVASIVENESS": 0,
-        "CREW": 350000,
-        "PRICE": 90000,
-        "SPAWN_COOLDOWN": 12,
-        "SHIELD_REGEN": 1000,
-        "PIERCE_DPS": 502,
-        "ARMOR": 20160,
-        "SHIELD_DPS": 14205,
-        "SHIELDS": 720000,
-        "AA_DPS": 156,
-        "STARFIGHTER_SPAWN_COOLDOWN": 20,
-        "COMPLIMENT": {
-          "TIE/sa Bomber": {
-            "AMOUNT": 5,
-            "DEFAULT_MODE": "Attack"
-          },
-          "TIE/fn Fighter": {
-            "AMOUNT": 14,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
-      },
-      "Name": "\"Independence\"",
-      "Modifiers": []
-    },
-    "Diamond": {
-      "Lobby_Stats": {
-        "RARITY": "Legendary",
-        "FACTION": "Separatist",
-        "PREVIOUS": "Republic Arquitens",
-        "ERA": 1
-      },
-      "Game_Stats": {
-        "HULL_DPS": 399,
-        "HULL": 11050,
-        "PRICE": 750,
-        "SPAWN_COOLDOWN": 0.7,
-        "MAX_HULL": 11050,
-        "SHIELD_DPS": 120,
-        "EVASIVENESS": 40,
-        "SHIELD_REGEN": 51,
-        "PIERCE_DPS": 6,
-        "ARMOR": 26,
-        "MAX_SHIELDS": 4420,
-        "SHIELDS": 4420,
-        "AA_DPS": 60,
-        "CREW": 15000,
-        "SPEED": 80
-      },
-      "Name": "Diamond",
-      "Modifiers": []
-    },
     "Strike (interdictor)": {
       "Lobby_Stats": {
         "RARITY": "Dev",
@@ -9886,105 +9965,101 @@
       "Name": "Strike (interdictor)",
       "Modifiers": []
     },
-    "MC-30c": {
+    "Diamond": {
       "Lobby_Stats": {
-        "RARITY": "Epic",
-        "FACTION": "Rebel",
-        "PREVIOUS": "DP-20",
-        "ERA": 2
-      },
-      "Game_Stats": {
-        "HULL_DPS": 1517,
-        "HULL": 46000,
-        "PRICE": 7000,
-        "SPAWN_COOLDOWN": 2,
-        "MAX_HULL": 46000,
-        "SHIELD_DPS": 3399,
-        "EVASIVENESS": 50,
-        "SHIELD_REGEN": 2000,
-        "PIERCE_DPS": 2,
-        "ARMOR": 110,
-        "MAX_SHIELDS": 40000,
-        "SHIELDS": 40000,
-        "AA_DPS": 15,
-        "CREW": 70000,
-        "SPEED": 60
-      },
-      "Name": "MC-30c",
-      "Modifiers": [
-        "Mon Cala"
-      ]
-    },
-    "C70 Charger": {
-      "Lobby_Stats": {
-        "RARITY": "Mythic",
-        "FACTION": "Republic",
-        "PREVIOUS": "Warlord",
+        "RARITY": "Legendary",
+        "FACTION": "Separatist",
+        "PREVIOUS": "Republic Arquitens",
         "ERA": 1
       },
       "Game_Stats": {
-        "HULL_DPS": 221,
-        "HULL": 8000,
-        "PRICE": 1000,
+        "HULL_DPS": 399,
+        "HULL": 11050,
+        "PRICE": 750,
         "SPAWN_COOLDOWN": 0.7,
-        "MAX_HULL": 8000,
-        "SHIELD_DPS": 103,
-        "EVASIVENESS": 65,
-        "SHIELD_REGEN": 85,
-        "PIERCE_DPS": 2,
-        "ARMOR": 33,
-        "MAX_SHIELDS": 4200,
-        "SHIELDS": 4200,
-        "AA_DPS": 91,
+        "MAX_HULL": 11050,
+        "SHIELD_DPS": 120,
+        "EVASIVENESS": 40,
+        "SHIELD_REGEN": 51,
+        "PIERCE_DPS": 6,
+        "ARMOR": 26,
+        "MAX_SHIELDS": 4420,
+        "SHIELDS": 4420,
+        "AA_DPS": 60,
         "CREW": 15000,
-        "SPEED": 90
+        "SPEED": 80
       },
-      "Name": "C70 Charger",
+      "Name": "Diamond",
       "Modifiers": []
     },
-    "ISD II": {
+    "Arquitens": {
       "Lobby_Stats": {
-        "RARITY": "Legendary",
+        "RARITY": "Common",
         "FACTION": "Empire",
-        "PREVIOUS": "ISD I",
+        "PREVIOUS": "",
         "ERA": 2
       },
       "Game_Stats": {
-        "SPEED": 35,
+        "HULL_DPS": 767,
+        "HULL": 12500,
+        "PRICE": 900,
+        "SPAWN_COOLDOWN": 0.7,
+        "MAX_HULL": 12500,
+        "SHIELD_DPS": 217,
+        "EVASIVENESS": 45,
+        "SHIELD_REGEN": 100,
+        "PIERCE_DPS": 2,
+        "ARMOR": 20,
+        "MAX_SHIELDS": 6500,
+        "SHIELDS": 6500,
+        "AA_DPS": 7,
+        "CREW": 20000,
+        "SPEED": 50
+      },
+      "Name": "Arquitens",
+      "Modifiers": []
+    },
+    "Dauntless": {
+      "Lobby_Stats": {
+        "RARITY": "Mythic",
+        "FACTION": "Rebel",
+        "PREVIOUS": "Assault Frigate MK II",
+        "ERA": 2
+      },
+      "Game_Stats": {
+        "SPEED": 30,
         "HULL": 180000,
         "MAX_HULL": 180000,
-        "MAX_SHIELDS": 103700,
-        "HULL_DPS": 12615,
-        "EVASIVENESS": 25,
-        "CREW": 100000,
-        "PRICE": 18500,
-        "SPAWN_COOLDOWN": 3,
-        "SHIELD_REGEN": 1440,
-        "PIERCE_DPS": 120,
-        "ARMOR": 778,
-        "SHIELD_DPS": 6585,
-        "SHIELDS": 103700,
-        "AA_DPS": 0,
+        "MAX_SHIELDS": 108900,
+        "HULL_DPS": 17865,
+        "EVASIVENESS": 20,
+        "CREW": 125000,
+        "PRICE": 24500,
+        "SPAWN_COOLDOWN": 2,
+        "SHIELD_REGEN": 1512,
+        "PIERCE_DPS": 214,
+        "ARMOR": 1080,
+        "SHIELD_DPS": 8308,
+        "SHIELDS": 108900,
+        "AA_DPS": 15,
         "STARFIGHTER_SPAWN_COOLDOWN": 20,
         "COMPLIMENT": {
-          "TIE/sa Bomber": {
-            "AMOUNT": 5,
+          "B-Wing": {
+            "AMOUNT": 2,
             "DEFAULT_MODE": "Attack"
           },
-          "TIE/in Interceptor": {
-            "AMOUNT": 5,
+          "A-Wing": {
+            "AMOUNT": 3,
             "DEFAULT_MODE": "Intercept"
           },
-          "TIE/fn Fighter": {
-            "AMOUNT": 12,
+          "T-65 X-Wing": {
+            "AMOUNT": 9,
             "DEFAULT_MODE": "Intercept"
           }
         }
       },
-      "Name": "ISD II",
-      "Modifiers": [
-        "Star Destroyer"
-      ]
+      "Name": "Dauntless",
+      "Modifiers": []
     },
     "Donut": {
       "Lobby_Stats": {
@@ -10086,46 +10161,42 @@
         "Unique"
       ]
     },
-    "Dauntless": {
+    "HIjacked Munificent": {
       "Lobby_Stats": {
-        "RARITY": "Mythic",
-        "FACTION": "Rebel",
-        "PREVIOUS": "Assault Frigate MK II",
-        "ERA": 2
+        "RARITY": "Limited",
+        "FACTION": "Mando",
+        "PREVIOUS": "N/A",
+        "ERA": 1
       },
       "Game_Stats": {
-        "SPEED": 30,
-        "HULL": 180000,
-        "MAX_HULL": 180000,
-        "MAX_SHIELDS": 108900,
-        "HULL_DPS": 17865,
-        "EVASIVENESS": 20,
-        "CREW": 125000,
-        "PRICE": 24500,
-        "SPAWN_COOLDOWN": 2,
-        "SHIELD_REGEN": 1512,
-        "PIERCE_DPS": 214,
-        "ARMOR": 1080,
-        "SHIELD_DPS": 8308,
-        "SHIELDS": 108900,
-        "AA_DPS": 15,
-        "STARFIGHTER_SPAWN_COOLDOWN": 20,
+        "SPEED": 50,
+        "HULL": 35360,
+        "MAX_HULL": 35360,
+        "MAX_SHIELDS": 13260,
+        "HULL_DPS": 2471,
+        "EVASIVENESS": "37",
+        "CREW": 35000,
+        "PRICE": 2600,
+        "SPAWN_COOLDOWN": 1,
+        "SHIELD_REGEN": 265,
+        "PIERCE_DPS": 20,
+        "ARMOR": 78,
+        "SHIELD_DPS": 1016,
+        "SHIELDS": 13260,
+        "AA_DPS": 12,
+        "STARFIGHTER_SPAWN_COOLDOWN": 30,
         "COMPLIMENT": {
-          "B-Wing": {
-            "AMOUNT": 2,
-            "DEFAULT_MODE": "Attack"
-          },
-          "A-Wing": {
-            "AMOUNT": 3,
+          "Vulture": {
+            "AMOUNT": 10,
             "DEFAULT_MODE": "Intercept"
           },
-          "T-65 X-Wing": {
-            "AMOUNT": 9,
+          "Hyena": {
+            "AMOUNT": 2,
             "DEFAULT_MODE": "Intercept"
           }
         }
       },
-      "Name": "Dauntless",
+      "Name": "HIjacked Munificent",
       "Modifiers": []
     },
     "Fortressa": {
@@ -10165,17 +10236,17 @@
             "AMOUNT": 3,
             "DEFAULT_MODE": "Attack"
           },
-          "Y-Wing": {
-            "AMOUNT": 12,
-            "DEFAULT_MODE": "Attack"
+          "A-Wing": {
+            "AMOUNT": 8,
+            "DEFAULT_MODE": "Intercept"
           },
           "ARC-170": {
             "AMOUNT": 8,
             "DEFAULT_MODE": "Intercept"
           },
-          "A-Wing": {
-            "AMOUNT": 8,
-            "DEFAULT_MODE": "Intercept"
+          "Y-Wing": {
+            "AMOUNT": 12,
+            "DEFAULT_MODE": "Attack"
           }
         }
       },
@@ -10185,119 +10256,109 @@
         "Unique"
       ]
     },
-    "HIjacked Munificent": {
+    "C70 Charger": {
+      "Lobby_Stats": {
+        "RARITY": "Mythic",
+        "FACTION": "Republic",
+        "PREVIOUS": "Warlord",
+        "ERA": 1
+      },
+      "Game_Stats": {
+        "HULL_DPS": 221,
+        "HULL": 8000,
+        "PRICE": 1000,
+        "SPAWN_COOLDOWN": 0.7,
+        "MAX_HULL": 8000,
+        "SHIELD_DPS": 103,
+        "EVASIVENESS": 65,
+        "SHIELD_REGEN": 85,
+        "PIERCE_DPS": 2,
+        "ARMOR": 33,
+        "MAX_SHIELDS": 4200,
+        "SHIELDS": 4200,
+        "AA_DPS": 91,
+        "CREW": 15000,
+        "SPEED": 90
+      },
+      "Name": "C70 Charger",
+      "Modifiers": []
+    },
+    "MC-90": {
+      "Lobby_Stats": {
+        "RARITY": "Legendary",
+        "FACTION": "New Republic",
+        "PREVIOUS": "MC-140 Scythe",
+        "ERA": 3
+      },
+      "Game_Stats": {
+        "SPEED": 35,
+        "HULL": 180000,
+        "MAX_HULL": 180000,
+        "MAX_SHIELDS": 297000,
+        "HULL_DPS": 15465,
+        "EVASIVENESS": 22,
+        "CREW": 150000,
+        "PRICE": 15000,
+        "SPAWN_COOLDOWN": 10,
+        "SHIELD_REGEN": 10800,
+        "PIERCE_DPS": 137,
+        "ARMOR": 756,
+        "SHIELD_DPS": 8183,
+        "SHIELDS": 297000,
+        "AA_DPS": 54,
+        "STARFIGHTER_SPAWN_COOLDOWN": 30,
+        "COMPLIMENT": {
+          "Y-Wing": {
+            "AMOUNT": 12,
+            "DEFAULT_MODE": "Attack"
+          },
+          "T-85 X-Wing": {
+            "AMOUNT": 12,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "E-Wing": {
+            "AMOUNT": 9,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "MC-90",
+      "Modifiers": [
+        "Mon Cala"
+      ]
+    },
+    "Christmas Tree Transport": {
       "Lobby_Stats": {
         "RARITY": "Limited",
-        "FACTION": "Mando",
+        "FACTION": "Republic",
         "PREVIOUS": "N/A",
         "ERA": 1
       },
       "Game_Stats": {
         "SPEED": 50,
-        "HULL": 35360,
-        "MAX_HULL": 35360,
-        "MAX_SHIELDS": 13260,
-        "HULL_DPS": 2471,
-        "EVASIVENESS": "37",
-        "CREW": 35000,
-        "PRICE": 2600,
-        "SPAWN_COOLDOWN": 1,
-        "SHIELD_REGEN": 265,
-        "PIERCE_DPS": 20,
-        "ARMOR": 78,
-        "SHIELD_DPS": 1016,
-        "SHIELDS": 13260,
-        "AA_DPS": 12,
+        "HULL": 34000,
+        "MAX_HULL": 34000,
+        "MAX_SHIELDS": 13600,
+        "HULL_DPS": 881,
+        "EVASIVENESS": 30,
+        "CREW": 40000,
+        "PRICE": 6000,
+        "SPAWN_COOLDOWN": 0.7,
+        "SHIELD_REGEN": 209,
+        "PIERCE_DPS": 13,
+        "ARMOR": 120,
+        "SHIELD_DPS": 216,
+        "SHIELDS": 13600,
+        "AA_DPS": 14,
         "STARFIGHTER_SPAWN_COOLDOWN": 30,
         "COMPLIMENT": {
-          "Vulture": {
-            "AMOUNT": 10,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "Hyena": {
-            "AMOUNT": 2,
+          "LAAT": {
+            "AMOUNT": 5,
             "DEFAULT_MODE": "Intercept"
           }
         }
       },
-      "Name": "HIjacked Munificent",
-      "Modifiers": []
-    },
-    "Mandator IV": {
-      "Lobby_Stats": {
-        "RARITY": "Special",
-        "FACTION": "First Order",
-        "PREVIOUS": "",
-        "ERA": 3
-      },
-      "Game_Stats": {
-        "SPEED": 10,
-        "HULL": 880000,
-        "MAX_HULL": 880000,
-        "MAX_SHIELDS": 400000,
-        "HULL_DPS": 21326,
-        "ABILITY": "Orbital Bombardment Particle Cannon",
-        "SPAWN_COOLDOWN": 15,
-        "EVASIVENESS": 10,
-        "CREW": 350000,
-        "PRICE": 60000,
-        "SHIELD_REGEN": 7200,
-        "PIERCE_DPS": 126,
-        "ARMOR": 2376,
-        "SHIELD_DPS": 7977,
-        "SHIELDS": 400000,
-        "AA_DPS": 326,
-        "STARFIGHTER_SPAWN_COOLDOWN": 30,
-        "COMPLIMENT": {
-          "TIE/fo First Order Fighter": {
-            "AMOUNT": 20,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/sf Special Forces": {
-            "AMOUNT": 14,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
-      },
-      "Name": "Mandator IV",
-      "Modifiers": []
-    },
-    "Golan I": {
-      "Lobby_Stats": {
-        "RARITY": "Legendary",
-        "FACTION": "Republic",
-        "PREVIOUS": "Pelta",
-        "ERA": 1
-      },
-      "Game_Stats": {
-        "SPEED": 0,
-        "HULL": 100000,
-        "MAX_HULL": 100000,
-        "MAX_SHIELDS": 33750,
-        "HULL_DPS": 3186,
-        "EVASIVENESS": 0,
-        "CREW": 150000,
-        "PRICE": 10000,
-        "SPAWN_COOLDOWN": 7,
-        "SHIELD_REGEN": 675,
-        "PIERCE_DPS": 58,
-        "ARMOR": 0,
-        "SHIELD_DPS": 928,
-        "SHIELDS": 33750,
-        "AA_DPS": 43,
-        "STARFIGHTER_SPAWN_COOLDOWN": 40,
-        "COMPLIMENT": {
-          "ARC-170": {
-            "AMOUNT": 8,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "Delta-7": {
-            "AMOUNT": 12,
-            "DEFAULT_MODE": "Attack"
-          }
-        }
-      },
-      "Name": "Golan I",
+      "Name": "Christmas Tree Transport",
       "Modifiers": []
     },
     "Viscount Prototype": {
@@ -10325,12 +10386,12 @@
         "AA_DPS": 54,
         "STARFIGHTER_SPAWN_COOLDOWN": 20,
         "COMPLIMENT": {
-          "E-Wing": {
-            "AMOUNT": 8,
-            "DEFAULT_MODE": "Intercept"
-          },
           "T-85 X-Wing": {
             "AMOUNT": 14,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "E-Wing": {
+            "AMOUNT": 8,
             "DEFAULT_MODE": "Intercept"
           },
           "K-Wing": {
@@ -10369,12 +10430,12 @@
         "AA_DPS": 14,
         "STARFIGHTER_SPAWN_COOLDOWN": 30,
         "COMPLIMENT": {
-          "LAAT": {
-            "AMOUNT": 3,
-            "DEFAULT_MODE": "Intercept"
-          },
           "V-19 Torrent": {
             "AMOUNT": 8,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "LAAT": {
+            "AMOUNT": 3,
             "DEFAULT_MODE": "Intercept"
           }
         }
@@ -10416,94 +10477,6 @@
       "Name": "Snowzanti",
       "Modifiers": []
     },
-    "Bellator": {
-      "Lobby_Stats": {
-        "RARITY": "Special",
-        "FACTION": "Empire",
-        "PREVIOUS": "",
-        "ERA": 2
-      },
-      "Game_Stats": {
-        "SPEED": 30,
-        "HULL": 1000000,
-        "MAX_HULL": 1000000,
-        "MAX_SHIELDS": 530000,
-        "HULL_DPS": 62619,
-        "EVASIVENESS": 10,
-        "CREW": 350000,
-        "PRICE": 90000,
-        "SPAWN_COOLDOWN": 17,
-        "SHIELD_REGEN": 2000,
-        "PIERCE_DPS": 614,
-        "ARMOR": 12800,
-        "SHIELD_DPS": 29871,
-        "SHIELDS": 530000,
-        "AA_DPS": 94,
-        "STARFIGHTER_SPAWN_COOLDOWN": 20,
-        "COMPLIMENT": {
-          "TIE/sa Bomber": {
-            "AMOUNT": 5,
-            "DEFAULT_MODE": "Attack"
-          },
-          "TIE/fn Fighter": {
-            "AMOUNT": 14,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/in Interceptor": {
-            "AMOUNT": 5,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/ca Punisher": {
-            "AMOUNT": 4,
-            "DEFAULT_MODE": "Attack"
-          }
-        }
-      },
-      "Name": "Bellator",
-      "Modifiers": [
-        "SSD"
-      ]
-    },
-    "Bothanator": {
-      "Lobby_Stats": {
-        "RARITY": "Mod",
-        "FACTION": "Empire",
-        "PREVIOUS": "N/A",
-        "ERA": 1
-      },
-      "Game_Stats": {
-        "SPEED": 30,
-        "HULL": 150000,
-        "MAX_HULL": 150000,
-        "MAX_SHIELDS": 75000,
-        "HULL_DPS": 0,
-        "EVASIVENESS": 0,
-        "CREW": 120000,
-        "PRICE": 12000,
-        "SPAWN_COOLDOWN": 2,
-        "SHIELD_REGEN": 400,
-        "PIERCE_DPS": 0,
-        "ARMOR": 0,
-        "SHIELD_DPS": 0,
-        "SHIELDS": 75000,
-        "AA_DPS": 0,
-        "STARFIGHTER_SPAWN_COOLDOWN": 30,
-        "COMPLIMENT": {
-          "E-Wing": {
-            "AMOUNT": 14,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "N-1": {
-            "AMOUNT": 14,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
-      },
-      "Name": "Bothanator",
-      "Modifiers": [
-        "Unique"
-      ]
-    },
     "Consular": {
       "Lobby_Stats": {
         "RARITY": "Uncommon",
@@ -10531,6 +10504,84 @@
       "Name": "Consular",
       "Modifiers": []
     },
+    "Bothanator": {
+      "Lobby_Stats": {
+        "RARITY": "Mod",
+        "FACTION": "Empire",
+        "PREVIOUS": "N/A",
+        "ERA": 1
+      },
+      "Game_Stats": {
+        "SPEED": 30,
+        "HULL": 150000,
+        "MAX_HULL": 150000,
+        "MAX_SHIELDS": 75000,
+        "HULL_DPS": 0,
+        "EVASIVENESS": 0,
+        "CREW": 120000,
+        "PRICE": 12000,
+        "SPAWN_COOLDOWN": 2,
+        "SHIELD_REGEN": 400,
+        "PIERCE_DPS": 0,
+        "ARMOR": 0,
+        "SHIELD_DPS": 0,
+        "SHIELDS": 75000,
+        "AA_DPS": 0,
+        "STARFIGHTER_SPAWN_COOLDOWN": 30,
+        "COMPLIMENT": {
+          "N-1": {
+            "AMOUNT": 14,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "E-Wing": {
+            "AMOUNT": 14,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Bothanator",
+      "Modifiers": [
+        "Unique"
+      ]
+    },
+    "Modular (support)": {
+      "Lobby_Stats": {
+        "RARITY": "Dev",
+        "FACTION": "Empire",
+        "PREVIOUS": "N/A",
+        "ERA": 3
+      },
+      "Game_Stats": {
+        "SPEED": 25,
+        "HULL": 85000,
+        "MAX_HULL": 85000,
+        "MAX_SHIELDS": 48500,
+        "HULL_DPS": 6228,
+        "EVASIVENESS": 42,
+        "CREW": 80000,
+        "PRICE": 5750,
+        "SPAWN_COOLDOWN": 1.5,
+        "SHIELD_REGEN": 800,
+        "PIERCE_DPS": 37,
+        "ARMOR": 280,
+        "SHIELD_DPS": 2913,
+        "SHIELDS": 48500,
+        "AA_DPS": 54,
+        "STARFIGHTER_SPAWN_COOLDOWN": 20,
+        "COMPLIMENT": {
+          "TIE/sa Bomber": {
+            "AMOUNT": 5,
+            "DEFAULT_MODE": "Attack"
+          },
+          "TIE/fn Fighter": {
+            "AMOUNT": 14,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Modular (support)",
+      "Modifiers": []
+    },
     "Nebula": {
       "Lobby_Stats": {
         "RARITY": "Mythic",
@@ -10556,12 +10607,12 @@
         "AA_DPS": 54,
         "STARFIGHTER_SPAWN_COOLDOWN": 20,
         "COMPLIMENT": {
-          "E-Wing": {
-            "AMOUNT": 3,
-            "DEFAULT_MODE": "Intercept"
-          },
           "T-85 X-Wing": {
             "AMOUNT": 9,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "E-Wing": {
+            "AMOUNT": 3,
             "DEFAULT_MODE": "Intercept"
           }
         }
@@ -10569,42 +10620,33 @@
       "Name": "Nebula",
       "Modifiers": []
     },
-    "\"Final Axiom\"": {
+    "Heavy Shipyard": {
       "Lobby_Stats": {
-        "RARITY": "Special",
-        "FACTION": "Separatist",
-        "PREVIOUS": "",
+        "RARITY": "Dev",
+        "FACTION": "Empire",
+        "PREVIOUS": "N/A",
         "ERA": 1
       },
       "Game_Stats": {
-        "SPEED": 55,
-        "HULL": 19000,
-        "MAX_HULL": 19000,
-        "MAX_SHIELDS": 8500,
-        "HULL_DPS": 2479,
-        "EVASIVENESS": 35,
-        "CREW": 70000,
-        "PRICE": 3000,
-        "SPAWN_COOLDOWN": 0,
-        "SHIELD_REGEN": 126,
-        "PIERCE_DPS": 32,
-        "ARMOR": 70,
-        "SHIELD_DPS": 1139,
-        "SHIELDS": 8500,
-        "AA_DPS": 9,
-        "STARFIGHTER_SPAWN_COOLDOWN": 40,
-        "COMPLIMENT": {
-          "Ginivex": {
-            "AMOUNT": 24,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
+        "SPEED": 0,
+        "HULL_DPS": 0,
+        "HULL": 300000,
+        "PRICE": 10000,
+        "SPAWN_COOLDOWN": 3,
+        "MAX_HULL": 300000,
+        "SHIELD_DPS": 0,
+        "EVASIVENESS": 0,
+        "SHIELD_REGEN": 70,
+        "PIERCE_DPS": 0,
+        "ARMOR": 0,
+        "MAX_SHIELDS": 100000,
+        "SHIELDS": 100000,
+        "AA_DPS": 0,
+        "CREW": 500000,
+        "COMPLIMENT": []
       },
-      "Name": "\"Final Axiom\"",
-      "Modifiers": [
-        "Hero",
-        "Unique"
-      ]
+      "Name": "Heavy Shipyard",
+      "Modifiers": []
     },
     "Carrier FAV7 \"Warlord\"": {
       "Lobby_Stats": {
@@ -10656,39 +10698,53 @@
       "Name": "Carrier FAV7 \"Warlord\"",
       "Modifiers": []
     },
-    "Candy Cane Nebulon B": {
+    "Belatorek": {
       "Lobby_Stats": {
-        "RARITY": "Limited",
-        "FACTION": "Rebel",
-        "PREVIOUS": "N/A",
+        "RARITY": "Special",
+        "FACTION": "Empire",
+        "PREVIOUS": "",
         "ERA": 2
       },
       "Game_Stats": {
-        "SPEED": 55,
-        "HULL": 11500,
-        "MAX_HULL": 11500,
-        "MAX_SHIELDS": 6500,
-        "HULL_DPS": 989,
-        "EVASIVENESS": 45,
-        "CREW": 30000,
-        "PRICE": 850,
-        "SPAWN_COOLDOWN": 1,
-        "SHIELD_REGEN": 100,
-        "PIERCE_DPS": 3,
-        "ARMOR": 39,
-        "SHIELD_DPS": 331,
-        "SHIELDS": 6500,
-        "AA_DPS": 15,
+        "SPEED": 20,
+        "HULL": 2600000,
+        "MAX_HULL": 2500000,
+        "MAX_SHIELDS": 1200000,
+        "HULL_DPS": 67768,
+        "EVASIVENESS": 10,
+        "CREW": 350000,
+        "PRICE": 90000,
+        "SPAWN_COOLDOWN": 17,
+        "SHIELD_REGEN": 2000,
+        "PIERCE_DPS": 753,
+        "ARMOR": 16800,
+        "SHIELD_DPS": 19071,
+        "SHIELDS": 1200000,
+        "AA_DPS": 348,
         "STARFIGHTER_SPAWN_COOLDOWN": 20,
         "COMPLIMENT": {
-          "ARC-170": {
-            "AMOUNT": 4,
+          "TIE/sa Bomber": {
+            "AMOUNT": 5,
+            "DEFAULT_MODE": "Attack"
+          },
+          "TIE/fn Fighter": {
+            "AMOUNT": 14,
             "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/in Interceptor": {
+            "AMOUNT": 5,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/ca Punisher": {
+            "AMOUNT": 4,
+            "DEFAULT_MODE": "Attack"
           }
         }
       },
-      "Name": "Candy Cane Nebulon B",
-      "Modifiers": []
+      "Name": "Belatorek",
+      "Modifiers": [
+        "SSD"
+      ]
     },
     "Providence": {
       "Lobby_Stats": {
@@ -10759,33 +10815,6 @@
       "Name": "GR Beacon",
       "Modifiers": []
     },
-    "Eggus Gobbus": {
-      "Lobby_Stats": {
-        "RARITY": "Dev",
-        "FACTION": "Empire",
-        "PREVIOUS": "N/A",
-        "ERA": 1
-      },
-      "Game_Stats": {
-        "HULL_DPS": 0,
-        "HULL": 300000,
-        "PRICE": 1,
-        "SPAWN_COOLDOWN": 3,
-        "MAX_HULL": 300000,
-        "SHIELD_DPS": 0,
-        "EVASIVENESS": 0,
-        "SHIELD_REGEN": 20,
-        "PIERCE_DPS": 0,
-        "ARMOR": 0,
-        "MAX_SHIELDS": 70000,
-        "SHIELDS": 70000,
-        "AA_DPS": 0,
-        "CREW": 100000,
-        "SPEED": 70
-      },
-      "Name": "Eggus Gobbus",
-      "Modifiers": []
-    },
     "\"Iron Fist\"": {
       "Lobby_Stats": {
         "RARITY": "Dev",
@@ -10815,13 +10844,13 @@
             "AMOUNT": 28,
             "DEFAULT_MODE": "Intercept"
           },
-          "TIE/ca Punisher": {
-            "AMOUNT": 14,
-            "DEFAULT_MODE": "Attack"
-          },
           "TIE/d Defender": {
             "AMOUNT": 32,
             "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/ca Punisher": {
+            "AMOUNT": 14,
+            "DEFAULT_MODE": "Attack"
           }
         }
       },
@@ -10829,6 +10858,34 @@
       "Modifiers": [
         "SSD"
       ]
+    },
+    "Treuten Teradoc": {
+      "Lobby_Stats": {
+        "RARITY": "Dev",
+        "FACTION": "Empire",
+        "PREVIOUS": "N/A",
+        "ERA": 1
+      },
+      "Game_Stats": {
+        "CREW": 130000,
+        "HULL_DPS": 0,
+        "HULL": 170000,
+        "PRICE": 15000,
+        "SHIELD_DPS": 0,
+        "MAX_HULL": 170000,
+        "EVASIVENESS": 0,
+        "SPAWN_COOLDOWN": 0,
+        "SHIELD_REGEN": 70,
+        "PIERCE_DPS": 0,
+        "ARMOR": 0,
+        "PASSIVE_BUFF": "Crimson Rush",
+        "SHIELDS": 65000,
+        "AA_DPS": 0,
+        "SPEED": 45,
+        "MAX_SHIELDS": 65000
+      },
+      "Name": "Treuten Teradoc",
+      "Modifiers": []
     },
     "Daedalus": {
       "Lobby_Stats": {
@@ -10990,56 +11047,42 @@
         "Unique"
       ]
     },
-    "Secutor": {
+    "\"Nina's Justice\"": {
       "Lobby_Stats": {
-        "RARITY": "Mythic",
-        "FACTION": "Empire",
-        "PREVIOUS": "Imperial Venator",
-        "ERA": 2
+        "RARITY": "Special",
+        "FACTION": "Rebel",
+        "PREVIOUS": "",
+        "ERA": 1
       },
       "Game_Stats": {
-        "SPEED": 20,
-        "HULL": 260000,
-        "MAX_HULL": 260000,
-        "MAX_SHIELDS": 169900,
-        "HULL_DPS": 15502,
-        "EVASIVENESS": 16,
-        "CREW": 200000,
-        "PRICE": 30000,
-        "SPAWN_COOLDOWN": 8,
-        "SHIELD_REGEN": 1715,
-        "PIERCE_DPS": 113,
-        "ARMOR": 1170,
-        "SHIELD_DPS": 5682,
-        "SHIELDS": 169900,
-        "AA_DPS": 0,
-        "STARFIGHTER_SPAWN_COOLDOWN": 32,
+        "SPEED": 55,
+        "HULL": 8500,
+        "MAX_HULL": 8500,
+        "MAX_SHIELDS": 5000,
+        "HULL_DPS": 799,
+        "ABILITY": "Support",
+        "SPAWN_COOLDOWN": 0,
+        "EVASIVENESS": 50,
+        "CREW": 40000,
+        "PRICE": 1500,
+        "SHIELD_REGEN": 100,
+        "PIERCE_DPS": 11,
+        "ARMOR": 0,
+        "SHIELD_DPS": 442,
+        "SHIELDS": 5000,
+        "AA_DPS": 16,
+        "STARFIGHTER_SPAWN_COOLDOWN": 20,
         "COMPLIMENT": {
-          "XG-1 Starwing": {
-            "AMOUNT": 3,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/sa Bomber": {
-            "AMOUNT": 12,
+          "Scurg H-6": {
+            "AMOUNT": 2,
             "DEFAULT_MODE": "Attack"
-          },
-          "TIE/fn Fighter": {
-            "AMOUNT": 24,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/in Interceptor": {
-            "AMOUNT": 32,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/d Defender": {
-            "AMOUNT": 3,
-            "DEFAULT_MODE": "Intercept"
           }
         }
       },
-      "Name": "Secutor",
+      "Name": "\"Nina's Justice\"",
       "Modifiers": [
-        "Star Destroyer"
+        "Hero",
+        "Unique"
       ]
     },
     "Assertor": {
@@ -11090,6 +11133,73 @@
         "SSD"
       ]
     },
+    "\"Final Axiom\"": {
+      "Lobby_Stats": {
+        "RARITY": "Special",
+        "FACTION": "Separatist",
+        "PREVIOUS": "",
+        "ERA": 1
+      },
+      "Game_Stats": {
+        "SPEED": 55,
+        "HULL": 19000,
+        "MAX_HULL": 19000,
+        "MAX_SHIELDS": 8500,
+        "HULL_DPS": 2479,
+        "EVASIVENESS": 35,
+        "CREW": 70000,
+        "PRICE": 3000,
+        "SPAWN_COOLDOWN": 0,
+        "SHIELD_REGEN": 126,
+        "PIERCE_DPS": 32,
+        "ARMOR": 70,
+        "SHIELD_DPS": 1139,
+        "SHIELDS": 8500,
+        "AA_DPS": 9,
+        "STARFIGHTER_SPAWN_COOLDOWN": 40,
+        "COMPLIMENT": {
+          "Ginivex": {
+            "AMOUNT": 24,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "\"Final Axiom\"",
+      "Modifiers": [
+        "Hero",
+        "Unique"
+      ]
+    },
+    "\"Sinking Executor\"": {
+      "Lobby_Stats": {
+        "RARITY": "Limited",
+        "FACTION": "Empire",
+        "PREVIOUS": "N/A",
+        "ERA": 2
+      },
+      "Game_Stats": {
+        "CREW": 300000,
+        "HULL_DPS": 62760,
+        "HULL": 500000,
+        "PRICE": 50000,
+        "SPAWN_COOLDOWN": 25,
+        "MAX_HULL": 3000000,
+        "SHIELD_DPS": 28519,
+        "EVASIVENESS": 10,
+        "SHIELD_REGEN": 22500,
+        "PIERCE_DPS": 755,
+        "ARMOR": 30000,
+        "MAX_SHIELDS": 0,
+        "SHIELDS": 0,
+        "AA_DPS": 183,
+        "STARFIGHTER_SPAWN_COOLDOWN": 20,
+        "SPEED": 6
+      },
+      "Name": "\"Sinking Executor\"",
+      "Modifiers": [
+        "SSD"
+      ]
+    },
     "Bellator Prototype": {
       "Lobby_Stats": {
         "RARITY": "Mythic",
@@ -11123,49 +11233,19 @@
             "AMOUNT": 3,
             "DEFAULT_MODE": "Intercept"
           },
-          "TIE/ad Automated Drone": {
-            "AMOUNT": 28,
-            "DEFAULT_MODE": "Intercept"
-          },
           "TIE/ca Punisher": {
             "AMOUNT": 3,
             "DEFAULT_MODE": "Attack"
+          },
+          "TIE/ad Automated Drone": {
+            "AMOUNT": 28,
+            "DEFAULT_MODE": "Intercept"
           }
         }
       },
       "Name": "Bellator Prototype",
       "Modifiers": [
         "Star Destroyer"
-      ]
-    },
-    "\"Sinking Executor\"": {
-      "Lobby_Stats": {
-        "RARITY": "Limited",
-        "FACTION": "Empire",
-        "PREVIOUS": "N/A",
-        "ERA": 2
-      },
-      "Game_Stats": {
-        "CREW": 300000,
-        "HULL_DPS": 62760,
-        "HULL": 500000,
-        "PRICE": 50000,
-        "SPAWN_COOLDOWN": 25,
-        "MAX_HULL": 3000000,
-        "SHIELD_DPS": 28519,
-        "EVASIVENESS": 10,
-        "SHIELD_REGEN": 22500,
-        "PIERCE_DPS": 755,
-        "ARMOR": 30000,
-        "MAX_SHIELDS": 0,
-        "SHIELDS": 0,
-        "AA_DPS": 183,
-        "STARFIGHTER_SPAWN_COOLDOWN": 20,
-        "SPEED": 6
-      },
-      "Name": "\"Sinking Executor\"",
-      "Modifiers": [
-        "SSD"
       ]
     },
     "Muni-spider": {
@@ -11193,12 +11273,12 @@
         "AA_DPS": 12,
         "STARFIGHTER_SPAWN_COOLDOWN": 30,
         "COMPLIMENT": {
-          "Vulture": {
-            "AMOUNT": 10,
-            "DEFAULT_MODE": "Intercept"
-          },
           "Hyena": {
             "AMOUNT": 2,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "Vulture": {
+            "AMOUNT": 10,
             "DEFAULT_MODE": "Intercept"
           }
         }
@@ -11206,95 +11286,61 @@
       "Name": "Muni-spider",
       "Modifiers": []
     },
-    "Annihilator": {
+    "Jack o' doom": {
       "Lobby_Stats": {
-        "RARITY": "Dev",
+        "RARITY": "Limited",
         "FACTION": "Empire",
         "PREVIOUS": "",
         "ERA": 3
       },
       "Game_Stats": {
-        "SPEED": 10,
-        "HULL": 4000000,
-        "MAX_HULL": 4000000,
-        "MAX_SHIELDS": 1800000,
-        "HULL_DPS": 125378,
-        "EVASIVENESS": 5,
-        "CREW": 500000,
-        "PRICE": 250000,
-        "SPAWN_COOLDOWN": 25,
-        "SHIELD_REGEN": 25000,
-        "PIERCE_DPS": 1510,
-        "ARMOR": 35000,
-        "SHIELD_DPS": 64805,
-        "SHIELDS": 1800000,
-        "AA_DPS": 489,
-        "STARFIGHTER_SPAWN_COOLDOWN": 20,
-        "COMPLIMENT": {
-          "Grand Inquisitor": {
-            "AMOUNT": 2,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/av Avenger": {
-            "AMOUNT": 14,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/ca Punisher": {
-            "AMOUNT": 14,
-            "DEFAULT_MODE": "Attack"
-          },
-          "VT-49 Decimator": {
-            "AMOUNT": 2,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/in Interceptor": {
-            "AMOUNT": 28,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/d Defender": {
-            "AMOUNT": 32,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
+        "HULL_DPS": 30979,
+        "HULL": 240000,
+        "PRICE": 50000,
+        "SPAWN_COOLDOWN": 8,
+        "MAX_HULL": 240000,
+        "SHIELD_DPS": 22361,
+        "EVASIVENESS": 25,
+        "SHIELD_REGEN": 830,
+        "PIERCE_DPS": 89,
+        "ARMOR": 576,
+        "MAX_SHIELDS": 76500,
+        "SHIELDS": 76500,
+        "AA_DPS": 122,
+        "CREW": 180000,
+        "SPEED": 14
       },
-      "Name": "Annihilator",
-      "Modifiers": [
-        "SSD"
-      ]
-    },
-    "Spector": {
-      "Lobby_Stats": {
-        "RARITY": "Common",
-        "FACTION": "Empire",
-        "PREVIOUS": "",
-        "ERA": 3
-      },
-      "Game_Stats": {
-        "SPEED": 60,
-        "HULL": 10000,
-        "MAX_HULL": 10000,
-        "MAX_SHIELDS": 4000,
-        "HULL_DPS": 380,
-        "EVASIVENESS": 45,
-        "CREW": 15000,
-        "PRICE": 1000,
-        "SPAWN_COOLDOWN": 1,
-        "SHIELD_REGEN": 50,
-        "PIERCE_DPS": 1,
-        "ARMOR": 60,
-        "SHIELD_DPS": 116,
-        "SHIELDS": 4000,
-        "AA_DPS": 65,
-        "STARFIGHTER_SPAWN_COOLDOWN": 2,
-        "COMPLIMENT": {
-          "TIE/av Avenger": {
-            "AMOUNT": 8,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
-      },
-      "Name": "Spector",
+      "Name": "Jack o' doom",
       "Modifiers": []
+    },
+    "Allegiance": {
+      "Lobby_Stats": {
+        "RARITY": "Mythic",
+        "FACTION": "Empire",
+        "PREVIOUS": "Keldabe",
+        "ERA": 2
+      },
+      "Game_Stats": {
+        "HULL_DPS": 23395,
+        "HULL": 300000,
+        "PRICE": 40000,
+        "SPAWN_COOLDOWN": 10,
+        "MAX_HULL": 300000,
+        "SHIELD_DPS": 8972,
+        "EVASIVENESS": 10,
+        "SHIELD_REGEN": 2880,
+        "PIERCE_DPS": 252,
+        "ARMOR": 1530,
+        "MAX_SHIELDS": 225200,
+        "SHIELDS": 225200,
+        "AA_DPS": 15,
+        "CREW": 180000,
+        "SPEED": 20
+      },
+      "Name": "Allegiance",
+      "Modifiers": [
+        "Star Destroyer"
+      ]
     },
     "Dorito": {
       "Lobby_Stats": {
@@ -11331,42 +11377,6 @@
         "Sails"
       ]
     },
-    "Republic Victory II": {
-      "Lobby_Stats": {
-        "RARITY": "Epic",
-        "FACTION": "Republic",
-        "PREVIOUS": "Munificent",
-        "ERA": 1
-      },
-      "Game_Stats": {
-        "SPEED": 50,
-        "HULL": 70720,
-        "MAX_HULL": 70720,
-        "MAX_SHIELDS": 25415,
-        "HULL_DPS": 5359,
-        "EVASIVENESS": 42,
-        "CREW": 75000,
-        "PRICE": 5500,
-        "SPAWN_COOLDOWN": 1.5,
-        "SHIELD_REGEN": 389,
-        "PIERCE_DPS": 48,
-        "ARMOR": 247,
-        "SHIELD_DPS": 2296,
-        "SHIELDS": 25415,
-        "AA_DPS": 7,
-        "STARFIGHTER_SPAWN_COOLDOWN": 50,
-        "COMPLIMENT": {
-          "Z-95 Headhunter": {
-            "AMOUNT": 3,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
-      },
-      "Name": "Republic Victory II",
-      "Modifiers": [
-        "Star Destroyer"
-      ]
-    },
     "\"Lusankya\"": {
       "Lobby_Stats": {
         "RARITY": "Secret",
@@ -11396,12 +11406,12 @@
             "AMOUNT": 14,
             "DEFAULT_MODE": "Attack"
           },
-          "E-Wing": {
-            "AMOUNT": 32,
-            "DEFAULT_MODE": "Intercept"
-          },
           "Wedge Antilles": {
             "AMOUNT": 1,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "E-Wing": {
+            "AMOUNT": 32,
             "DEFAULT_MODE": "Intercept"
           },
           "T-65 X-Wing": {
@@ -11511,13 +11521,13 @@
         "AA_DPS": 7,
         "STARFIGHTER_SPAWN_COOLDOWN": 15,
         "COMPLIMENT": {
-          "T-65 X-Wing": {
-            "AMOUNT": 5,
-            "DEFAULT_MODE": "Intercept"
-          },
           "Y-Wing": {
             "AMOUNT": 3,
             "DEFAULT_MODE": "Attack"
+          },
+          "T-65 X-Wing": {
+            "AMOUNT": 5,
+            "DEFAULT_MODE": "Intercept"
           }
         }
       },
@@ -11578,12 +11588,12 @@
         "AA_DPS": 36,
         "STARFIGHTER_SPAWN_COOLDOWN": 20,
         "COMPLIMENT": {
-          "Belbullab-22": {
-            "AMOUNT": 8,
-            "DEFAULT_MODE": "Intercept"
-          },
           "Tri-Fighter": {
             "AMOUNT": 14,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "Belbullab-22": {
+            "AMOUNT": 8,
             "DEFAULT_MODE": "Intercept"
           }
         }
@@ -11591,120 +11601,32 @@
       "Name": "Overseer",
       "Modifiers": []
     },
-    "\"Guardian\"": {
+    "41st Venator": {
       "Lobby_Stats": {
         "RARITY": "Dev",
-        "FACTION": "Empire",
-        "PREVIOUS": "",
-        "ERA": 3
-      },
-      "Game_Stats": {
-        "SPEED": 6,
-        "HULL": 3000000,
-        "MAX_HULL": 3000000,
-        "MAX_SHIELDS": 1500000,
-        "HULL_DPS": 110655,
-        "EVASIVENESS": 10,
-        "CREW": 500000,
-        "PRICE": 120000,
-        "SPAWN_COOLDOWN": 25,
-        "SHIELD_REGEN": 22500,
-        "PIERCE_DPS": 1326,
-        "ARMOR": 30000,
-        "SHIELD_DPS": 53977,
-        "SHIELDS": 1500000,
-        "AA_DPS": 612,
-        "STARFIGHTER_SPAWN_COOLDOWN": 20,
-        "COMPLIMENT": {
-          "TIE/av Avenger": {
-            "AMOUNT": 28,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/d Defender": {
-            "AMOUNT": 32,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/ca Punisher": {
-            "AMOUNT": 14,
-            "DEFAULT_MODE": "Attack"
-          }
-        }
-      },
-      "Name": "\"Guardian\"",
-      "Modifiers": [
-        "SSD"
-      ]
-    },
-    "Core Ship": {
-      "Lobby_Stats": {
-        "RARITY": "Rare",
-        "FACTION": "Separatist",
-        "PREVIOUS": "Munificent",
+        "FACTION": "Republic",
+        "PREVIOUS": "N/A",
         "ERA": 1
       },
       "Game_Stats": {
-        "SPEED": 35,
-        "HULL": 80000,
-        "MAX_HULL": 80000,
-        "MAX_SHIELDS": 30000,
-        "HULL_DPS": 2077,
-        "EVASIVENESS": 5,
-        "CREW": 70000,
-        "PRICE": 6500,
-        "SPAWN_COOLDOWN": 3,
-        "SHIELD_REGEN": 461,
-        "PIERCE_DPS": 50,
-        "ARMOR": 200,
-        "SHIELD_DPS": 870,
-        "SHIELDS": 30000,
-        "AA_DPS": 8,
-        "STARFIGHTER_SPAWN_COOLDOWN": 20,
-        "COMPLIMENT": {
-          "Ginivex": {
-            "AMOUNT": 3,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "Vulture": {
-            "AMOUNT": 16,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
-      },
-      "Name": "Core Ship",
-      "Modifiers": []
-    },
-    "Nova": {
-      "Lobby_Stats": {
-        "RARITY": "Epic",
-        "FACTION": "Hapes",
-        "PREVIOUS": "",
-        "ERA": 3
-      },
-      "Game_Stats": {
-        "SPEED": 70,
-        "HULL": 28000,
-        "MAX_HULL": 28000,
-        "MAX_SHIELDS": 12000,
-        "HULL_DPS": 1685,
-        "EVASIVENESS": 45,
-        "CREW": 30000,
-        "PRICE": 1400,
-        "SPAWN_COOLDOWN": 0.7,
-        "SHIELD_REGEN": 228,
-        "PIERCE_DPS": 12,
-        "ARMOR": 125,
-        "SHIELD_DPS": 1554,
-        "SHIELDS": 12000,
-        "AA_DPS": 85,
+        "CREW": 100000,
+        "HULL_DPS": 3640,
+        "HULL": 120000,
+        "PRICE": 10000,
+        "SPAWN_COOLDOWN": 0.1,
+        "MAX_HULL": 120000,
+        "SHIELD_DPS": 1213,
+        "EVASIVENESS": 0,
+        "SHIELD_REGEN": 150,
+        "PIERCE_DPS": 31,
+        "ARMOR": 0,
+        "MAX_SHIELDS": 20000,
+        "SHIELDS": 20000,
+        "AA_DPS": 0,
         "STARFIGHTER_SPAWN_COOLDOWN": 30,
-        "COMPLIMENT": {
-          "Miy'til Fighter": {
-            "AMOUNT": 8,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
+        "SPEED": 35
       },
-      "Name": "Nova",
+      "Name": "41st Venator",
       "Modifiers": []
     },
     "\"Night Hammer\"": {
@@ -11751,33 +11673,142 @@
         "SSD"
       ]
     },
-    "Hardcell": {
+    "Nova": {
       "Lobby_Stats": {
-        "RARITY": "Uncommon",
-        "FACTION": "Separatist",
-        "PREVIOUS": "Republic Gladiator",
-        "ERA": 1
+        "RARITY": "Epic",
+        "FACTION": "Hapes",
+        "PREVIOUS": "",
+        "ERA": 3
       },
       "Game_Stats": {
-        "CREW": 25000,
-        "HULL_DPS": 387,
-        "ABILITY": "Support",
-        "PRICE": 1500,
-        "SHIELD_DPS": 78,
-        "MAX_HULL": 15470,
-        "EVASIVENESS": 40,
-        "SPAWN_COOLDOWN": 2,
-        "SHIELD_REGEN": 64,
-        "PIERCE_DPS": 5,
-        "ARMOR": 46,
-        "MAX_SHIELDS": 7072,
-        "SHIELDS": 7072,
-        "AA_DPS": 0,
-        "SPEED": 60,
-        "HULL": 15470
+        "SPEED": 70,
+        "HULL": 28000,
+        "MAX_HULL": 28000,
+        "MAX_SHIELDS": 12000,
+        "HULL_DPS": 1685,
+        "EVASIVENESS": 45,
+        "CREW": 30000,
+        "PRICE": 1400,
+        "SPAWN_COOLDOWN": 0.7,
+        "SHIELD_REGEN": 228,
+        "PIERCE_DPS": 12,
+        "ARMOR": 125,
+        "SHIELD_DPS": 1554,
+        "SHIELDS": 12000,
+        "AA_DPS": 85,
+        "STARFIGHTER_SPAWN_COOLDOWN": 30,
+        "COMPLIMENT": {
+          "Miy'til Fighter": {
+            "AMOUNT": 8,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
       },
-      "Name": "Hardcell",
+      "Name": "Nova",
       "Modifiers": []
+    },
+    "Crusader": {
+      "Lobby_Stats": {
+        "RARITY": "Epic",
+        "FACTION": "Mando",
+        "PREVIOUS": "Raider",
+        "ERA": 2
+      },
+      "Game_Stats": {
+        "HULL_DPS": 783,
+        "HULL": 12000,
+        "PRICE": 2000,
+        "SPAWN_COOLDOWN": 0.5,
+        "MAX_HULL": 12000,
+        "SHIELD_DPS": 290,
+        "EVASIVENESS": 50,
+        "SHIELD_REGEN": 45,
+        "PIERCE_DPS": 10,
+        "ARMOR": 20,
+        "MAX_SHIELDS": 5000,
+        "SHIELDS": 5000,
+        "AA_DPS": 63,
+        "CREW": 35000,
+        "SPEED": 35
+      },
+      "Name": "Crusader",
+      "Modifiers": []
+    },
+    "Interdictor 418": {
+      "Lobby_Stats": {
+        "RARITY": "Epic",
+        "FACTION": "Empire",
+        "PREVIOUS": "Teroch",
+        "ERA": 2
+      },
+      "Game_Stats": {
+        "CREW": 30000,
+        "HULL_DPS": 600,
+        "ABILITY": "Gravity Well Projector",
+        "PRICE": 3000,
+        "SHIELD_DPS": 331,
+        "MAX_HULL": 22100,
+        "EVASIVENESS": "50",
+        "SPAWN_COOLDOWN": 2,
+        "SHIELD_REGEN": 101,
+        "PIERCE_DPS": 2,
+        "ARMOR": 72,
+        "MAX_SHIELDS": 6630,
+        "SHIELDS": 6630,
+        "AA_DPS": 29,
+        "SPEED": 60,
+        "HULL": 22100
+      },
+      "Name": "Interdictor 418",
+      "Modifiers": []
+    },
+    "Bellator": {
+      "Lobby_Stats": {
+        "RARITY": "Special",
+        "FACTION": "Empire",
+        "PREVIOUS": "",
+        "ERA": 2
+      },
+      "Game_Stats": {
+        "SPEED": 30,
+        "HULL": 1000000,
+        "MAX_HULL": 1000000,
+        "MAX_SHIELDS": 530000,
+        "HULL_DPS": 62619,
+        "EVASIVENESS": 10,
+        "CREW": 350000,
+        "PRICE": 90000,
+        "SPAWN_COOLDOWN": 17,
+        "SHIELD_REGEN": 2000,
+        "PIERCE_DPS": 614,
+        "ARMOR": 12800,
+        "SHIELD_DPS": 29871,
+        "SHIELDS": 530000,
+        "AA_DPS": 94,
+        "STARFIGHTER_SPAWN_COOLDOWN": 20,
+        "COMPLIMENT": {
+          "TIE/sa Bomber": {
+            "AMOUNT": 5,
+            "DEFAULT_MODE": "Attack"
+          },
+          "TIE/ca Punisher": {
+            "AMOUNT": 4,
+            "DEFAULT_MODE": "Attack"
+          },
+          "TIE/in Interceptor": {
+            "AMOUNT": 5,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/fn Fighter": {
+            "AMOUNT": 14,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Bellator",
+      "Modifiers": [
+        "SSD"
+      ]
     },
     "Vindicator": {
       "Lobby_Stats": {
@@ -11812,58 +11843,6 @@
       },
       "Name": "Vindicator",
       "Modifiers": []
-    },
-    "Webbed Venator": {
-      "Lobby_Stats": {
-        "RARITY": "Limited",
-        "FACTION": "Republic",
-        "PREVIOUS": "N/A",
-        "ERA": 1
-      },
-      "Game_Stats": {
-        "SPEED": 35,
-        "HULL": 59500,
-        "MAX_HULL": 59500,
-        "MAX_SHIELDS": 17000,
-        "HULL_DPS": 4226,
-        "EVASIVENESS": 35,
-        "CREW": 100000,
-        "PRICE": 8500,
-        "SPAWN_COOLDOWN": 3,
-        "SHIELD_REGEN": 260,
-        "PIERCE_DPS": 36,
-        "ARMOR": 170,
-        "SHIELD_DPS": 1924,
-        "SHIELDS": 17000,
-        "AA_DPS": 22,
-        "STARFIGHTER_SPAWN_COOLDOWN": 25,
-        "COMPLIMENT": {
-          "V-Wing": {
-            "AMOUNT": 7,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "V-19 Torrent": {
-            "AMOUNT": 16,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "BTL-B Y-Wing": {
-            "AMOUNT": 5,
-            "DEFAULT_MODE": "Attack"
-          },
-          "NTB-630": {
-            "AMOUNT": 1,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "ARC-170": {
-            "AMOUNT": 4,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
-      },
-      "Name": "Webbed Venator",
-      "Modifiers": [
-        "Star Destroyer"
-      ]
     },
     "Max DPS Dreadnought": {
       "Lobby_Stats": {
@@ -11969,13 +11948,13 @@
             "AMOUNT": 9,
             "DEFAULT_MODE": "Intercept"
           },
-          "BTL-B Y-Wing": {
-            "AMOUNT": 7,
-            "DEFAULT_MODE": "Attack"
-          },
           "Anakin Skywalker": {
             "AMOUNT": 1,
             "DEFAULT_MODE": "Intercept"
+          },
+          "BTL-B Y-Wing": {
+            "AMOUNT": 7,
+            "DEFAULT_MODE": "Attack"
           }
         }
       },
@@ -11985,6 +11964,273 @@
         "Star Destroyer",
         "Unique"
       ]
+    },
+    "Modular (destroyer)": {
+      "Lobby_Stats": {
+        "RARITY": "Dev",
+        "FACTION": "Empire",
+        "PREVIOUS": "N/A",
+        "ERA": 3
+      },
+      "Game_Stats": {
+        "CREW": 80000,
+        "HULL_DPS": 7080,
+        "HULL": 110000,
+        "PRICE": 5750,
+        "SPAWN_COOLDOWN": 1.5,
+        "MAX_HULL": 110000,
+        "SHIELD_DPS": 3812,
+        "EVASIVENESS": 42,
+        "SHIELD_REGEN": 800,
+        "PIERCE_DPS": 67,
+        "ARMOR": 459,
+        "MAX_SHIELDS": 50000,
+        "SHIELDS": 50000,
+        "AA_DPS": 23,
+        "STARFIGHTER_SPAWN_COOLDOWN": 20,
+        "SPEED": 35
+      },
+      "Name": "Modular (destroyer)",
+      "Modifiers": []
+    },
+    "Annihilator": {
+      "Lobby_Stats": {
+        "RARITY": "Dev",
+        "FACTION": "Empire",
+        "PREVIOUS": "",
+        "ERA": 3
+      },
+      "Game_Stats": {
+        "SPEED": 10,
+        "HULL": 4000000,
+        "MAX_HULL": 4000000,
+        "MAX_SHIELDS": 1800000,
+        "HULL_DPS": 125378,
+        "EVASIVENESS": 5,
+        "CREW": 500000,
+        "PRICE": 250000,
+        "SPAWN_COOLDOWN": 25,
+        "SHIELD_REGEN": 25000,
+        "PIERCE_DPS": 1510,
+        "ARMOR": 35000,
+        "SHIELD_DPS": 64805,
+        "SHIELDS": 1800000,
+        "AA_DPS": 489,
+        "STARFIGHTER_SPAWN_COOLDOWN": 20,
+        "COMPLIMENT": {
+          "Grand Inquisitor": {
+            "AMOUNT": 2,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/av Avenger": {
+            "AMOUNT": 14,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/ca Punisher": {
+            "AMOUNT": 14,
+            "DEFAULT_MODE": "Attack"
+          },
+          "VT-49 Decimator": {
+            "AMOUNT": 2,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/in Interceptor": {
+            "AMOUNT": 28,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/d Defender": {
+            "AMOUNT": 32,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Annihilator",
+      "Modifiers": [
+        "SSD"
+      ]
+    },
+    "Webbed Venator": {
+      "Lobby_Stats": {
+        "RARITY": "Limited",
+        "FACTION": "Republic",
+        "PREVIOUS": "N/A",
+        "ERA": 1
+      },
+      "Game_Stats": {
+        "SPEED": 35,
+        "HULL": 59500,
+        "MAX_HULL": 59500,
+        "MAX_SHIELDS": 17000,
+        "HULL_DPS": 4226,
+        "EVASIVENESS": 35,
+        "CREW": 100000,
+        "PRICE": 8500,
+        "SPAWN_COOLDOWN": 3,
+        "SHIELD_REGEN": 260,
+        "PIERCE_DPS": 36,
+        "ARMOR": 170,
+        "SHIELD_DPS": 1924,
+        "SHIELDS": 17000,
+        "AA_DPS": 22,
+        "STARFIGHTER_SPAWN_COOLDOWN": 25,
+        "COMPLIMENT": {
+          "V-Wing": {
+            "AMOUNT": 7,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "ARC-170": {
+            "AMOUNT": 4,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "BTL-B Y-Wing": {
+            "AMOUNT": 5,
+            "DEFAULT_MODE": "Attack"
+          },
+          "V-19 Torrent": {
+            "AMOUNT": 16,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "NTB-630": {
+            "AMOUNT": 1,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Webbed Venator",
+      "Modifiers": [
+        "Star Destroyer"
+      ]
+    },
+    "Victory I": {
+      "Lobby_Stats": {
+        "RARITY": "Mythic",
+        "FACTION": "Empire",
+        "PREVIOUS": "MC-30c",
+        "ERA": 2
+      },
+      "Game_Stats": {
+        "SPEED": 40,
+        "HULL_DPS": 7632,
+        "HULL": 104000,
+        "PRICE": 10000,
+        "SPAWN_COOLDOWN": 2,
+        "MAX_HULL": 104000,
+        "SHIELD_DPS": 4589,
+        "EVASIVENESS": 42,
+        "SHIELD_REGEN": 446,
+        "PIERCE_DPS": 64,
+        "ARMOR": 374,
+        "MAX_SHIELDS": 38000,
+        "SHIELDS": 38000,
+        "AA_DPS": 7,
+        "CREW": 90000,
+        "COMPLIMENT": {
+          "TIE/fn Fighter": {
+            "AMOUNT": 3,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Victory I",
+      "Modifiers": [
+        "Star Destroyer"
+      ]
+    },
+    "Coronal": {
+      "Lobby_Stats": {
+        "RARITY": "Epic",
+        "FACTION": "Hapes",
+        "PREVIOUS": "",
+        "ERA": 3
+      },
+      "Game_Stats": {
+        "SPEED": 30,
+        "HULL": 86000,
+        "MAX_HULL": 86000,
+        "MAX_SHIELDS": 34000,
+        "HULL_DPS": 1796,
+        "EVASIVENESS": 45,
+        "CREW": 80000,
+        "PRICE": 5000,
+        "SPAWN_COOLDOWN": 0.7,
+        "SHIELD_REGEN": 520,
+        "PIERCE_DPS": 9,
+        "ARMOR": 218,
+        "SHIELD_DPS": 1576,
+        "SHIELDS": 34000,
+        "AA_DPS": 85,
+        "STARFIGHTER_SPAWN_COOLDOWN": 30,
+        "COMPLIMENT": {
+          "Miy'til Fighter": {
+            "AMOUNT": 4,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "Miy'til Bomber": {
+            "AMOUNT": 8,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Coronal",
+      "Modifiers": []
+    },
+    "Sander Delvardus": {
+      "Lobby_Stats": {
+        "RARITY": "Dev",
+        "FACTION": "Empire",
+        "PREVIOUS": "N/A",
+        "ERA": 1
+      },
+      "Game_Stats": {
+        "SPEED": 10,
+        "HULL": 800000,
+        "MAX_HULL": 800000,
+        "MAX_SHIELDS": 300000,
+        "HULL_DPS": 0,
+        "SPAWN_COOLDOWN": 0,
+        "EVASIVENESS": 0,
+        "CREW": 200000,
+        "PRICE": 60000,
+        "SHIELD_DPS": 0,
+        "SHIELD_REGEN": 150,
+        "PIERCE_DPS": 0,
+        "ARMOR": 0,
+        "PASSIVE_BUFF": "Sluis Van Armor",
+        "SHIELDS": 300000,
+        "AA_DPS": 0,
+        "STARFIGHTER_SPAWN_COOLDOWN": 120,
+        "COMPLIMENT": []
+      },
+      "Name": "Sander Delvardus",
+      "Modifiers": []
+    },
+    "Hardcell": {
+      "Lobby_Stats": {
+        "RARITY": "Uncommon",
+        "FACTION": "Separatist",
+        "PREVIOUS": "Republic Gladiator",
+        "ERA": 1
+      },
+      "Game_Stats": {
+        "CREW": 25000,
+        "HULL_DPS": 387,
+        "ABILITY": "Support",
+        "PRICE": 1500,
+        "SHIELD_DPS": 78,
+        "MAX_HULL": 15470,
+        "EVASIVENESS": 40,
+        "SPAWN_COOLDOWN": 2,
+        "SHIELD_REGEN": 64,
+        "PIERCE_DPS": 5,
+        "ARMOR": 46,
+        "MAX_SHIELDS": 7072,
+        "SHIELDS": 7072,
+        "AA_DPS": 0,
+        "SPEED": 60,
+        "HULL": 15470
+      },
+      "Name": "Hardcell",
+      "Modifiers": []
     },
     "Titan": {
       "Lobby_Stats": {
@@ -12031,147 +12277,6 @@
         "Star Destroyer"
       ]
     },
-    "Bulwark MKI": {
-      "Lobby_Stats": {
-        "RARITY": "Rare",
-        "FACTION": "Separatist",
-        "PREVIOUS": "Core Ship",
-        "ERA": 1
-      },
-      "Game_Stats": {
-        "SPEED": 35,
-        "HULL": 93600,
-        "MAX_HULL": 93600,
-        "MAX_SHIELDS": 26000,
-        "HULL_DPS": 3160,
-        "ABILITY": "Hardened Armor",
-        "SPAWN_COOLDOWN": 3.5,
-        "EVASIVENESS": "20",
-        "CREW": 70000,
-        "PRICE": 5000,
-        "SHIELD_REGEN": 306,
-        "PIERCE_DPS": 32,
-        "ARMOR": 384,
-        "SHIELD_DPS": 1152,
-        "SHIELDS": 26000,
-        "AA_DPS": 12,
-        "STARFIGHTER_SPAWN_COOLDOWN": 30,
-        "COMPLIMENT": {
-          "Belbullab-22": {
-            "AMOUNT": 2,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "Hyena": {
-            "AMOUNT": 6,
-            "DEFAULT_MODE": "Attack"
-          }
-        }
-      },
-      "Name": "Bulwark MKI",
-      "Modifiers": []
-    },
-    "Victory I": {
-      "Lobby_Stats": {
-        "RARITY": "Mythic",
-        "FACTION": "Empire",
-        "PREVIOUS": "MC-30c",
-        "ERA": 2
-      },
-      "Game_Stats": {
-        "SPEED": 40,
-        "HULL_DPS": 7632,
-        "HULL": 104000,
-        "PRICE": 10000,
-        "SPAWN_COOLDOWN": 2,
-        "MAX_HULL": 104000,
-        "SHIELD_DPS": 4589,
-        "EVASIVENESS": 42,
-        "SHIELD_REGEN": 446,
-        "PIERCE_DPS": 64,
-        "ARMOR": 374,
-        "MAX_SHIELDS": 38000,
-        "SHIELDS": 38000,
-        "AA_DPS": 7,
-        "CREW": 90000,
-        "COMPLIMENT": {
-          "TIE/fn Fighter": {
-            "AMOUNT": 3,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
-      },
-      "Name": "Victory I",
-      "Modifiers": [
-        "Star Destroyer"
-      ]
-    },
-    "Daedalus Dreadnought": {
-      "Lobby_Stats": {
-        "RARITY": "Dev",
-        "FACTION": "Empire",
-        "PREVIOUS": "N/A",
-        "ERA": 1
-      },
-      "Game_Stats": {
-        "SPEED": 50,
-        "HULL": 200000,
-        "MAX_HULL": 200000,
-        "MAX_SHIELDS": 300000,
-        "HULL_DPS": 0,
-        "ABILITY": "Orbital Bombardment Particle Cannon",
-        "SPAWN_COOLDOWN": 1,
-        "CREW": 150000,
-        "PRICE": 20000,
-        "SHIELD_REGEN": 30,
-        "PIERCE_DPS": 0,
-        "ARMOR": 0,
-        "SHIELD_DPS": 0,
-        "SHIELDS": 300000,
-        "AA_DPS": 0,
-        "EVASIVENESS": 0,
-        "COMPLIMENT": []
-      },
-      "Name": "Daedalus Dreadnought",
-      "Modifiers": []
-    },
-    "Coronal": {
-      "Lobby_Stats": {
-        "RARITY": "Epic",
-        "FACTION": "Hapes",
-        "PREVIOUS": "",
-        "ERA": 3
-      },
-      "Game_Stats": {
-        "SPEED": 30,
-        "HULL": 86000,
-        "MAX_HULL": 86000,
-        "MAX_SHIELDS": 34000,
-        "HULL_DPS": 1796,
-        "EVASIVENESS": 45,
-        "CREW": 80000,
-        "PRICE": 5000,
-        "SPAWN_COOLDOWN": 0.7,
-        "SHIELD_REGEN": 520,
-        "PIERCE_DPS": 9,
-        "ARMOR": 218,
-        "SHIELD_DPS": 1576,
-        "SHIELDS": 34000,
-        "AA_DPS": 85,
-        "STARFIGHTER_SPAWN_COOLDOWN": 30,
-        "COMPLIMENT": {
-          "Miy'til Bomber": {
-            "AMOUNT": 8,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "Miy'til Fighter": {
-            "AMOUNT": 4,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
-      },
-      "Name": "Coronal",
-      "Modifiers": []
-    },
     "Tarrada": {
       "Lobby_Stats": {
         "RARITY": "Common",
@@ -12201,108 +12306,6 @@
         "Sails"
       ]
     },
-    "Recusant": {
-      "Lobby_Stats": {
-        "RARITY": "Epic",
-        "FACTION": "Separatist",
-        "PREVIOUS": "Republic Dreadnought",
-        "ERA": 1
-      },
-      "Game_Stats": {
-        "SPEED": 50,
-        "HULL": 29900,
-        "MAX_HULL": 29900,
-        "MAX_SHIELDS": 15600,
-        "HULL_DPS": 1959,
-        "EVASIVENESS": 35,
-        "CREW": 70000,
-        "PRICE": 3500,
-        "SPAWN_COOLDOWN": 1.5,
-        "SHIELD_REGEN": 278,
-        "PIERCE_DPS": 18,
-        "ARMOR": 85,
-        "SHIELD_DPS": 946,
-        "SHIELDS": 15600,
-        "AA_DPS": 9,
-        "STARFIGHTER_SPAWN_COOLDOWN": 30,
-        "COMPLIMENT": {
-          "Tri-Fighter": {
-            "AMOUNT": 2,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "Vulture": {
-            "AMOUNT": 8,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
-      },
-      "Name": "Recusant",
-      "Modifiers": []
-    },
-    "GR-75": {
-      "Lobby_Stats": {
-        "RARITY": "Rare",
-        "FACTION": "Rebel",
-        "PREVIOUS": "Gozanti",
-        "ERA": 2
-      },
-      "Game_Stats": {
-        "CREW": 50000,
-        "HULL_DPS": 58,
-        "ABILITY": "Support",
-        "PRICE": 5000,
-        "SHIELD_DPS": 31,
-        "MAX_HULL": 20000,
-        "EVASIVENESS": 70,
-        "SPAWN_COOLDOWN": 5,
-        "SHIELD_REGEN": 128,
-        "PIERCE_DPS": 0,
-        "ARMOR": 0,
-        "MAX_SHIELDS": 11000,
-        "SHIELDS": 11000,
-        "AA_DPS": 58,
-        "SPEED": 100,
-        "HULL": 20000
-      },
-      "Name": "GR-75",
-      "Modifiers": []
-    },
-    "Procursator": {
-      "Lobby_Stats": {
-        "RARITY": "Epic",
-        "FACTION": "Empire",
-        "PREVIOUS": "Victory II",
-        "ERA": 2
-      },
-      "Game_Stats": {
-        "SPEED": 40,
-        "HULL": 84000,
-        "MAX_HULL": 84000,
-        "MAX_SHIELDS": 39800,
-        "HULL_DPS": 7607,
-        "EVASIVENESS": 30,
-        "CREW": 90000,
-        "PRICE": 9000,
-        "SPAWN_COOLDOWN": 3,
-        "SHIELD_REGEN": 455,
-        "PIERCE_DPS": 78,
-        "ARMOR": 277,
-        "SHIELD_DPS": 2353,
-        "SHIELDS": 39800,
-        "AA_DPS": 15,
-        "STARFIGHTER_SPAWN_COOLDOWN": 30,
-        "COMPLIMENT": {
-          "TIE/fn Fighter": {
-            "AMOUNT": 10,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
-      },
-      "Name": "Procursator",
-      "Modifiers": [
-        "Star Destroyer"
-      ]
-    },
     "Eggus Portablus": {
       "Lobby_Stats": {
         "RARITY": "Dev",
@@ -12330,81 +12333,76 @@
       "Name": "Eggus Portablus",
       "Modifiers": []
     },
-    "Belatorek": {
+    "Core Ship": {
       "Lobby_Stats": {
-        "RARITY": "Special",
-        "FACTION": "Empire",
-        "PREVIOUS": "",
-        "ERA": 2
-      },
-      "Game_Stats": {
-        "SPEED": 20,
-        "HULL": 2600000,
-        "MAX_HULL": 2500000,
-        "MAX_SHIELDS": 1200000,
-        "HULL_DPS": 67768,
-        "EVASIVENESS": 10,
-        "CREW": 350000,
-        "PRICE": 90000,
-        "SPAWN_COOLDOWN": 17,
-        "SHIELD_REGEN": 2000,
-        "PIERCE_DPS": 753,
-        "ARMOR": 16800,
-        "SHIELD_DPS": 19071,
-        "SHIELDS": 1200000,
-        "AA_DPS": 348,
-        "STARFIGHTER_SPAWN_COOLDOWN": 20,
-        "COMPLIMENT": {
-          "TIE/sa Bomber": {
-            "AMOUNT": 5,
-            "DEFAULT_MODE": "Attack"
-          },
-          "TIE/fn Fighter": {
-            "AMOUNT": 14,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/in Interceptor": {
-            "AMOUNT": 5,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/ca Punisher": {
-            "AMOUNT": 4,
-            "DEFAULT_MODE": "Attack"
-          }
-        }
-      },
-      "Name": "Belatorek",
-      "Modifiers": [
-        "SSD"
-      ]
-    },
-    "SC Prototype": {
-      "Lobby_Stats": {
-        "RARITY": "Dev",
-        "FACTION": "Empire",
-        "PREVIOUS": "N/A",
+        "RARITY": "Rare",
+        "FACTION": "Separatist",
+        "PREVIOUS": "Munificent",
         "ERA": 1
       },
       "Game_Stats": {
-        "SPEED": 50,
-        "HULL": 550000,
-        "MAX_HULL": 550000,
-        "MAX_SHIELDS": 350000,
-        "HULL_DPS": 0,
-        "ABILITY": "Cloak",
-        "EVASIVENESS": 0,
-        "CREW": 450000,
-        "PRICE": 125000,
-        "SHIELD_REGEN": 1000,
-        "PIERCE_DPS": 0,
-        "ARMOR": 0,
-        "SHIELD_DPS": 0,
-        "SHIELDS": 350000,
-        "AA_DPS": 0,
-        "STARFIGHTER_SPAWN_COOLDOWN": 60,
-        "SPAWN_COOLDOWN": 5
+        "SPEED": 35,
+        "HULL": 80000,
+        "MAX_HULL": 80000,
+        "MAX_SHIELDS": 30000,
+        "HULL_DPS": 2077,
+        "EVASIVENESS": 5,
+        "CREW": 70000,
+        "PRICE": 6500,
+        "SPAWN_COOLDOWN": 3,
+        "SHIELD_REGEN": 461,
+        "PIERCE_DPS": 50,
+        "ARMOR": 200,
+        "SHIELD_DPS": 870,
+        "SHIELDS": 30000,
+        "AA_DPS": 8,
+        "STARFIGHTER_SPAWN_COOLDOWN": 20,
+        "COMPLIMENT": {
+          "Ginivex": {
+            "AMOUNT": 3,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "Vulture": {
+            "AMOUNT": 16,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
       },
-      "Name": "SC Prototype",
+      "Name": "Core Ship",
+      "Modifiers": []
+    },
+    "Bothan": {
+      "Lobby_Stats": {
+        "RARITY": "Epic",
+        "FACTION": "New Republic",
+        "PREVIOUS": "Mon Mothma",
+        "ERA": 3
+      },
+      "Game_Stats": {
+        "SPEED": 35,
+        "HULL": 120000,
+        "MAX_HULL": 120000,
+        "MAX_SHIELDS": 60000,
+        "HULL_DPS": 8276,
+        "EVASIVENESS": 35,
+        "CREW": 70000,
+        "PRICE": 7000,
+        "SPAWN_COOLDOWN": 2,
+        "SHIELD_REGEN": 900,
+        "PIERCE_DPS": 36,
+        "ARMOR": 504,
+        "SHIELD_DPS": 5221,
+        "SHIELDS": 60000,
+        "AA_DPS": 54,
+        "STARFIGHTER_SPAWN_COOLDOWN": 25,
+        "COMPLIMENT": {
+          "E-Wing": {
+            "AMOUNT": 3,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Bothan",
       "Modifiers": []
     },
     "\"Constrainer\"": {
@@ -12470,6 +12468,211 @@
       "Name": "The Shepherd",
       "Modifiers": []
     },
+    "Kapec Fleet": {
+      "Lobby_Stats": {
+        "RARITY": "Dev",
+        "FACTION": "Empire",
+        "PREVIOUS": "N/A",
+        "ERA": 1
+      },
+      "Game_Stats": {
+        "HULL_DPS": 0,
+        "HULL": 100000,
+        "PRICE": 10000,
+        "SPAWN_COOLDOWN": 10,
+        "MAX_HULL": 100000,
+        "SHIELD_DPS": 0,
+        "EVASIVENESS": 0,
+        "SHIELD_REGEN": 0,
+        "PIERCE_DPS": 0,
+        "ARMOR": 0,
+        "MAX_SHIELDS": 70000,
+        "SHIELDS": 70000,
+        "AA_DPS": 0,
+        "CREW": 500000,
+        "SPEED": 0
+      },
+      "Name": "Kapec Fleet",
+      "Modifiers": []
+    },
+    "Michael's Wrath": {
+      "Lobby_Stats": {
+        "RARITY": "Dev",
+        "FACTION": "Empire",
+        "PREVIOUS": "N/A",
+        "ERA": 1
+      },
+      "Game_Stats": {
+        "HULL_DPS": 0,
+        "HULL": 250000,
+        "PRICE": 100000,
+        "SPAWN_COOLDOWN": 10,
+        "MAX_HULL": 250000,
+        "SHIELD_DPS": 0,
+        "EVASIVENESS": 0,
+        "SHIELD_REGEN": 100,
+        "PIERCE_DPS": 0,
+        "ARMOR": 0,
+        "MAX_SHIELDS": 120000,
+        "SHIELDS": 120000,
+        "AA_DPS": 0,
+        "CREW": 165000,
+        "SPEED": 20
+      },
+      "Name": "Michael's Wrath",
+      "Modifiers": []
+    },
+    "Valiant": {
+      "Lobby_Stats": {
+        "RARITY": "Legendary",
+        "FACTION": "Republic",
+        "PREVIOUS": "OCF Venator",
+        "ERA": 1
+      },
+      "Game_Stats": {
+        "SPEED": 35,
+        "HULL": 110500,
+        "MAX_HULL": 110500,
+        "MAX_SHIELDS": 66300,
+        "HULL_DPS": 7774,
+        "EVASIVENESS": 25,
+        "CREW": 120000,
+        "PRICE": 13000,
+        "SPAWN_COOLDOWN": 3,
+        "SHIELD_REGEN": 995,
+        "PIERCE_DPS": 64,
+        "ARMOR": 390,
+        "SHIELD_DPS": 3619,
+        "SHIELDS": 66300,
+        "AA_DPS": 11,
+        "STARFIGHTER_SPAWN_COOLDOWN": 60,
+        "COMPLIMENT": {
+          "NTB-630": {
+            "AMOUNT": 3,
+            "DEFAULT_MODE": "Attack"
+          },
+          "V-Wing": {
+            "AMOUNT": 20,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "ARC-170": {
+            "AMOUNT": 6,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Valiant",
+      "Modifiers": []
+    },
+    "Strike (support)": {
+      "Lobby_Stats": {
+        "RARITY": "Dev",
+        "FACTION": "Empire",
+        "PREVIOUS": "",
+        "ERA": 3
+      },
+      "Game_Stats": {
+        "SPEED": 63,
+        "HULL": 14000,
+        "MAX_HULL": 14000,
+        "MAX_SHIELDS": 7000,
+        "HULL_DPS": 646,
+        "EVASIVENESS": 40,
+        "CREW": 20000,
+        "PRICE": 1000,
+        "SPAWN_COOLDOWN": 0.7,
+        "SHIELD_REGEN": 90,
+        "PIERCE_DPS": 2,
+        "ARMOR": 20,
+        "SHIELD_DPS": 289,
+        "SHIELDS": 7000,
+        "AA_DPS": 146,
+        "STARFIGHTER_SPAWN_COOLDOWN": 15,
+        "COMPLIMENT": {
+          "XG-1 Starwing": {
+            "AMOUNT": 4,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Strike (support)",
+      "Modifiers": []
+    },
+    "Imperial Venator": {
+      "Lobby_Stats": {
+        "RARITY": "Legendary",
+        "FACTION": "Empire",
+        "PREVIOUS": "MC-75",
+        "ERA": 2
+      },
+      "Game_Stats": {
+        "SPEED": 35,
+        "HULL": 86000,
+        "MAX_HULL": 86000,
+        "MAX_SHIELDS": 28000,
+        "HULL_DPS": 6083,
+        "EVASIVENESS": 35,
+        "CREW": 90000,
+        "PRICE": 10000,
+        "SPAWN_COOLDOWN": 3,
+        "SHIELD_REGEN": 328,
+        "PIERCE_DPS": 45,
+        "ARMOR": 258,
+        "SHIELD_DPS": 3530,
+        "SHIELDS": 28000,
+        "AA_DPS": 0,
+        "STARFIGHTER_SPAWN_COOLDOWN": 12,
+        "COMPLIMENT": {
+          "TIE/sa Bomber": {
+            "AMOUNT": 12,
+            "DEFAULT_MODE": "Attack"
+          },
+          "TIE/x1 Advanced": {
+            "AMOUNT": 4,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "Imperial V-Wing": {
+            "AMOUNT": 35,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "XG-1 Starwing": {
+            "AMOUNT": 1,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Imperial Venator",
+      "Modifiers": [
+        "Star Destroyer"
+      ]
+    },
+    "item": {
+      "Lobby_Stats": {
+        "RARITY": "Mod",
+        "FACTION": "Empire",
+        "PREVIOUS": "N/A",
+        "ERA": 1
+      },
+      "Game_Stats": {
+        "HULL_DPS": 0,
+        "HULL": 100,
+        "PRICE": 0,
+        "SPAWN_COOLDOWN": 1,
+        "MAX_HULL": 100,
+        "SHIELD_DPS": 0,
+        "EVASIVENESS": 0,
+        "SHIELD_REGEN": 10,
+        "PIERCE_DPS": 0,
+        "ARMOR": 0,
+        "MAX_SHIELDS": 10,
+        "SHIELDS": 10,
+        "AA_DPS": 0,
+        "CREW": 0,
+        "SPEED": 100
+      },
+      "Name": "item",
+      "Modifiers": []
+    },
     "C-9979": {
       "Lobby_Stats": {
         "RARITY": "Rare",
@@ -12495,47 +12698,18 @@
         "AA_DPS": 12,
         "STARFIGHTER_SPAWN_COOLDOWN": 5,
         "COMPLIMENT": {
-          "Hyena": {
-            "AMOUNT": 2,
-            "DEFAULT_MODE": "Intercept"
-          },
           "Vulture": {
             "AMOUNT": 8,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "Hyena": {
+            "AMOUNT": 2,
             "DEFAULT_MODE": "Intercept"
           }
         }
       },
       "Name": "C-9979",
       "Modifiers": []
-    },
-    "Allegiance": {
-      "Lobby_Stats": {
-        "RARITY": "Mythic",
-        "FACTION": "Empire",
-        "PREVIOUS": "Keldabe",
-        "ERA": 2
-      },
-      "Game_Stats": {
-        "HULL_DPS": 23395,
-        "HULL": 300000,
-        "PRICE": 40000,
-        "SPAWN_COOLDOWN": 10,
-        "MAX_HULL": 300000,
-        "SHIELD_DPS": 8972,
-        "EVASIVENESS": 10,
-        "SHIELD_REGEN": 2880,
-        "PIERCE_DPS": 252,
-        "ARMOR": 1530,
-        "MAX_SHIELDS": 225200,
-        "SHIELDS": 225200,
-        "AA_DPS": 15,
-        "CREW": 180000,
-        "SPEED": 20
-      },
-      "Name": "Allegiance",
-      "Modifiers": [
-        "Star Destroyer"
-      ]
     },
     "Allocator": {
       "Lobby_Stats": {
@@ -12579,7 +12753,149 @@
       "Name": "Allocator",
       "Modifiers": []
     },
-    "Strike (support)": {
+    "Easter ISD II": {
+      "Lobby_Stats": {
+        "RARITY": "Limited",
+        "FACTION": "Empire",
+        "PREVIOUS": "N/A",
+        "ERA": 2
+      },
+      "Game_Stats": {
+        "SPEED": 35,
+        "HULL": 180000,
+        "MAX_HULL": 180000,
+        "MAX_SHIELDS": 103700,
+        "HULL_DPS": 12615,
+        "EVASIVENESS": 25,
+        "CREW": 100000,
+        "PRICE": 18500,
+        "SPAWN_COOLDOWN": 3,
+        "SHIELD_REGEN": 1440,
+        "PIERCE_DPS": 120,
+        "ARMOR": 778,
+        "SHIELD_DPS": 6585,
+        "SHIELDS": 103700,
+        "AA_DPS": 0,
+        "STARFIGHTER_SPAWN_COOLDOWN": 20,
+        "COMPLIMENT": {
+          "TIE/sa Bomber": {
+            "AMOUNT": 5,
+            "DEFAULT_MODE": "Attack"
+          },
+          "TIE/in Interceptor": {
+            "AMOUNT": 5,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/fn Fighter": {
+            "AMOUNT": 12,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Easter ISD II",
+      "Modifiers": [
+        "Star Destroyer"
+      ]
+    },
+    "Secutor": {
+      "Lobby_Stats": {
+        "RARITY": "Mythic",
+        "FACTION": "Empire",
+        "PREVIOUS": "Imperial Venator",
+        "ERA": 2
+      },
+      "Game_Stats": {
+        "SPEED": 20,
+        "HULL": 260000,
+        "MAX_HULL": 260000,
+        "MAX_SHIELDS": 169900,
+        "HULL_DPS": 15502,
+        "EVASIVENESS": 16,
+        "CREW": 200000,
+        "PRICE": 30000,
+        "SPAWN_COOLDOWN": 8,
+        "SHIELD_REGEN": 1715,
+        "PIERCE_DPS": 113,
+        "ARMOR": 1170,
+        "SHIELD_DPS": 5682,
+        "SHIELDS": 169900,
+        "AA_DPS": 0,
+        "STARFIGHTER_SPAWN_COOLDOWN": 32,
+        "COMPLIMENT": {
+          "XG-1 Starwing": {
+            "AMOUNT": 3,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/sa Bomber": {
+            "AMOUNT": 12,
+            "DEFAULT_MODE": "Attack"
+          },
+          "TIE/d Defender": {
+            "AMOUNT": 3,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/in Interceptor": {
+            "AMOUNT": 32,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/fn Fighter": {
+            "AMOUNT": 24,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Secutor",
+      "Modifiers": [
+        "Star Destroyer"
+      ]
+    },
+    "Modular (carrier)": {
+      "Lobby_Stats": {
+        "RARITY": "Dev",
+        "FACTION": "Empire",
+        "PREVIOUS": "N/A",
+        "ERA": 3
+      },
+      "Game_Stats": {
+        "SPEED": 25,
+        "HULL": 90000,
+        "MAX_HULL": 90000,
+        "MAX_SHIELDS": 48500,
+        "HULL_DPS": 3099,
+        "EVASIVENESS": 42,
+        "CREW": 80000,
+        "PRICE": 5750,
+        "SPAWN_COOLDOWN": 1.5,
+        "SHIELD_REGEN": 800,
+        "PIERCE_DPS": 22,
+        "ARMOR": 390,
+        "SHIELD_DPS": 1736,
+        "SHIELDS": 48500,
+        "AA_DPS": 112,
+        "STARFIGHTER_SPAWN_COOLDOWN": 17,
+        "COMPLIMENT": {
+          "TIE/sa Bomber": {
+            "AMOUNT": 8,
+            "DEFAULT_MODE": "Attack"
+          },
+          "TIE/ca Punisher": {
+            "AMOUNT": 1,
+            "DEFAULT_MODE": "Attack"
+          },
+          "TIE/ag Aggressor": {
+            "AMOUNT": 3,
+            "DEFAULT_MODE": "Intercept"
+          },
+          "TIE/fn Fighter": {
+            "AMOUNT": 25,
+            "DEFAULT_MODE": "Intercept"
+          }
+        }
+      },
+      "Name": "Modular (carrier)",
+      "Modifiers": []
+    },
+    "\"Whelm\"": {
       "Lobby_Stats": {
         "RARITY": "Dev",
         "FACTION": "Empire",
@@ -12587,130 +12903,41 @@
         "ERA": 3
       },
       "Game_Stats": {
-        "SPEED": 63,
-        "HULL": 14000,
-        "MAX_HULL": 14000,
-        "MAX_SHIELDS": 7000,
-        "HULL_DPS": 646,
-        "EVASIVENESS": 40,
-        "CREW": 20000,
-        "PRICE": 1000,
-        "SPAWN_COOLDOWN": 0.7,
-        "SHIELD_REGEN": 90,
-        "PIERCE_DPS": 2,
-        "ARMOR": 20,
-        "SHIELD_DPS": 289,
-        "SHIELDS": 7000,
-        "AA_DPS": 146,
-        "STARFIGHTER_SPAWN_COOLDOWN": 15,
+        "SPEED": 6,
+        "HULL": 3000000,
+        "MAX_HULL": 3000000,
+        "MAX_SHIELDS": 1500000,
+        "HULL_DPS": 110655,
+        "EVASIVENESS": 10,
+        "CREW": 500000,
+        "PRICE": 120000,
+        "SPAWN_COOLDOWN": 25,
+        "SHIELD_REGEN": 22500,
+        "PIERCE_DPS": 1326,
+        "ARMOR": 30000,
+        "SHIELD_DPS": 53977,
+        "SHIELDS": 1500000,
+        "AA_DPS": 612,
+        "STARFIGHTER_SPAWN_COOLDOWN": 20,
         "COMPLIMENT": {
-          "XG-1 Starwing": {
-            "AMOUNT": 4,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
-      },
-      "Name": "Strike (support)",
-      "Modifiers": []
-    },
-    "Sander Delvardus": {
-      "Lobby_Stats": {
-        "RARITY": "Dev",
-        "FACTION": "Empire",
-        "PREVIOUS": "N/A",
-        "ERA": 1
-      },
-      "Game_Stats": {
-        "SPEED": 10,
-        "HULL": 800000,
-        "MAX_HULL": 800000,
-        "MAX_SHIELDS": 300000,
-        "HULL_DPS": 0,
-        "SPAWN_COOLDOWN": 0,
-        "EVASIVENESS": 0,
-        "CREW": 200000,
-        "PRICE": 60000,
-        "SHIELD_DPS": 0,
-        "SHIELD_REGEN": 150,
-        "PIERCE_DPS": 0,
-        "ARMOR": 0,
-        "PASSIVE_BUFF": "Sluis Van Armor",
-        "SHIELDS": 300000,
-        "AA_DPS": 0,
-        "STARFIGHTER_SPAWN_COOLDOWN": 120,
-        "COMPLIMENT": []
-      },
-      "Name": "Sander Delvardus",
-      "Modifiers": []
-    },
-    "Valiant": {
-      "Lobby_Stats": {
-        "RARITY": "Legendary",
-        "FACTION": "Republic",
-        "PREVIOUS": "OCF Venator",
-        "ERA": 1
-      },
-      "Game_Stats": {
-        "SPEED": 35,
-        "HULL": 110500,
-        "MAX_HULL": 110500,
-        "MAX_SHIELDS": 66300,
-        "HULL_DPS": 7774,
-        "EVASIVENESS": 25,
-        "CREW": 120000,
-        "PRICE": 13000,
-        "SPAWN_COOLDOWN": 3,
-        "SHIELD_REGEN": 995,
-        "PIERCE_DPS": 64,
-        "ARMOR": 390,
-        "SHIELD_DPS": 3619,
-        "SHIELDS": 66300,
-        "AA_DPS": 11,
-        "STARFIGHTER_SPAWN_COOLDOWN": 60,
-        "COMPLIMENT": {
-          "V-Wing": {
-            "AMOUNT": 20,
+          "TIE/av Avenger": {
+            "AMOUNT": 28,
             "DEFAULT_MODE": "Intercept"
           },
-          "NTB-630": {
-            "AMOUNT": 3,
+          "TIE/ca Punisher": {
+            "AMOUNT": 14,
             "DEFAULT_MODE": "Attack"
           },
-          "ARC-170": {
-            "AMOUNT": 6,
+          "TIE/d Defender": {
+            "AMOUNT": 32,
             "DEFAULT_MODE": "Intercept"
           }
         }
       },
-      "Name": "Valiant",
-      "Modifiers": []
-    },
-    "Michael's Wrath": {
-      "Lobby_Stats": {
-        "RARITY": "Dev",
-        "FACTION": "Empire",
-        "PREVIOUS": "N/A",
-        "ERA": 1
-      },
-      "Game_Stats": {
-        "HULL_DPS": 0,
-        "HULL": 250000,
-        "PRICE": 100000,
-        "SPAWN_COOLDOWN": 10,
-        "MAX_HULL": 250000,
-        "SHIELD_DPS": 0,
-        "EVASIVENESS": 0,
-        "SHIELD_REGEN": 100,
-        "PIERCE_DPS": 0,
-        "ARMOR": 0,
-        "MAX_SHIELDS": 120000,
-        "SHIELDS": 120000,
-        "AA_DPS": 0,
-        "CREW": 165000,
-        "SPEED": 20
-      },
-      "Name": "Michael's Wrath",
-      "Modifiers": []
+      "Name": "\"Whelm\"",
+      "Modifiers": [
+        "SSD"
+      ]
     },
     "\"Javelin\"": {
       "Lobby_Stats": {
@@ -12756,220 +12983,33 @@
         "SSD"
       ]
     },
-    "\"Whelm\"": {
+    "Daedalus Dreadnought": {
       "Lobby_Stats": {
         "RARITY": "Dev",
         "FACTION": "Empire",
-        "PREVIOUS": "",
-        "ERA": 3
-      },
-      "Game_Stats": {
-        "SPEED": 6,
-        "HULL": 3000000,
-        "MAX_HULL": 3000000,
-        "MAX_SHIELDS": 1500000,
-        "HULL_DPS": 110655,
-        "EVASIVENESS": 10,
-        "CREW": 500000,
-        "PRICE": 120000,
-        "SPAWN_COOLDOWN": 25,
-        "SHIELD_REGEN": 22500,
-        "PIERCE_DPS": 1326,
-        "ARMOR": 30000,
-        "SHIELD_DPS": 53977,
-        "SHIELDS": 1500000,
-        "AA_DPS": 612,
-        "STARFIGHTER_SPAWN_COOLDOWN": 20,
-        "COMPLIMENT": {
-          "TIE/av Avenger": {
-            "AMOUNT": 28,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/d Defender": {
-            "AMOUNT": 32,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "TIE/ca Punisher": {
-            "AMOUNT": 14,
-            "DEFAULT_MODE": "Attack"
-          }
-        }
-      },
-      "Name": "\"Whelm\"",
-      "Modifiers": [
-        "SSD"
-      ]
-    },
-    "Christmas Tree Transport": {
-      "Lobby_Stats": {
-        "RARITY": "Limited",
-        "FACTION": "Republic",
         "PREVIOUS": "N/A",
         "ERA": 1
       },
       "Game_Stats": {
         "SPEED": 50,
-        "HULL": 34000,
-        "MAX_HULL": 34000,
-        "MAX_SHIELDS": 13600,
-        "HULL_DPS": 881,
-        "EVASIVENESS": 30,
-        "CREW": 40000,
-        "PRICE": 6000,
-        "SPAWN_COOLDOWN": 0.7,
-        "SHIELD_REGEN": 209,
-        "PIERCE_DPS": 13,
-        "ARMOR": 120,
-        "SHIELD_DPS": 216,
-        "SHIELDS": 13600,
-        "AA_DPS": 14,
-        "STARFIGHTER_SPAWN_COOLDOWN": 30,
-        "COMPLIMENT": {
-          "LAAT": {
-            "AMOUNT": 5,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
-      },
-      "Name": "Christmas Tree Transport",
-      "Modifiers": []
-    },
-    "Silver Coronet": {
-      "Lobby_Stats": {
-        "RARITY": "Special",
-        "FACTION": "New Republic",
-        "PREVIOUS": "",
-        "ERA": 1
-      },
-      "Game_Stats": {
-        "SPEED": 40,
-        "HULL": 80000,
-        "MAX_HULL": 80000,
-        "MAX_SHIELDS": 86400,
-        "HULL_DPS": 6307,
-        "SPAWN_COOLDOWN": 0,
-        "EVASIVENESS": 32,
-        "CREW": 80000,
-        "PRICE": 8500,
-        "SHIELD_DPS": 3610,
-        "SHIELD_REGEN": 500,
-        "PIERCE_DPS": 34,
-        "ARMOR": 233,
-        "PASSIVE_BUFF": "Vanguard Command",
-        "SHIELDS": 86400,
-        "AA_DPS": 29,
-        "STARFIGHTER_SPAWN_COOLDOWN": 15,
-        "COMPLIMENT": {
-          "Y-Wing": {
-            "AMOUNT": 22,
-            "DEFAULT_MODE": "Attack"
-          },
-          "X-Wing": {
-            "AMOUNT": 3,
-            "DEFAULT_MODE": "Intercept"
-          },
-          "A-Wing": {
-            "AMOUNT": 9,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
-      },
-      "Name": "Silver Coronet",
-      "Modifiers": [
-        "Hero",
-        "Mon Cala",
-        "Unique"
-      ]
-    },
-    "Treuten Teradoc": {
-      "Lobby_Stats": {
-        "RARITY": "Dev",
-        "FACTION": "Empire",
-        "PREVIOUS": "N/A",
-        "ERA": 1
-      },
-      "Game_Stats": {
-        "CREW": 130000,
+        "HULL": 200000,
+        "MAX_HULL": 200000,
+        "MAX_SHIELDS": 300000,
         "HULL_DPS": 0,
-        "HULL": 170000,
-        "PRICE": 15000,
-        "SHIELD_DPS": 0,
-        "MAX_HULL": 170000,
-        "EVASIVENESS": 0,
-        "SPAWN_COOLDOWN": 0,
-        "SHIELD_REGEN": 70,
+        "ABILITY": "Orbital Bombardment Particle Cannon",
+        "SPAWN_COOLDOWN": 1,
+        "CREW": 150000,
+        "PRICE": 20000,
+        "SHIELD_REGEN": 30,
         "PIERCE_DPS": 0,
         "ARMOR": 0,
-        "PASSIVE_BUFF": "Crimson Rush",
-        "SHIELDS": 65000,
+        "SHIELD_DPS": 0,
+        "SHIELDS": 300000,
         "AA_DPS": 0,
-        "SPEED": 45,
-        "MAX_SHIELDS": 65000
-      },
-      "Name": "Treuten Teradoc",
-      "Modifiers": []
-    },
-    "Interdictor 418": {
-      "Lobby_Stats": {
-        "RARITY": "Epic",
-        "FACTION": "Empire",
-        "PREVIOUS": "Teroch",
-        "ERA": 2
-      },
-      "Game_Stats": {
-        "CREW": 30000,
-        "HULL_DPS": 600,
-        "ABILITY": "Gravity Well Projector",
-        "PRICE": 3000,
-        "SHIELD_DPS": 331,
-        "MAX_HULL": 22100,
-        "EVASIVENESS": "50",
-        "SPAWN_COOLDOWN": 2,
-        "SHIELD_REGEN": 101,
-        "PIERCE_DPS": 2,
-        "ARMOR": 72,
-        "MAX_SHIELDS": 6630,
-        "SHIELDS": 6630,
-        "AA_DPS": 29,
-        "SPEED": 60,
-        "HULL": 22100
-      },
-      "Name": "Interdictor 418",
-      "Modifiers": []
-    },
-    "Golan M3185": {
-      "Lobby_Stats": {
-        "RARITY": "Mythic",
-        "FACTION": "Empire",
-        "PREVIOUS": "Golan II",
-        "ERA": 2
-      },
-      "Game_Stats": {
-        "SPEED": 0,
-        "HULL": 40800,
-        "MAX_HULL": 40800,
-        "MAX_SHIELDS": 17000,
-        "HULL_DPS": 2882,
-        "ABILITY": "Planetary Shield",
-        "SPAWN_COOLDOWN": 2,
         "EVASIVENESS": 0,
-        "CREW": 100000,
-        "PRICE": 8000,
-        "SHIELD_REGEN": 425,
-        "PIERCE_DPS": 18,
-        "ARMOR": 185,
-        "SHIELD_DPS": 1156,
-        "SHIELDS": 17000,
-        "AA_DPS": 22,
-        "STARFIGHTER_SPAWN_COOLDOWN": 40,
-        "COMPLIMENT": {
-          "TIE/fn Fighter": {
-            "AMOUNT": 20,
-            "DEFAULT_MODE": "Intercept"
-          }
-        }
+        "COMPLIMENT": []
       },
-      "Name": "Golan M3185",
+      "Name": "Daedalus Dreadnought",
       "Modifiers": []
     },
     "Ton Falk": {
@@ -13090,13 +13130,13 @@
         "AA_DPS": 15,
         "STARFIGHTER_SPAWN_COOLDOWN": 30,
         "COMPLIMENT": {
-          "A-Wing": {
-            "AMOUNT": 5,
-            "DEFAULT_MODE": "Intercept"
-          },
           "Y-Wing": {
             "AMOUNT": 5,
             "DEFAULT_MODE": "Attack"
+          },
+          "A-Wing": {
+            "AMOUNT": 5,
+            "DEFAULT_MODE": "Intercept"
           },
           "T-65 X-Wing": {
             "AMOUNT": 9,
@@ -13180,32 +13220,34 @@
       "Name": "Bunny Arquitens",
       "Modifiers": []
     },
-    "item": {
+    "MC-30c": {
       "Lobby_Stats": {
-        "RARITY": "Mod",
-        "FACTION": "Empire",
-        "PREVIOUS": "N/A",
-        "ERA": 1
+        "RARITY": "Epic",
+        "FACTION": "Rebel",
+        "PREVIOUS": "DP-20",
+        "ERA": 2
       },
       "Game_Stats": {
-        "HULL_DPS": 0,
-        "HULL": 100,
-        "PRICE": 0,
-        "SPAWN_COOLDOWN": 1,
-        "MAX_HULL": 100,
-        "SHIELD_DPS": 0,
-        "EVASIVENESS": 0,
-        "SHIELD_REGEN": 10,
-        "PIERCE_DPS": 0,
-        "ARMOR": 0,
-        "MAX_SHIELDS": 10,
-        "SHIELDS": 10,
-        "AA_DPS": 0,
-        "CREW": 0,
-        "SPEED": 100
+        "HULL_DPS": 1517,
+        "HULL": 46000,
+        "PRICE": 7000,
+        "SPAWN_COOLDOWN": 2,
+        "MAX_HULL": 46000,
+        "SHIELD_DPS": 3399,
+        "EVASIVENESS": 50,
+        "SHIELD_REGEN": 2000,
+        "PIERCE_DPS": 2,
+        "ARMOR": 110,
+        "MAX_SHIELDS": 40000,
+        "SHIELDS": 40000,
+        "AA_DPS": 15,
+        "CREW": 70000,
+        "SPEED": 60
       },
-      "Name": "item",
-      "Modifiers": []
+      "Name": "MC-30c",
+      "Modifiers": [
+        "Mon Cala"
+      ]
     },
     "Supremacy": {
       "Lobby_Stats": {
@@ -13237,6 +13279,6 @@
       "Modifiers": []
     }
   },
-  "place_version": 0,
-  "sent_at": 1793314137
+  "place_version": 3868,
+  "sent_at": 1793486158
 }
