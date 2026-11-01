@@ -44,7 +44,7 @@ Lucrehulk,Mythic,Separatist,Droid Control Ship,1,18.0,258050,258050,88400,8163,2
 """Freedom""",Limited,Empire,N/A,3,100.0,2800,2800,1250,33,70,50000,2000,5.0,19,0,0.0,16,1250,33,25.0,4x V-19 Torrent (Intercept),,,
 Ardus Kaine,Dev,Empire,N/A,1,20.0,170000,170000,70000,17535,0,220000,30000,0.0,100,140,0.0,5350,70000,0,17.0,,,,Kaine's Judgement
 """Guardian""",Dev,Empire,,3,6.0,3000000,3000000,1500000,110655,10,500000,120000,25.0,22500,1326,30000.0,53977,1500000,612,20.0,"28x TIE/av Avenger (Intercept), 32x TIE/d Defender (Intercept), 14x TIE/ca Punisher (Attack)",SSD,,
-Tagge,Legendary,Empire,Golan II,2,15.0,320000,320000,210000,19381,5,260000,55000,8.0,5200,205,983.0,6870,210000,31,50.0,"5x V-19 Torrent (Intercept), 12x Delta-7 (Attack)",,,
+Tagge,Legendary,Empire,Golan II,2,15.0,400000,400000,210000,19381,5,260000,40000,8.0,5200,205,983.0,6870,210000,31,50.0,"5x V-19 Torrent (Intercept), 12x Delta-7 (Attack)",,,
 Munificent,Rare,Separatist,Republic Dreadnought,1,50.0,35360,35360,13260,2471,37,35000,2600,1.0,265,20,78.0,1016,13260,12,30.0,"10x Vulture (Intercept), 2x Hyena (Intercept)",,,
 501st Acclamator I,Limited,Republic,N/A,1,50.0,34000,34000,13600,1834,50,40000,2200,0.7,209,15,145.0,751,13600,14,30.0,"3x LAAT (Intercept), 8x V-19 Torrent (Intercept)",,,
 Mandator I,Special,Republic,,1,10.0,1600000,1600000,530000,53341,0,500000,100000,17.0,8000,218,14000.0,21180,530000,110,20.0,"12x N-1 (Intercept), 18x Delta-7 (Attack), 10x V-19 Torrent (Intercept)",SSD,,
@@ -150,7 +150,7 @@ Vontor,Legendary,Hutt,Republic Victory I,1,30.0,192660,192660,44200,8252,20,1000
 Praetor MKI,Legendary,Republic,Bulwark MKII,1,10.0,287300,287300,265850,10429,10,200000,24000,12.0,3262,31,1014.0,5389,265850,29,30.0,"6x BTL-B Y-Wing (Attack), 14x V-19 Torrent (Intercept), 8x ARC-170 (Intercept)",,,
 Rapier,Uncommon,Separatist,Tarrada,1,80.0,17680,17680,9945,944,60,40000,1300,1.0,152,20,39.0,391,9945,6,40.0,3x Belbullab-22 (Intercept),,,
 Lil Supremacy,Dev,First Order,N/A,1,10.0,1500000,1500000,750000,0,0,500000,200000,3.0,300,0,0.0,0,750000,0,25.0,,,,
-Keldabe,Legendary,Mando,Tector,2,20.0,273000,273000,194000,19951,15,160000,15000,10.0,700,100,1200.0,9118,194000,24,50.0,"8x Gauntlet (Intercept), 14x Fang (Intercept)",,,
+Keldabe,Legendary,Mando,Tector,2,20.0,273000,273000,194000,19951,15,160000,30000,10.0,700,100,1200.0,9118,194000,24,50.0,"8x Gauntlet (Intercept), 14x Fang (Intercept)",,,
 Carrot SSD,Limited,Empire,,2,13.0,1800000,1800000,900000,45000,0,500000,80000,20.0,3000,443,0.0,26195,900000,0,,,SSD,The Orange Fleet,
 Imperial Nebulon B,Uncommon,Empire,Nebulon B,2,55.0,11500,11500,7500,1241,45,30000,900,1.0,115,5,42.0,502,7500,30,20.0,5x TIE/fn Fighter (Intercept),,,
 Tector,Mythic,Empire,ISD II,2,35.0,240000,240000,108100,17675,20,130000,27000,3.0,1440,212,1152.0,5234,108100,7,,,Star Destroyer,,
