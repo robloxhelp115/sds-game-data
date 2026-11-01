@@ -433,7 +433,7 @@
       "HullDmg": 1.5
     }
   },
-  "place_id": 15268714239,
+  "place_id": 11806960410,
   "source": "live",
   "fighters": {
     "TIE/av Avenger": {
@@ -13283,6 +13283,6 @@
       "Modifiers": []
     }
   },
-  "place_version": 3880,
-  "sent_at": 1793563344
+  "place_version": 7509,
+  "sent_at": 1793565096
 }
