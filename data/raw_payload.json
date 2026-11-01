@@ -4695,13 +4695,13 @@
       },
       "Game_Stats": {
         "SPEED": 15,
-        "HULL": 320000,
-        "MAX_HULL": 320000,
+        "HULL": 400000,
+        "MAX_HULL": 400000,
         "MAX_SHIELDS": 210000,
         "HULL_DPS": 19381,
         "EVASIVENESS": 5,
         "CREW": 260000,
-        "PRICE": 55000,
+        "PRICE": 40000,
         "SPAWN_COOLDOWN": 8,
         "SHIELD_REGEN": 5200,
         "PIERCE_DPS": 205,
@@ -8669,7 +8669,7 @@
         "HULL_DPS": 19951,
         "EVASIVENESS": 15,
         "CREW": 160000,
-        "PRICE": 15000,
+        "PRICE": 30000,
         "SPAWN_COOLDOWN": 10,
         "SHIELD_REGEN": 700,
         "PIERCE_DPS": 100,
@@ -13283,6 +13283,6 @@
       "Modifiers": []
     }
   },
-  "place_version": 3879,
-  "sent_at": 1793560164
+  "place_version": 3880,
+  "sent_at": 1793563344
 }
