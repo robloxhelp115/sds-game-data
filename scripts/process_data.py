@@ -42,7 +42,7 @@ def main():
     sync_to_google_sheets(dataframes)
 
     # 5. Push updates to Fandom MediaWiki Modules
-    sync_to_fandom(payload)
+    # sync_to_fandom(payload)
 
 
 def parse_ships(ships_dict):
