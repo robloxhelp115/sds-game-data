@@ -34,8 +34,8 @@ jobs:
 
       - name: Process Payload & Update Wiki and Sheets
         env:
-          FANDOM_USER: ${{ secrets.FANDOM_BOT_USERNAME }}
-          FANDOM_PASS: ${{ secrets.FANDOM_BOT_PASSWORD }}
+          # FANDOM_USER: ${{ secrets.FANDOM_BOT_USERNAME }}
+          # FANDOM_PASS: ${{ secrets.FANDOM_BOT_PASSWORD }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
         run: python scripts/process_data.py
